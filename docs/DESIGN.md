@@ -205,28 +205,110 @@ Avoid introducing Next.js unless there is a clear need for server rendering or r
 
 Because this is unofficial, the design should feel adjacent to Lyntris without copying restricted brand assets unless they are explicitly approved.
 
-Recommended direction:
+The following guidance is based on the official **Lyntris Brand Standards Guide** (provided 2026-05-15).
 
-- Clean, technical, aerospace/defense-adjacent presentation.
-- Dark navy or near-black background.
-- Bright accent color used sparingly for links and focus states.
-- High contrast and accessible typography.
-- Simple cards/table; no heavy animation.
-- Unofficial disclaimer should be visually prominent, not buried in the footer.
+### Brand Colors
 
-Suggested tokens:
+**Primary Colors**:
+- **Black**: `#000000` — Primary brand color for backgrounds and high-impact elements
+- **Ultra Violet**: `#7863F7` — Signature accent color for interactive elements, links, and highlights
+
+**Gray System** (for UI hierarchy):
+- Gray 100 (lightest): `#F7F8FA`
+- Gray 200: `#E4E7EC`
+- Gray 300: `#CDD3DD`
+- Gray 400: `#98A2B5`
+- Gray 500: `#667186`
+- Gray 600: `#48505E`
+- Gray 700: `#344054`
+- Gray 800: `#1E242E`
+- Gray 900 (darkest): `#121619`
+
+### Typography
+
+**Font Families**:
+- **Space Grotesk** — Headlines and high-impact text
+- **Inter** — Body copy, UI text, and general content
+- **Space Mono** — Accent text, technical details, code snippets
+
+**Type Scale** (based on 1.250 ratio):
+- Headline 1: 48px / 58px line-height, Space Grotesk Bold
+- Headline 2: 36px / 46px line-height, Space Grotesk Bold
+- Headline 3: 28px / 38px line-height, Space Grotesk Bold
+- Body Large: 18px / 28px line-height, Inter Regular
+- Body: 16px / 26px line-height, Inter Regular
+- Body Small: 14px / 22px line-height, Inter Regular
+- Caption: 12px / 18px line-height, Inter Medium
+
+### Geometric Language
+
+**Border Radius**: `0px` (square corners throughout)
+
+**Patterns**:
+- Outlined L symbol patterns for subtle branding
+- Dot patterns for texture and depth
+- High contrast between elements
+
+### Design Direction
+
+- Clean, technical, aerospace/defense-adjacent presentation
+- Black backgrounds with Ultra Violet accents
+- High contrast and accessible typography using brand-approved font families
+- Simple cards with square corners (0px border-radius)
+- Unofficial disclaimer should be visually prominent, not buried in the footer
+- Use Gray system for UI hierarchy and secondary text
+
+### CSS Custom Properties
 
 ```css
 :root {
-  --bg: #07111f;
-  --panel: #0e1b2d;
-  --text: #f5f7fb;
-  --muted: #a9b4c4;
-  --line: #24344d;
-  --accent: #62d6ff;
+  /* Brand Colors */
+  --color-black: #000000;
+  --color-ultra-violet: #7863F7;
+  
+  /* Gray System */
+  --gray-100: #F7F8FA;
+  --gray-200: #E4E7EC;
+  --gray-300: #CDD3DD;
+  --gray-400: #98A2B5;
+  --gray-500: #667186;
+  --gray-600: #48505E;
+  --gray-700: #344054;
+  --gray-800: #1E242E;
+  --gray-900: #121619;
+  
+  /* Semantic Tokens */
+  --bg: var(--color-black);
+  --bg-panel: var(--gray-900);
+  --text: var(--gray-100);
+  --text-muted: var(--gray-400);
+  --border: var(--gray-800);
+  --accent: var(--color-ultra-violet);
+  --accent-hover: #8a75f9;
+  
+  /* Warning/Disclaimer */
   --warning-bg: #2b2108;
   --warning-border: #e7b84d;
+  --warning-text: #fef3c7;
+  
+  /* Typography */
+  --font-headline: 'Space Grotesk', -apple-system, system-ui, sans-serif;
+  --font-body: 'Inter', -apple-system, system-ui, sans-serif;
+  --font-accent: 'Space Mono', 'Courier New', monospace;
+  
+  /* Geometry */
+  --radius: 0px;
 }
+```
+
+### Font Loading
+
+Include Google Fonts in `index.html`:
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 ```
 
 ## Accessibility

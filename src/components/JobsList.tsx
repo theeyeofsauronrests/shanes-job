@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { JobsData } from '../types/jobs';
+import { Disclaimer } from './Disclaimer';
 
 export function JobsList() {
   const [data, setData] = useState<JobsData | null>(null);
@@ -69,6 +70,8 @@ export function JobsList() {
           Last updated: {new Date(data.generatedAt).toLocaleDateString()}
         </p>
       </div>
+
+      <Disclaimer />
 
       <div className="jobs-filter">
         <label htmlFor="job-search" className="search-label">
