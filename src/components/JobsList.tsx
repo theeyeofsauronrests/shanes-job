@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import type { JobsData } from '../types/jobs';
 import { HeroCarousel } from './HeroCarousel';
 import { Disclaimer } from './Disclaimer';
+import { Footer } from './Footer';
 
 export function JobsList() {
   const [data, setData] = useState<JobsData | null>(null);
@@ -118,6 +119,8 @@ export function JobsList() {
           ))}
         </div>
       )}
+
+      <Footer />
     </div>
   );
 }
