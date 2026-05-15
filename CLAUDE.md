@@ -279,3 +279,19 @@ target="_blank" rel="noopener noreferrer"
 - Prefer small, explicit TypeScript types.
 - Keep components simple.
 - Keep state loc
+
+## Workflow context
+
+A `WORKFLOW.md` file exists at the project /docs folder. It is the manifest for this team's
+product workflow. When starting any work session:
+
+1. Read `WORKFLOW.md` to understand what workflow files exist.
+2. Identify which workflow(s) are relevant to the current task based on descriptions and tags.
+3. Read only those workflow files from the `workflows/` directory.
+4. Only perform steps where `actor` is `agent` or `either`. Steps marked `actor: human`
+   require a person and must not be executed autonomously.
+5. Before starting a step, verify its inputs exist. A step's outputs become the required
+   inputs for downstream steps — do not skip producing them.
+6. Follow enforcement levels: complete `required` steps, use judgment on `recommended`,
+   skip `optional` unless specifically helpful.
+7. Prefer the listed `ai:` and `tools:` entries unless there is a documented reason to deviate.
