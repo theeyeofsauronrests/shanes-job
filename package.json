@@ -1,8 +1,15 @@
 {
-  "name": "vite-template",
+  "name": "beta-lyntris-jobs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Unofficial job board for Lyntris transition",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theeyeofsauronrests/beta-lyntris-jobs.git"
+  },
+  "author": "Shane Quinlan",
+  "license": "Apache-2.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
