@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { JobsData } from '../types/jobs';
+import { HeroCarousel } from './HeroCarousel';
 import { Disclaimer } from './Disclaimer';
 
 export function JobsList() {
@@ -70,6 +71,8 @@ export function JobsList() {
           Last updated: {new Date(data.generatedAt).toLocaleDateString()}
         </p>
       </div>
+
+      <HeroCarousel />
 
       <Disclaimer />
 
