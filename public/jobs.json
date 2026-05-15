@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-05-15T12:00:00Z",
+  "sourceNotes": [
+    "Accelint jobs from public Rippling job board.",
+    "Vitesse jobs entered from manual export until approved automated source exists."
+  ],
+  "jobs": [
+    {
+      "id": "accelint-rippling-devops-fsi",
+      "title": "DevOps / Platform Engineer (Level II) (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T12:00:00Z"
+    },
+    {
+      "id": "accelint-rippling-senior-swe",
+      "title": "Senior Software Engineer",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-5678-90ab-cdef-1234567890ab",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T12:00:00Z"
+    },
+    {
+      "id": "vitesse-adp-systems-engineer",
+      "title": "Systems Engineer",
+      "location": "Chantilly, VA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T12:00:00Z"
+    },
+    {
+      "id": "vitesse-adp-project-manager",
+      "title": "Project Manager",
+      "location": "Chantilly, VA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T12:00:00Z"
+    }
+  ]
+}
