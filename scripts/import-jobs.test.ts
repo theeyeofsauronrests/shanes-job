@@ -1,6 +1,5 @@
 import { describe, it, expect } from 'vitest';
 import { parseCSV, validateRow, convertToJob } from './import-jobs';
-import type { CSVRow } from './import-jobs';
 
 describe('import-jobs', () => {
   describe('parseCSV', () => {

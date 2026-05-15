@@ -47,9 +47,6 @@ test.describe('Lyntris Jobs MVP smoke test', () => {
     const initialCount = await page.locator('.job-card').count();
     expect(initialCount).toBeGreaterThan(0);
 
-    // Get the job count text before filtering
-    const jobCountBefore = await page.locator('.job-count').textContent();
-
     // Type in search filter
     const searchInput = page.getByRole('searchbox');
     await searchInput.fill('Engineer');
@@ -57,10 +54,7 @@ test.describe('Lyntris Jobs MVP smoke test', () => {
     // Wait for filter to apply
     await page.waitForTimeout(500);
 
-    // Verify job count changed or shows filtered results
-    const jobCountAfter = await page.locator('.job-count').textContent();
-
-    // Either the count changed, or we see filtered results
+    // Verify filtered results
     const filteredCount = await page.locator('.job-card').count();
     expect(filteredCount).toBeLessThanOrEqual(initialCount);
   });
