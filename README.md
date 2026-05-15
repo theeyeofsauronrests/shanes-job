@@ -18,7 +18,7 @@ Lyntris Jobs is a simple, static web application that aggregates job listings fr
 
 ## Live Site
 
-Visit the live site at: `[ADD DEPLOYMENT URL AFTER GITHUB PAGES SETUP]`
+Visit the live site at: https://beta-lyntris-jobs.vercel.app/
 
 ## Running Locally
 
