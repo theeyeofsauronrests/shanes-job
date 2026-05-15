@@ -10,7 +10,7 @@ export function Footer() {
         <div className="footer-text">
           <p className="footer-maintainer">Created by Shane Quinlan</p>
           <p className="footer-subtitle">
-            This is a side project — not an official product of Lyntris, Accelint, or Vitesse Systems
+            Hi! My name is Shane. I work at Lyntris as the Director, AI Product Management. This is an unofficial job board, not a product of Lyntris, Accelint, or Vitesse.
           </p>
           <div className="footer-links">
             <a

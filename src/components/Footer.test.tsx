@@ -17,7 +17,10 @@ describe('Footer', () => {
   it('displays unofficial disclaimer text', () => {
     render(<Footer />);
     expect(
-      screen.getByText(/This is a side project/i)
+      screen.getByText(/unofficial job board/i)
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(/Director, AI Product Management/i)
     ).toBeInTheDocument();
   });
 
