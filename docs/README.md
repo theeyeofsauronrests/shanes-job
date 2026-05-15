@@ -1,17 +1,39 @@
-# Lyntris Jobs Docs Pack
+# Lyntris Jobs Documentation
 
-This zip contains planning docs for an unofficial Lyntris-transition jobs board side project by Shane Quinlan.
+Documentation for the unofficial Lyntris-transition jobs board side project by Shane Quinlan.
 
-Files:
+## Files
 
-- `DESIGN.md` — product architecture, source constraints, data model, UI direction, and skill guidance.
-- `PRD.md` — simple MVP requirements and acceptance criteria.
-- `WORKFLOW.md` — root workflow manifest using a Flowz-style two-tier workflow structure.
-- `workflows/feature-development.md` — detailed issue-to-merge workflow.
-- `GITHUB_ISSUES.md` — sequential GitHub issue backlog.
-- `assets/carousel/` — the three provided images to use in the homepage hero carousel.
-- `assets/profile/` — the provided Shane profile image for the footer or more-info section.
+### Planning & Design
 
-Core recommendation: ship the MVP as a static React/TypeScript app backed by `public/jobs.json`. Use Accelint/Rippling public pages where possible, but treat Vitesse/ADP as manual import or approved export until a stable public feed exists.
+- `DESIGN.md` — product architecture, source constraints, data model, UI direction, and skill guidance
+- `PRD.md` — simple MVP requirements and acceptance criteria
+- `WORKFLOW.md` — root workflow manifest using a Flowz-style two-tier workflow structure
+- `workflows/feature-development.md` — detailed issue-to-merge workflow
 
-Additional update: the docs pack now includes the provided carousel images, Shane profile image, and backlog items for the hero carousel plus the Shane footer/contact section.
+### Deployment & Operations
+
+- `DEPLOYMENT.md` — deployment guide for GitHub Pages, Netlify, Vercel, and manual hosting
+- `../data/README.md` — manual CSV import guide for job data
+
+## Architecture
+
+The app is a static React/TypeScript single-page application:
+
+- **Frontend:** Vite + React 19 + TypeScript 6
+- **Styling:** Plain CSS with Lyntris brand design (Black, Ultra Violet, Space Grotesk fonts)
+- **Data:** Static `jobs.json` file generated from manual CSV import
+- **Hosting:** Any static file host (GitHub Pages, Netlify, Vercel)
+- **No backend:** No server, no database, no environment variables required
+
+## Deployment
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for complete deployment instructions.
+
+Quick start:
+
+```bash
+npm run build          # Creates dist/ with static files
+```
+
+Deploy `dist/` to any static hosting service.
