@@ -175,7 +175,7 @@ git push origin v1.0.0
 - [x] Disclaimer prominently displayed
 - [x] No official brand ambiguity
 - [x] Known limitations documented
-- [ ] Site deployed (pending)
-- [ ] First release tagged (pending)
+- [x] Site deployed (<https://beta-lyntris-jobs.vercel.app/>)
+- [x] First release tagged (v1.0.0)
 
-**Status**: Ready for deployment and release tagging.
+**Status**: ✅ RELEASED - v1.0.0 deployed to production.
