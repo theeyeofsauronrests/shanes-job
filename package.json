@@ -11,7 +11,8 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
-    "jobs:validate": "tsx scripts/validate-jobs.ts"
+    "jobs:validate": "tsx scripts/validate-jobs.ts",
+    "jobs:import": "tsx scripts/import-jobs.ts"
   },
   "dependencies": {
     "react": "^19.2.6",

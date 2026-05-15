@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-05-15T12:00:00Z",
+  "generatedAt": "2026-05-15T18:03:12.329Z",
   "sourceNotes": [
-    "Accelint jobs from public Rippling job board.",
-    "Vitesse jobs entered from manual export until approved automated source exists."
+    "Jobs imported from data/jobs.csv",
+    "Manual import - each import replaces all previous data"
   ],
   "jobs": [
     {
-      "id": "accelint-rippling-devops-fsi",
+      "id": "accelint-manual-0-devops-platform-engineer-level-ii-fsi",
       "title": "DevOps / Platform Engineer (Level II) (FSI)",
       "location": "San Diego, CA",
       "legacyCompany": "Accelint",
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-15T12:00:00Z"
+      "lastSeenAt": "2026-05-15T18:03:12.327Z"
     },
     {
-      "id": "accelint-rippling-senior-swe",
+      "id": "accelint-manual-1-senior-software-engineer",
       "title": "Senior Software Engineer",
-      "location": "San Diego, CA",
+      "location": "Remote (United States)",
       "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-5678-90ab-cdef-1234567890ab",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-15T12:00:00Z"
+      "lastSeenAt": "2026-05-15T18:03:12.329Z"
     },
     {
-      "id": "vitesse-adp-systems-engineer",
+      "id": "vitesse-manual-2-systems-engineer",
       "title": "Systems Engineer",
       "location": "Chantilly, VA",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceSystem": "ADP (manual export)",
-      "lastSeenAt": "2026-05-15T12:00:00Z"
+      "lastSeenAt": "2026-05-15T18:03:12.329Z"
     },
     {
-      "id": "vitesse-adp-project-manager",
+      "id": "vitesse-manual-3-project-manager",
       "title": "Project Manager",
       "location": "Chantilly, VA",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceSystem": "ADP (manual export)",
-      "lastSeenAt": "2026-05-15T12:00:00Z"
+      "lastSeenAt": "2026-05-15T18:03:12.329Z"
     }
   ]
 }
