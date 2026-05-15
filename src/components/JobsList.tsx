@@ -5,6 +5,7 @@ export function JobsList() {
   const [data, setData] = useState<JobsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
     fetch('/jobs.json')
@@ -51,6 +52,15 @@ export function JobsList() {
     );
   }
 
+  const filteredJobs = data.jobs.filter((job) => {
+    const query = searchQuery.toLowerCase();
+    return (
+      job.title.toLowerCase().includes(query) ||
+      job.location.toLowerCase().includes(query) ||
+      job.legacyCompany.toLowerCase().includes(query)
+    );
+  });
+
   return (
     <div className="jobs-container">
       <div className="jobs-header">
@@ -60,24 +70,48 @@ export function JobsList() {
         </p>
       </div>
 
-      <div className="jobs-list">
-        {data.jobs.map((job) => (
-          <div key={job.id} className="job-card">
-            <h2 className="job-title">{job.title}</h2>
-            <p className="job-location">{job.location}</p>
-            <p className="job-company">{job.legacyCompany}</p>
-            <a
-              href={job.applyUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="job-apply-link"
-              aria-label={`Apply for ${job.title}`}
-            >
-              Apply
-            </a>
-          </div>
-        ))}
+      <div className="jobs-filter">
+        <label htmlFor="job-search" className="search-label">
+          Filter by role, location, or company
+        </label>
+        <input
+          id="job-search"
+          type="search"
+          className="search-input"
+          placeholder="Filter by role, location, or company"
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        <p className="job-count">
+          Showing {filteredJobs.length} of {data.jobs.length} roles
+        </p>
       </div>
+
+      {filteredJobs.length === 0 ? (
+        <div className="jobs-no-match">
+          <p>No jobs match your search.</p>
+          <p>Try a different search term.</p>
+        </div>
+      ) : (
+        <div className="jobs-list">
+          {filteredJobs.map((job) => (
+            <div key={job.id} className="job-card">
+              <h2 className="job-title">{job.title}</h2>
+              <p className="job-location">{job.location}</p>
+              <p className="job-company">{job.legacyCompany}</p>
+              <a
+                href={job.applyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="job-apply-link"
+                aria-label={`Apply for ${job.title}`}
+              >
+                Apply
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

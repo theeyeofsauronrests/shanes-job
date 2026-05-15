@@ -1,5 +1,6 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { render, screen, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
 import { JobsList } from './JobsList';
 import type { JobsData } from '../types/jobs';
 
@@ -143,5 +144,99 @@ describe('JobsList', () => {
     expect(
       screen.getByText('There are currently no open positions listed.')
     ).toBeInTheDocument();
+  });
+
+  describe('Filtering', () => {
+    beforeEach(() => {
+      (globalThis.fetch as ReturnType<typeof vi.fn>).mockResolvedValue({
+        ok: true,
+        json: async () => mockJobsData,
+      });
+    });
+
+    it('shows job count', async () => {
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Showing 2 of 2 roles')).toBeInTheDocument();
+      });
+    });
+
+    it('filters by role title case-insensitively', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'software');
+
+      expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by location case-insensitively', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'chantilly');
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+      expect(screen.getByText('Project Manager')).toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by legacy company case-insensitively', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'accelint');
+
+      expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('shows no-match state when filter returns no results', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'nonexistent');
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.getByText('No jobs match your search.')).toBeInTheDocument();
+      expect(screen.getByText('Try a different search term.')).toBeInTheDocument();
+      expect(screen.getByText('Showing 0 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('search input has accessible label', async () => {
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      expect(searchInput).toHaveAccessibleName(/Filter by role, location, or company/i);
+    });
   });
 });
