@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
+import { parse } from 'csv-parse/sync';
 import type { Job, JobsData, LegacyCompany } from '../src/types/jobs';
 
 const CSV_PATH = join(process.cwd(), 'data/jobs.csv');
@@ -17,65 +18,27 @@ export interface CSVRow {
  * Parse CSV file into rows
  */
 export function parseCSV(csvContent: string): CSVRow[] {
-  const lines = csvContent.trim().split('\n');
+  const requiredFields = ['title', 'location', 'legacyCompany', 'applyUrl', 'sourceSystem'];
 
-  if (lines.length < 2) {
+  const records = parse(csvContent, {
+    columns: true,
+    skip_empty_lines: true,
+    trim: true,
+  });
+
+  if (records.length === 0) {
     throw new Error('CSV file must contain a header row and at least one data row');
   }
 
-  // Parse header
-  const header = parseCSVLine(lines[0]);
-  const requiredFields = ['title', 'location', 'legacyCompany', 'applyUrl', 'sourceSystem'];
-
+  // Validate header contains all required fields
+  const firstRecord = records[0];
   for (const field of requiredFields) {
-    if (!header.includes(field)) {
+    if (!(field in firstRecord)) {
       throw new Error(`CSV header missing required field: ${field}`);
     }
   }
 
-  // Parse data rows
-  const rows: CSVRow[] = [];
-  for (let i = 1; i < lines.length; i++) {
-    const values = parseCSVLine(lines[i]);
-
-    if (values.length !== header.length) {
-      throw new Error(`Row ${i + 1}: Expected ${header.length} columns, got ${values.length}`);
-    }
-
-    const row: any = {};
-    header.forEach((field, index) => {
-      row[field] = values[index];
-    });
-
-    rows.push(row as CSVRow);
-  }
-
-  return rows;
-}
-
-/**
- * Parse a single CSV line, handling quoted fields
- */
-function parseCSVLine(line: string): string[] {
-  const fields: string[] = [];
-  let currentField = '';
-  let inQuotes = false;
-
-  for (let i = 0; i < line.length; i++) {
-    const char = line[i];
-
-    if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === ',' && !inQuotes) {
-      fields.push(currentField);
-      currentField = '';
-    } else {
-      currentField += char;
-    }
-  }
-
-  fields.push(currentField);
-  return fields;
+  return records as CSVRow[];
 }
 
 /**

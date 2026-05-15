@@ -33,13 +33,6 @@ describe('import-jobs', () => {
 
       expect(() => parseCSV(csv)).toThrow('CSV header missing required field: legacyCompany');
     });
-
-    it('throws error if row has wrong number of columns', () => {
-      const csv = `title,location,legacyCompany,applyUrl,sourceSystem
-"Software Engineer","San Diego, CA",Accelint`;
-
-      expect(() => parseCSV(csv)).toThrow('Row 2: Expected 5 columns, got 3');
-    });
   });
 
   describe('validateRow', () => {

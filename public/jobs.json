@@ -1,49 +1,929 @@
 {
-  "generatedAt": "2026-05-15T18:03:12.329Z",
+  "generatedAt": "2026-05-15T18:17:40.118Z",
   "sourceNotes": [
     "Jobs imported from data/jobs.csv",
     "Manual import - each import replaces all previous data"
   ],
   "jobs": [
     {
-      "id": "accelint-manual-0-devops-platform-engineer-level-ii-fsi",
+      "id": "accelint-manual-0-autocad-drafter-fsi",
+      "title": "AutoCAD Drafter (FSI)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f31affef-06ff-45a0-976b-ebca9a0e4ce2",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f31affef-06ff-45a0-976b-ebca9a0e4ce2",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.116Z"
+    },
+    {
+      "id": "accelint-manual-1-devops-platform-engineer-level-ii-fsi",
       "title": "DevOps / Platform Engineer (Level II) (FSI)",
       "location": "San Diego, CA",
       "legacyCompany": "Accelint",
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-15T18:03:12.327Z"
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
     },
     {
-      "id": "accelint-manual-1-senior-software-engineer",
-      "title": "Senior Software Engineer",
+      "id": "accelint-manual-2-electronic-technician-sie",
+      "title": "Electronic Technician (SIE)",
+      "location": "Panama City Beach, FL",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/b129f5cf-5e26-4b1e-b1df-05dcabf27ec6",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/b129f5cf-5e26-4b1e-b1df-05dcabf27ec6",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-3-future-engineering-opportunities-highbury-defense-group",
+      "title": "Future Engineering Opportunities (Highbury Defense Group)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-4-lead-data-analyst-opus",
+      "title": "Lead Data Analyst (OPUS)",
       "location": "Remote (United States)",
       "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6c1da7cf-a990-4519-91f0-38643b641095",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6c1da7cf-a990-4519-91f0-38643b641095",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-15T18:03:12.329Z"
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
     },
     {
-      "id": "vitesse-manual-2-systems-engineer",
+      "id": "accelint-manual-5-lead-data-analyst-sie",
+      "title": "Lead Data Analyst (SIE)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/e40581e7-9c4a-483b-8513-5914c7394278",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/e40581e7-9c4a-483b-8513-5914c7394278",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-6-network-architect-administrator-fsi",
+      "title": "Network Architect Administrator (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-7-senior-devops-platform-engineer-level-iii-fsi",
+      "title": "Senior DevOps / Platform Engineer (Level III) (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/13ce4da4-70f4-44b0-8aca-fc3ffb977036",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/13ce4da4-70f4-44b0-8aca-fc3ffb977036",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-8-senior-fullstack-developer",
+      "title": "Senior Fullstack Developer",
+      "location": "Oahu, HI",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/199ebd83-b607-48f1-b07d-433b3ac5c92c",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/199ebd83-b607-48f1-b07d-433b3ac5c92c",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.117Z"
+    },
+    {
+      "id": "accelint-manual-9-senior-software-engineer-research-scientist-venator",
+      "title": "Senior Software Engineer/Research Scientist (Venator)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-10-senior-systems-engineer",
+      "title": "Senior Systems Engineer",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4e92152d-810e-4873-b550-2beb69d82a2d",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4e92152d-810e-4873-b550-2beb69d82a2d",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-11-senior-teamcenter-application-developer",
+      "title": "Senior Teamcenter Application Developer",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a560533f-7b8f-428f-92ca-080ed80b9a56",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a560533f-7b8f-428f-92ca-080ed80b9a56",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-12-software-engineer-algorithm-developer-venator",
+      "title": "Software Engineer/Algorithm Developer (Venator)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/9aa761f5-9cc8-48fb-a4b6-e4d679515128",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/9aa761f5-9cc8-48fb-a4b6-e4d679515128",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-13-software-engineer-research-scientist-venator",
+      "title": "Software Engineer/Research Scientist (Venator)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/1c6117b2-1f4f-47e7-8e1d-c4f9c20486f7",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/1c6117b2-1f4f-47e7-8e1d-c4f9c20486f7",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-14-systems-engineer",
       "title": "Systems Engineer",
-      "location": "Chantilly, VA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/#open-positions",
-      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
-      "sourceSystem": "ADP (manual export)",
-      "lastSeenAt": "2026-05-15T18:03:12.329Z"
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6575feae-3d2c-4171-88ca-1124cbabe387",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6575feae-3d2c-4171-88ca-1124cbabe387",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
     },
     {
-      "id": "vitesse-manual-3-project-manager",
-      "title": "Project Manager",
-      "location": "Chantilly, VA",
+      "id": "accelint-manual-15-systems-engineer-iii-border-and-coastal-surveillance-fsi",
+      "title": "Systems Engineer III – Border and Coastal Surveillance (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/dcb48c73-b590-4a8b-befc-12751f9649dd",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/dcb48c73-b590-4a8b-befc-12751f9649dd",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-16-teamcenter-application-developer",
+      "title": "Teamcenter Application Developer",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/2f2cd059-4802-4357-b51f-4d788b1d3ac8",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/2f2cd059-4802-4357-b51f-4d788b1d3ac8",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-17-teamcenter-data-architect",
+      "title": "Teamcenter Data Architect",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/d5f4d90b-186b-41a8-a105-6c2c3e2e56e6",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/d5f4d90b-186b-41a8-a105-6c2c3e2e56e6",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-18-teamcenter-functional-architect",
+      "title": "Teamcenter Functional Architect",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f7746120-876c-47da-b9c3-4d9a7ebcc6a2",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f7746120-876c-47da-b9c3-4d9a7ebcc6a2",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-19-instructional-systems-designer-soartech",
+      "title": "Instructional Systems Designer (SoarTech)",
+      "location": "Ann Arbor, MI; Orlando, FL; +1 more locations",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a217bfac-79e5-4e06-b297-93ed1dd6ab6a",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a217bfac-79e5-4e06-b297-93ed1dd6ab6a",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-20-test-engineer",
+      "title": "Test Engineer",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4cfed400-89be-4932-8534-33698dce78b0",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4cfed400-89be-4932-8534-33698dce78b0",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-21-testing-and-evaluation-lead",
+      "title": "Testing and Evaluation Lead",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/d9363fde-c1cd-4aad-828a-c9d6133dae57",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/d9363fde-c1cd-4aad-828a-c9d6133dae57",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-22-windchill-application-developer-sie",
+      "title": "Windchill Application Developer (SIE)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/0d8082ec-66ba-4138-aed1-ef096afc0327",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/0d8082ec-66ba-4138-aed1-ef096afc0327",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-23-windchill-data-migration-developer",
+      "title": "Windchill Data Migration Developer",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f4087c61-8a17-425f-9527-e0971b5b5f69",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f4087c61-8a17-425f-9527-e0971b5b5f69",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-24-windchill-engineer-sie",
+      "title": "Windchill Engineer (SIE)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/23e8e07e-92ec-4d4a-8e27-3dc8b4324968",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/23e8e07e-92ec-4d4a-8e27-3dc8b4324968",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-25-windchill-engineer-sie",
+      "title": "Windchill Engineer (SIE)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/2c9aa0e2-83d2-4de5-b536-f11de2f0a930",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/2c9aa0e2-83d2-4de5-b536-f11de2f0a930",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-26-windchill-infrastructure-system-administrator-sie",
+      "title": "Windchill Infrastructure & System Administrator (SIE)",
+      "location": "Remote (United States)",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a4c4c740-aef0-498e-b1ac-3b14aff6bcef",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a4c4c740-aef0-498e-b1ac-3b14aff6bcef",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-27-facility-security-officer-va-sie",
+      "title": "Facility Security Officer -VA (SIE)",
+      "location": "Falls Church, VA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/0e0e65f7-c3a5-4456-b7e9-4fba9e85ebad",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/0e0e65f7-c3a5-4456-b7e9-4fba9e85ebad",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-28-jr-facility-security-office-nj-sie",
+      "title": "Jr. Facility Security Office - NJ (SIE)",
+      "location": "Mullica Hill, NJ",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f5c8526e-f89e-4c43-b2cf-f193c76ad6a0",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f5c8526e-f89e-4c43-b2cf-f193c76ad6a0",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-29-project-control-analyst",
+      "title": "Project Control Analyst",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5273e692-e2d6-4e7c-a2d5-d127ef31139f",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5273e692-e2d6-4e7c-a2d5-d127ef31139f",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-30-integrated-master-scheduler-hdg",
+      "title": "Integrated Master Scheduler (HDG)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5e2c6ffb-bf2e-4ce9-87a1-09d2c4b2898d",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5e2c6ffb-bf2e-4ce9-87a1-09d2c4b2898d",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-31-management-analyst-iii",
+      "title": "Management Analyst III",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a8528564-f187-46ff-945f-a82333f47be7",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a8528564-f187-46ff-945f-a82333f47be7",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-32-plm-program-manager",
+      "title": "PLM Program Manager",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/bb536bc2-0ce5-43fb-9f81-04fde86e39b6",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/bb536bc2-0ce5-43fb-9f81-04fde86e39b6",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-33-program-management-shore-maintenance-analyst",
+      "title": "Program Management & Shore Maintenance Analyst",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/03f1e215-ba24-499b-8af7-e66bc4ecc354",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/03f1e215-ba24-499b-8af7-e66bc4ecc354",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-34-program-management-systems-support-specialist",
+      "title": "Program Management & Systems Support Specialist",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/367e6013-a90e-495f-8367-785d50b8ea09",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/367e6013-a90e-495f-8367-785d50b8ea09",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-35-instructional-systems-designer-intern-soartech",
+      "title": "Instructional Systems Designer Intern (SoarTech)",
+      "location": "Ann Arbor, MI; Orlando, FL",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/bde841a4-444b-4b7b-bc5c-26b7a4403000",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/bde841a4-444b-4b7b-bc5c-26b7a4403000",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-36-program-analyst-i-fsi",
+      "title": "Program Analyst I (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/b4d10fcf-b33e-4c45-b864-4660a25c96f0",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/b4d10fcf-b33e-4c45-b864-4660a25c96f0",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-37-program-analyst-i-fsi",
+      "title": "Program Analyst I (FSI)",
+      "location": "San Diego, CA",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4238b68f-5eb1-45da-9f90-2a107cc4ae5a",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4238b68f-5eb1-45da-9f90-2a107cc4ae5a",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "accelint-manual-38-senior-data-scientist",
+      "title": "Senior Data Scientist",
+      "location": "Remote (United States); St. Paul, MN",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/35f98d0e-f920-41a2-b0c3-04e13b20269c",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/35f98d0e-f920-41a2-b0c3-04e13b20269c",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-39-program-manager",
+      "title": "Program Manager",
+      "location": "Newark, CA, US",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceUrl": "https://vitessesys.com/careers/#open-positions",
       "sourceSystem": "ADP (manual export)",
-      "lastSeenAt": "2026-05-15T18:03:12.329Z"
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-40-integration-test-technician-i-temporary",
+      "title": "Integration & Test Technician I (Temporary)",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-41-machine-shop-supervisor",
+      "title": "Machine Shop Supervisor",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-42-braze-technician-i-graveyard-shift",
+      "title": "Braze Technician I - Graveyard Shift",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-43-braze-technician-i-weekend-shift",
+      "title": "Braze Technician I - Weekend Shift",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-44-cnc-machinist-iii-weekend-shift",
+      "title": "CNC Machinist III - Weekend Shift",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-45-rf-test-technician-ii-temporary-position",
+      "title": "RF Test Technician II (Temporary Position)",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-46-rf-test-technician-i-temporary-position",
+      "title": "RF Test Technician I (Temporary Position)",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-47-grinder",
+      "title": "Grinder",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-48-business-development-executive-ground-station-antenna-feeds",
+      "title": "Business Development Executive - Ground Station Antenna Feeds",
+      "location": "Harbor City, CA, US; +1 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-49-business-development-satellite-antenna-systems-rf-payloads",
+      "title": "Business Development - Satellite Antenna Systems & RF Payloads",
+      "location": "Webster, TX, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-50-cnc-programmer-machinist-iii",
+      "title": "CNC Programmer/Machinist III",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-51-quality-control-inspector-i",
+      "title": "Quality Control Inspector I",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-52-production-planning-and-supply-chain-manager",
+      "title": "Production Planning and Supply Chain Manager",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-53-inside-sales-representative",
+      "title": "Inside Sales Representative",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-54-embedded-firmware-engineer",
+      "title": "Embedded Firmware Engineer",
+      "location": "Carson City, NV, US; +7 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-55-electrical-engineer",
+      "title": "Electrical Engineer",
+      "location": "Carson City, NV, US; +7 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-56-cmm-operator-i",
+      "title": "CMM Operator I",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-57-quality-control-inspector-iii",
+      "title": "Quality Control Inspector III",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-58-cnc-machinist-iv",
+      "title": "CNC Machinist IV",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-59-cnc-machinist-iii",
+      "title": "CNC Machinist III",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-60-cnc-machinist-ii",
+      "title": "CNC Machinist II",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-61-deburring-technician",
+      "title": "Deburring Technician",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-62-quality-control-inspector-i",
+      "title": "Quality Control Inspector I",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-63-quality-assurance-engineer-ii",
+      "title": "Quality Assurance Engineer II",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-64-cmm-programmer-iii",
+      "title": "CMM Programmer III",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-65-manufacturing-quality-assurance-engineer",
+      "title": "Manufacturing Quality Assurance Engineer",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-66-sr-rf-engineer",
+      "title": "Sr. RF Engineer",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-67-finishing-technician-i",
+      "title": "Finishing Technician I",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-68-technical-support-specialist-i",
+      "title": "Technical Support Specialist I",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-69-quality-manager-c5isr-business-unit",
+      "title": "Quality Manager - C5ISR Business Unit",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-70-director-machining",
+      "title": "Director, Machining",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-71-manufacturing-supervisor-second-shift",
+      "title": "Manufacturing Supervisor - Second Shift",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-72-production-coordinator",
+      "title": "Production Coordinator",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-73-cnc-machinist-in-training",
+      "title": "CNC Machinist in Training",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-74-business-development-executive-space-multi-domain-rf-systems",
+      "title": "Business Development Executive - Space & Multi-Domain RF Systems",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-75-quality-control-inspector-iii",
+      "title": "Quality Control Inspector III",
+      "location": "Longmont, CO, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-76-human-resources-manager",
+      "title": "Human Resources Manager",
+      "location": "Harbor City, CA, US; +1 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-77-director-business-development",
+      "title": "Director, Business Development",
+      "location": "Newark, CA, US; +1 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-78-director-program-management-office-c5isr",
+      "title": "Director, Program Management Office - C5ISR",
+      "location": "Harbor City, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-79-cnc-programmer",
+      "title": "CNC Programmer",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-80-cnc-programmer",
+      "title": "CNC Programmer",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-81-clerical-expeditor",
+      "title": "Clerical/Expeditor",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-82-business-development-executive-platform",
+      "title": "Business Development Executive Platform",
+      "location": "Location not listed",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-83-quality-control-inspector-ii",
+      "title": "Quality Control Inspector II",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-84-cost-accounting-manager",
+      "title": "Cost Accounting Manager",
+      "location": "Newark, CA, US; +1 More Locations",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-85-cnc-machinist-ii",
+      "title": "CNC Machinist II",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-86-deburring-technician",
+      "title": "Deburring Technician",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-87-operations-manager",
+      "title": "Operations Manager",
+      "location": "Newark, CA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-88-quality-control-test-technician",
+      "title": "Quality Control Test Technician",
+      "location": "Jessup, MD, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-89-cnc-programmer-lead",
+      "title": "CNC Programmer Lead",
+      "location": "Clinton, MA, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-90-quality-assurance-engineer",
+      "title": "Quality Assurance Engineer",
+      "location": "Carson City, NV, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
+    },
+    {
+      "id": "vitesse-manual-91-sr-quality-assurance-engineer",
+      "title": "Sr. Quality Assurance Engineer",
+      "location": "Carson City, NV, US",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceUrl": "https://vitessesys.com/careers/#open-positions",
+      "sourceSystem": "ADP (manual export)",
+      "lastSeenAt": "2026-05-15T18:17:40.118Z"
     }
   ]
 }
