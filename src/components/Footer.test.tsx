@@ -17,7 +17,7 @@ describe('Footer', () => {
   it('displays unofficial disclaimer text', () => {
     render(<Footer />);
     expect(
-      screen.getByText(/Unofficial side project/i)
+      screen.getByText(/This is a side project/i)
     ).toBeInTheDocument();
   });
 
