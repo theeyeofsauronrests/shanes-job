@@ -41,71 +41,137 @@ export async function scrapeVitesse(): Promise<Job[]> {
   console.log('📍 Source: Vitesse careers page (intercepts ADP API)\n');
 
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
+  const context = await browser.newContext();
 
   try {
-    let apiData: any = null;
+    // Step 1: Load page to get the initial API call and extract base URL parameters
+    console.log('⏳ Loading Vitesse careers page to capture API URL...');
+    const page = await context.newPage();
 
-    // Intercept API responses
+    let apiBaseUrl: string | null = null;
+
     page.on('response', async (response) => {
       const url = response.url();
-
-      // Look for ADP API call
       if (url.includes('workforcenow.adp.com') && url.includes('job-requisitions')) {
-        console.log('✅ Intercepted ADP API call');
-        try {
-          apiData = await response.json();
-        } catch (err) {
-          console.warn('⚠️  Failed to parse API response:', err);
-        }
+        apiBaseUrl = url.split('&$skip=')[0].split('&$top=')[0]; // Remove pagination params
+        console.log('✅ Captured API base URL');
       }
     });
 
-    console.log('⏳ Loading Vitesse careers page...');
     await page.goto(VITESSE_CAREERS_URL, {
       waitUntil: 'networkidle',
       timeout: 30000
     });
 
-    // Wait a bit for API call to happen
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3000);
+    await page.close();
 
-    await browser.close();
-
-    if (!apiData) {
-      console.warn('⚠️  No ADP API data intercepted - page may have changed');
-      console.warn('   Saving empty result...');
-      apiData = [];
+    if (!apiBaseUrl) {
+      throw new Error('Failed to capture ADP API URL from page');
     }
 
-    console.log('✅ API data captured\n');
+    // Step 2: Fetch all pages by navigating to API URLs in browser
+    console.log('⏳ Fetching all job pages from ADP API...\n');
 
-    // Debug: save raw API response
-    writeFileSync('data/vitesse-raw-api.json', JSON.stringify(apiData, null, 2), 'utf-8');
-    console.log('💾 Saved raw API data to: data/vitesse-raw-api.json\n');
+    const allJobs: any[] = [];
+    const pageSize = 50; // Request more per page to reduce requests
+    let skip = 0;
+    let hasMore = true;
+    let pageNum = 1;
 
-    // ADP API response structure may vary, handle multiple formats
-    let jobsArray: ADPJobRequisition[] = [];
+    const apiPage = await context.newPage();
 
-    if (Array.isArray(apiData)) {
-      jobsArray = apiData;
-    } else if (apiData.jobRequisitions && Array.isArray(apiData.jobRequisitions)) {
-      jobsArray = apiData.jobRequisitions;
-    } else if (apiData.data && Array.isArray(apiData.data)) {
-      jobsArray = apiData.data;
-    } else {
-      console.warn('⚠️  Unexpected API response structure:', Object.keys(apiData));
-      // Try to find arrays in the response
-      for (const key of Object.keys(apiData)) {
-        if (Array.isArray(apiData[key]) && apiData[key].length > 0) {
-          console.log(`   Using array from key: ${key}`);
-          jobsArray = apiData[key];
+    while (hasMore) {
+      const pageUrl = `${apiBaseUrl}&$skip=${skip}&$top=${pageSize}`;
+      console.log(`   Fetching page ${pageNum} (skip=${skip})...`);
+
+      try {
+        await apiPage.goto(pageUrl, { waitUntil: 'networkidle', timeout: 15000 });
+
+        // Extract JSON from page (ADP returns raw JSON in <pre> tag)
+        const jsonText = await apiPage.locator('body').textContent();
+        if (!jsonText) {
+          console.warn(`⚠️  Page ${pageNum}: No content`);
           break;
         }
+
+        const pageData = JSON.parse(jsonText);
+
+      // Extract jobs array from response
+      let jobsArray: any[] = [];
+      if (Array.isArray(pageData)) {
+        jobsArray = pageData;
+      } else if (pageData.jobRequisitions && Array.isArray(pageData.jobRequisitions)) {
+        jobsArray = pageData.jobRequisitions;
+      } else if (pageData.data && Array.isArray(pageData.data)) {
+        jobsArray = pageData.data;
+      } else {
+        // Try to find an array in the response
+        for (const key of Object.keys(pageData)) {
+          if (Array.isArray(pageData[key]) && pageData[key].length > 0) {
+            jobsArray = pageData[key];
+            break;
+          }
+        }
+      }
+
+      if (jobsArray.length === 0) {
+        console.log(`   Page ${pageNum}: No more jobs found`);
+        hasMore = false;
+      } else {
+        console.log(`   Page ${pageNum}: Found ${jobsArray.length} jobs`);
+        allJobs.push(...jobsArray);
+
+        // ADP seems to have a max page size - keep fetching until we get 0
+        // We'll increment by the actual number we got
+        skip += jobsArray.length;
+        pageNum++;
+
+        // Extra check: if we got very few jobs, might be the end
+        if (jobsArray.length < 5) {
+          console.log(`   Received < 5 jobs, likely last page`);
+          hasMore = false;
+        }
+      }
+
+      // Safety: don't infinite loop
+      if (pageNum > 20) {
+        console.warn('⚠️  Reached page limit (20) - stopping');
+        break;
+      }
+
+      } catch (error: any) {
+        console.warn(`⚠️  Page ${pageNum} error: ${error.message}`);
+        break;
       }
     }
 
-    console.log(`📊 Found ${jobsArray.length} jobs in API response\n`);
+    await apiPage.close();
+    await browser.close();
+
+    console.log(`\n✅ Fetched ${allJobs.length} total jobs across ${pageNum} page(s)`);
+
+    // Deduplicate by itemID (ADP sometimes returns duplicates across pages)
+    const uniqueJobs = Array.from(
+      new Map(allJobs.map(job => [job.itemID, job])).values()
+    );
+
+    if (uniqueJobs.length < allJobs.length) {
+      console.log(`⚠️  Removed ${allJobs.length - uniqueJobs.length} duplicate(s)\n`);
+    } else {
+      console.log();
+    }
+
+    // Debug: save raw API response
+    writeFileSync('data/vitesse-raw-api.json', JSON.stringify(uniqueJobs, null, 2), 'utf-8');
+    console.log('💾 Saved raw API data to: data/vitesse-raw-api.json\n');
+
+    const apiData = { jobRequisitions: uniqueJobs };
+
+    // Extract jobs array (we wrapped it above)
+    const jobsArray: ADPJobRequisition[] = apiData.jobRequisitions || [];
+
+    console.log(`📊 Total jobs collected: ${jobsArray.length}\n`);
 
     if (jobsArray.length === 0) {
       console.warn('⚠️  No jobs found - API may have changed or no positions are open');
