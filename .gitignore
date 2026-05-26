@@ -39,3 +39,11 @@ coverage
 # Temporary files
 *.tmp
 *.temp
+
+# Scraper intermediate files
+data/accelint-scraped.json
+data/vitesse-scraped.json
+data/vitesse-raw-api.json
+rippling-page.html
+vitesse-page.html
+*.png

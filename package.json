@@ -19,7 +19,10 @@
     "test:ui": "vitest --ui",
     "test:e2e": "playwright test",
     "jobs:validate": "tsx scripts/validate-jobs.ts",
-    "jobs:import": "tsx scripts/import-jobs.ts"
+    "jobs:import": "tsx scripts/import-jobs.ts",
+    "scrape": "tsx scripts/scrape-all.ts",
+    "scrape:accelint": "tsx scripts/scrape-rippling.ts",
+    "scrape:vitesse": "tsx scripts/scrape-vitesse.ts"
   },
   "dependencies": {
     "csv-parse": "^6.2.1",

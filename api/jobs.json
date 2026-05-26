@@ -1,10 +1,25 @@
 {
+  "version": "1.0",
   "generatedAt": "2026-05-26T18:17:28.039Z",
-  "sourceNotes": [
-    "Accelint: 20 jobs scraped from Rippling",
-    "Vitesse: 6 jobs scraped from ADP",
-    "Automated via on-demand scraper script"
+  "sources": [
+    {
+      "name": "Accelint",
+      "system": "Rippling",
+      "method": "DOM Scraping",
+      "lastScraped": "2026-05-26T18:17:28.039Z",
+      "jobCount": 20,
+      "status": "success"
+    },
+    {
+      "name": "Vitesse",
+      "system": "ADP",
+      "method": "API Interception",
+      "lastScraped": "2026-05-26T18:17:28.039Z",
+      "jobCount": 6,
+      "status": "success"
+    }
   ],
+  "totalJobs": 26,
   "jobs": [
     {
       "id": "accelint-scraped-f31affef-06ff-45a0-976b-ebca9a0e4ce2",
@@ -266,5 +281,7 @@
       "sourceSystem": "ADP",
       "lastSeenAt": "2026-05-26T18:17:28.038Z"
     }
-  ]
+  ],
+  "accessUrl": "https://beta-lyntris-jobs.vercel.app/api/jobs.json",
+  "cors": "enabled"
 }

@@ -1,0 +1,79 @@
+name: Scrape Job Listings
+
+on:
+  workflow_dispatch:  # Manual trigger only - click "Run workflow" button
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Needed to commit scraped data
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
+      - name: Run scraper
+        run: npm run scrape
+
+      - name: Validate output
+        run: npm run jobs:validate
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/jobs.json api/ || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/jobs.json api/
+          git commit -m "chore: update job listings from automated scrape
+
+          - Accelint: scraped from Rippling
+          - Vitesse: scraped from ADP
+          - Generated: $(date -u +"%Y-%m-%d %H:%M UTC")"
+          git push
+
+      - name: No changes detected
+        if: steps.git-check.outputs.changes != 'true'
+        run: echo "ℹ️ No changes detected - job listings are up to date"
+
+      - name: Generate summary
+        if: always()
+        run: |
+          echo "## Scrape Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- **Status**: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Timestamp**: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f api/metadata.json ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Job Counts" >> $GITHUB_STEP_SUMMARY
+            cat api/metadata.json | jq -r '
+              (.sources[] | "- **\(.name)**: \(.jobCount) jobs"),
+              "",
+              "**Total**: \(.totalJobs) jobs"
+            ' >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ "${{ steps.git-check.outputs.changes }}" == "true" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Changes committed and pushed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
