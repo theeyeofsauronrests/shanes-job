@@ -10,7 +10,7 @@ import { join } from 'path';
 import type { Job, JobsData } from '../src/types/jobs';
 
 const PUBLIC_JOBS_PATH = join(process.cwd(), 'public/jobs.json');
-const API_DIR = join(process.cwd(), 'api');
+const API_DIR = join(process.cwd(), 'public/api');
 const API_JOBS_PATH = join(API_DIR, 'jobs.json');
 const API_METADATA_PATH = join(API_DIR, 'metadata.json');
 

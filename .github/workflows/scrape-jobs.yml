@@ -34,14 +34,14 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git diff --exit-code public/jobs.json api/ || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --exit-code public/jobs.json public/api/ || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/jobs.json api/
+          git add public/jobs.json public/api/
           git commit -m "chore: update job listings from automated scrape
 
           - Accelint: scraped from Rippling
@@ -60,10 +60,10 @@ jobs:
           echo "- **Status**: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Timestamp**: $(date -u +"%Y-%m-%d %H:%M UTC")" >> $GITHUB_STEP_SUMMARY
 
-          if [ -f api/metadata.json ]; then
+          if [ -f public/api/metadata.json ]; then
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "### Job Counts" >> $GITHUB_STEP_SUMMARY
-            cat api/metadata.json | jq -r '
+            cat public/api/metadata.json | jq -r '
               (.sources[] | "- **\(.name)**: \(.jobCount) jobs"),
               "",
               "**Total**: \(.totalJobs) jobs"

@@ -47,3 +47,5 @@ data/vitesse-raw-api.json
 rippling-page.html
 vitesse-page.html
 *.png
+
+# Note: public/api/ is committed (static API endpoint)
