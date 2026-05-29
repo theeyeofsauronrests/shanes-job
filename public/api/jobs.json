@@ -1,12 +1,12 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-05-26T18:53:58.237Z",
+  "generatedAt": "2026-05-29T15:04:19.157Z",
   "sources": [
     {
       "name": "Accelint",
       "system": "Rippling",
       "method": "DOM Scraping",
-      "lastScraped": "2026-05-26T18:53:58.237Z",
+      "lastScraped": "2026-05-29T15:04:19.157Z",
       "jobCount": 20,
       "status": "success"
     },
@@ -14,12 +14,12 @@
       "name": "Vitesse",
       "system": "ADP",
       "method": "API Interception",
-      "lastScraped": "2026-05-26T18:53:58.237Z",
-      "jobCount": 52,
+      "lastScraped": "2026-05-29T15:04:19.157Z",
+      "jobCount": 50,
       "status": "success"
     }
   ],
-  "totalJobs": 72,
+  "totalJobs": 70,
   "jobs": [
     {
       "id": "accelint-scraped-f31affef-06ff-45a0-976b-ebca9a0e4ce2",
@@ -29,7 +29,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f31affef-06ff-45a0-976b-ebca9a0e4ce2",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-5d2a7242-56b5-4199-9e23-15f39a42748c",
@@ -39,7 +39,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-b129f5cf-5e26-4b1e-b1df-05dcabf27ec6",
@@ -49,7 +49,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/b129f5cf-5e26-4b1e-b1df-05dcabf27ec6",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
@@ -59,17 +59,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
-    },
-    {
-      "id": "accelint-scraped-6c1da7cf-a990-4519-91f0-38643b641095",
-      "title": "Lead Data Analyst (OPUS)",
-      "location": "Location not specified",
-      "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6c1da7cf-a990-4519-91f0-38643b641095",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-e40581e7-9c4a-483b-8513-5914c7394278",
@@ -79,7 +69,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/e40581e7-9c4a-483b-8513-5914c7394278",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
@@ -89,7 +79,17 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
+    },
+    {
+      "id": "accelint-scraped-eec6e96c-6e93-40d2-b007-9123a5fed906",
+      "title": "Network Engineer",
+      "location": "Location not specified",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/eec6e96c-6e93-40d2-b007-9123a5fed906",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-13ce4da4-70f4-44b0-8aca-fc3ffb977036",
@@ -99,7 +99,27 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/13ce4da4-70f4-44b0-8aca-fc3ffb977036",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
+    },
+    {
+      "id": "accelint-scraped-ae833838-bd2a-4f35-ae67-49353817404b",
+      "title": "Senior Network Engineer",
+      "location": "Location not specified",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/ae833838-bd2a-4f35-ae67-49353817404b",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
+    },
+    {
+      "id": "accelint-scraped-c741b566-6f74-447c-8bd1-da2a6e8f7268",
+      "title": "Senior Network Engineer",
+      "location": "Location not specified",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c741b566-6f74-447c-8bd1-da2a6e8f7268",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
@@ -109,7 +129,17 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
+    },
+    {
+      "id": "accelint-scraped-f9696a47-eff8-4489-ad02-c160d6a07a64",
+      "title": "Senior System Engineer",
+      "location": "Location not specified",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f9696a47-eff8-4489-ad02-c160d6a07a64",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-4e92152d-810e-4873-b550-2beb69d82a2d",
@@ -119,7 +149,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4e92152d-810e-4873-b550-2beb69d82a2d",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-a560533f-7b8f-428f-92ca-080ed80b9a56",
@@ -129,7 +159,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a560533f-7b8f-428f-92ca-080ed80b9a56",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-9aa761f5-9cc8-48fb-a4b6-e4d679515128",
@@ -139,7 +169,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/9aa761f5-9cc8-48fb-a4b6-e4d679515128",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-1c6117b2-1f4f-47e7-8e1d-c4f9c20486f7",
@@ -149,7 +179,17 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/1c6117b2-1f4f-47e7-8e1d-c4f9c20486f7",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
+    },
+    {
+      "id": "accelint-scraped-3e967c3d-6de2-4d6b-9faf-18dac8d86b98",
+      "title": "System Engineer",
+      "location": "Location not specified",
+      "legacyCompany": "Accelint",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/3e967c3d-6de2-4d6b-9faf-18dac8d86b98",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-6575feae-3d2c-4171-88ca-1124cbabe387",
@@ -159,7 +199,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/6575feae-3d2c-4171-88ca-1124cbabe387",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-dcb48c73-b590-4a8b-befc-12751f9649dd",
@@ -169,47 +209,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/dcb48c73-b590-4a8b-befc-12751f9649dd",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
-    },
-    {
-      "id": "accelint-scraped-3fafa241-c0fe-4f25-b038-ee512c351144",
-      "title": "Systems Engineering and T&E Support",
-      "location": "Location not specified",
-      "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/3fafa241-c0fe-4f25-b038-ee512c351144",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
-    },
-    {
-      "id": "accelint-scraped-2f2cd059-4802-4357-b51f-4d788b1d3ac8",
-      "title": "Teamcenter Application Developer",
-      "location": "Location not specified",
-      "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/2f2cd059-4802-4357-b51f-4d788b1d3ac8",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
-    },
-    {
-      "id": "accelint-scraped-d5f4d90b-186b-41a8-a105-6c2c3e2e56e6",
-      "title": "Teamcenter Data Architect",
-      "location": "Location not specified",
-      "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/d5f4d90b-186b-41a8-a105-6c2c3e2e56e6",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
-    },
-    {
-      "id": "accelint-scraped-f7746120-876c-47da-b9c3-4d9a7ebcc6a2",
-      "title": "Teamcenter Functional Architect",
-      "location": "Location not specified",
-      "legacyCompany": "Accelint",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f7746120-876c-47da-b9c3-4d9a7ebcc6a2",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
       "id": "accelint-scraped-a217bfac-79e5-4e06-b297-93ed1dd6ab6a",
@@ -219,187 +219,27 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a217bfac-79e5-4e06-b297-93ed1dd6ab6a",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-05-26T18:53:49.657Z"
+      "lastSeenAt": "2026-05-29T15:04:10.804Z"
     },
     {
-      "id": "vitesse-scraped-9202872088259_1",
-      "title": "Contracts Manager",
+      "id": "vitesse-scraped-9202872703513_1",
+      "title": "Project Engineer II",
       "location": "Longmont, CO",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
-      "id": "vitesse-scraped-9202871604160_1",
-      "title": "Maintenance Technician III",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202871601054_1",
-      "title": "Sr. Production Planner",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202862371872_1",
-      "title": "CNC Machinist in Training",
+      "id": "vitesse-scraped-9202872703112_1",
+      "title": "Project Engineer II",
       "location": "Harbor City, CA",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202866095422_1",
-      "title": "Embedded Firmware Engineer",
-      "location": "Longmont, CO",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202854530252_1",
-      "title": "CNC Machinist II",
-      "location": "Clinton, MA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869669338_1",
-      "title": "Program Manager",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869517882_1",
-      "title": "Integration & Test Technician I (Temporary)",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869281848_1",
-      "title": "Machine Shop Supervisor",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869262235_1",
-      "title": "Braze Technician I - Graveyard Shift",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869255289_1",
-      "title": "Braze Technician I - Weekend Shift",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869247733_1",
-      "title": "CNC Machinist III - Weekend Shift ",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869227538_1",
-      "title": "RF Test Technician II (Temporary Position)",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202869216384_1",
-      "title": "RF Test Technician I (Temporary Position)",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202868931535_1",
-      "title": "Grinder",
-      "location": "Clinton, MA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202861684995_1",
-      "title": "Business Development Executive - Ground Station Antenna Feeds",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202868126066_1",
-      "title": "Business Development - Satellite Antenna Systems & RF Payloads",
-      "location": "Location not specified",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202867919947_1",
-      "title": "CNC Programmer/Machinist III",
-      "location": "Longmont, CO",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202864652061_1",
@@ -409,127 +249,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202865412537_1",
-      "title": "Production Planning and Supply Chain Manager",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202867201367_1",
-      "title": "Inside Sales Representative",
-      "location": "Clinton, MA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202866091875_1",
-      "title": "Electrical Engineer",
-      "location": "Longmont, CO",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202866055521_1",
-      "title": "CMM Operator I",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202865752630_1",
-      "title": "Quality Control Inspector III",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202865748939_1",
-      "title": "CNC Machinist IV",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202865731590_1",
-      "title": "CNC Machinist III",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202865729980_1",
-      "title": "CNC Machinist II",
-      "location": "Jessup, MD",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202866004517_1",
-      "title": "Deburring Technician",
-      "location": "Harbor City, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202864724082_1",
-      "title": "Quality Control Inspector I",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202864722390_1",
-      "title": "Quality Assurance Engineer II",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
-    },
-    {
-      "id": "vitesse-scraped-9202864717179_1",
-      "title": "CMM Programmer III",
-      "location": "Newark, CA",
-      "legacyCompany": "Vitesse",
-      "applyUrl": "https://vitessesys.com/careers/",
-      "sourceUrl": "https://vitessesys.com/careers/",
-      "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202864626054_1",
@@ -539,17 +259,277 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
-      "id": "vitesse-scraped-9202864609161_1",
-      "title": "Finishing Technician I",
+      "id": "vitesse-scraped-9202872088259_1",
+      "title": "Contracts Manager",
       "location": "Longmont, CO",
       "legacyCompany": "Vitesse",
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202871604160_1",
+      "title": "Maintenance Technician III",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202871601054_1",
+      "title": "Sr. Production Planner",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202866095422_1",
+      "title": "Embedded Firmware Engineer",
+      "location": "Longmont, CO",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202854530252_1",
+      "title": "CNC Machinist II",
+      "location": "Clinton, MA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869669338_1",
+      "title": "Program Manager",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869517882_1",
+      "title": "Integration & Test Technician I (Temporary)",
+      "location": "Harbor City, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869281848_1",
+      "title": "Machine Shop Supervisor",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869262235_1",
+      "title": "Braze Technician I - Graveyard Shift",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869255289_1",
+      "title": "Braze Technician I - Weekend Shift",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202869247733_1",
+      "title": "CNC Machinist III - Weekend Shift ",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202868931535_1",
+      "title": "Grinder",
+      "location": "Clinton, MA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202861684995_1",
+      "title": "Business Development Executive - Ground Station Antenna Feeds",
+      "location": "Harbor City, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202868126066_1",
+      "title": "Business Development - Satellite Antenna Systems & RF Payloads",
+      "location": "Location not specified",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202867919947_1",
+      "title": "CNC Programmer/Machinist III",
+      "location": "Longmont, CO",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202865412537_1",
+      "title": "Production Planning and Supply Chain Manager",
+      "location": "Harbor City, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202867201367_1",
+      "title": "Inside Sales Representative",
+      "location": "Clinton, MA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202866091875_1",
+      "title": "Electrical Engineer",
+      "location": "Longmont, CO",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202866055521_1",
+      "title": "CMM Operator I",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202865752630_1",
+      "title": "Quality Control Inspector III",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202865748939_1",
+      "title": "CNC Machinist IV",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202865731590_1",
+      "title": "CNC Machinist III",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202865729980_1",
+      "title": "CNC Machinist II",
+      "location": "Jessup, MD",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202866004517_1",
+      "title": "Deburring Technician",
+      "location": "Harbor City, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202864724082_1",
+      "title": "Quality Control Inspector I",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202864722390_1",
+      "title": "Quality Assurance Engineer II",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
+    },
+    {
+      "id": "vitesse-scraped-9202864717179_1",
+      "title": "CMM Programmer III",
+      "location": "Newark, CA",
+      "legacyCompany": "Vitesse",
+      "applyUrl": "https://vitessesys.com/careers/",
+      "sourceUrl": "https://vitessesys.com/careers/",
+      "sourceSystem": "ADP",
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202833168424_1",
@@ -559,7 +539,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202861905292_1",
@@ -569,7 +549,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202863404556_1",
@@ -579,7 +559,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202861684215_1",
@@ -589,7 +569,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202852621067_1",
@@ -599,7 +579,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202859531199_1",
@@ -609,7 +589,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202822001349_1",
@@ -619,7 +599,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202857709521_1",
@@ -629,7 +609,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202857701071_1",
@@ -639,7 +619,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202856823532_1",
@@ -649,7 +629,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202856735488_1",
@@ -659,7 +639,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202855926836_1",
@@ -669,7 +649,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202857337654_1",
@@ -679,7 +659,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202851480952_1",
@@ -689,7 +669,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202851447979_1",
@@ -699,7 +679,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202850522656_1",
@@ -709,7 +689,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202822433908_1",
@@ -719,7 +699,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202845157708_1",
@@ -729,7 +709,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     },
     {
       "id": "vitesse-scraped-9202845159591_1",
@@ -739,7 +719,7 @@
       "applyUrl": "https://vitessesys.com/careers/",
       "sourceUrl": "https://vitessesys.com/careers/",
       "sourceSystem": "ADP",
-      "lastSeenAt": "2026-05-26T18:53:58.236Z"
+      "lastSeenAt": "2026-05-29T15:04:19.156Z"
     }
   ],
   "accessUrl": "https://beta-lyntris-jobs.vercel.app/api/jobs.json",

@@ -1,11 +1,11 @@
 {
-  "lastSuccessfulScrape": "2026-05-26T18:53:58.237Z",
+  "lastSuccessfulScrape": "2026-05-29T15:04:19.157Z",
   "sources": [
     {
       "name": "Accelint",
       "system": "Rippling",
       "method": "DOM Scraping",
-      "lastScraped": "2026-05-26T18:53:58.237Z",
+      "lastScraped": "2026-05-29T15:04:19.157Z",
       "jobCount": 20,
       "status": "success"
     },
@@ -13,12 +13,12 @@
       "name": "Vitesse",
       "system": "ADP",
       "method": "API Interception",
-      "lastScraped": "2026-05-26T18:53:58.237Z",
-      "jobCount": 52,
+      "lastScraped": "2026-05-29T15:04:19.157Z",
+      "jobCount": 50,
       "status": "success"
     }
   ],
-  "totalJobs": 72,
+  "totalJobs": 70,
   "warnings": [],
   "scrapeMethod": "on-demand"
 }
