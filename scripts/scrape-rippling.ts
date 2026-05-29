@@ -43,62 +43,47 @@ export async function scrapeRippling(): Promise<Job[]> {
 
     console.log('✅ Page loaded, extracting jobs...');
 
-    // Extract job data from rendered DOM
+    // Extract job data from the embedded JSON data (more reliable than DOM scraping)
     const jobs = await page.evaluate(() => {
-      const jobLinks = Array.from(document.querySelectorAll('a[href*="/jobs/"]'));
-      const seen = new Set<string>();
-      const extracted: Array<{
-        id: string;
-        title: string;
-        location: string;
-        href: string;
-      }> = [];
+      // Rippling embeds job data in __NEXT_DATA__ script tag
+      const nextDataScript = document.getElementById('__NEXT_DATA__');
+      if (!nextDataScript) {
+        throw new Error('Could not find __NEXT_DATA__ - Rippling page structure may have changed');
+      }
 
-      for (const link of jobLinks) {
-        const href = link.getAttribute('href');
-        if (!href) continue;
+      const pageData = JSON.parse(nextDataScript.textContent || '{}');
+      const jobPosts = pageData?.props?.pageProps?.dehydratedState?.queries?.find(
+        (q: any) => q.queryKey?.[0] === 'board' && q.queryKey?.[2] === 'job-posts'
+      )?.state?.data?.items || [];
 
-        // Extract job ID from URL
-        const match = href.match(/\/jobs\/([a-f0-9-]+)/);
-        if (!match) continue;
+      if (jobPosts.length === 0) {
+        throw new Error('No jobs found in page data');
+      }
 
-        const jobId = match[1];
-        if (seen.has(jobId)) continue;
-
-        const title = link.textContent?.trim();
-
-        // Skip "View job" links and empty titles
-        if (!title || title === 'View job' || title.length < 3) continue;
-
-        seen.add(jobId);
-
-        // Try to find location nearby
+      return jobPosts.map((job: any) => {
+        // Extract location from locations array
         let location = 'Location not specified';
+        if (job.locations && job.locations.length > 0) {
+          const loc = job.locations[0];
 
-        // Strategy 1: Look for location in parent container
-        const parent = link.closest('div');
-        if (parent) {
-          // Look for common location patterns
-          const text = parent.textContent || '';
-
-          // Check for city, state patterns
-          const cityStateMatch = text.match(/([A-Z][a-z]+(?:\s[A-Z][a-z]+)*),\s*([A-Z]{2})/);
-          if (cityStateMatch) {
-            location = `${cityStateMatch[1]}, ${cityStateMatch[2]}`;
-          } else if (text.includes('Remote')) {
-            location = 'Remote';
+          if (loc.workplaceType === 'REMOTE') {
+            location = loc.name || 'Remote';
+          } else if (loc.city && loc.stateCode) {
+            location = `${loc.city}, ${loc.stateCode}`;
+          } else if (loc.city && loc.state) {
+            location = `${loc.city}, ${loc.state}`;
+          } else if (loc.name) {
+            location = loc.name;
           }
         }
 
-        extracted.push({
-          id: jobId,
-          title,
+        return {
+          id: job.id,
+          title: job.name,
           location,
-          href
-        });
-      }
-
-      return extracted;
+          href: job.url.replace('https://ats.rippling.com', '')
+        };
+      });
     });
 
     console.log(`✅ Extracted ${jobs.length} unique jobs\n`);
