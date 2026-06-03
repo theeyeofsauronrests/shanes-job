@@ -5,7 +5,7 @@ import { Resources } from './Resources';
 describe('Resources', () => {
   it('renders the resources heading', () => {
     render(<Resources />);
-    expect(screen.getByRole('heading', { name: /defense tech resources/i })).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: /job search resources/i })).toBeInTheDocument();
   });
 
   it('renders Shane\'s Tips link', () => {
@@ -38,12 +38,12 @@ describe('Resources', () => {
   it('renders resource descriptions', () => {
     render(<Resources />);
     expect(screen.getByText(/not sure how to get started/i)).toBeInTheDocument();
-    expect(screen.getByText(/the og of deftech jobs/i)).toBeInTheDocument();
-    expect(screen.getByText(/the go-to resource for deftech news/i)).toBeInTheDocument();
+    expect(screen.getByText(/comprehensive job board/i)).toBeInTheDocument();
+    expect(screen.getByText(/news and analysis covering/i)).toBeInTheDocument();
   });
 
-  it('emphasizes that Defense Tech Jobs is superior', () => {
+  it('describes Defense Tech Jobs comprehensively', () => {
     render(<Resources />);
-    expect(screen.getByText(/it will always have more and better jobs than this site/i)).toBeInTheDocument();
+    expect(screen.getByText(/must-follow, must-subscribe resource with extensive coverage/i)).toBeInTheDocument();
   });
 });
