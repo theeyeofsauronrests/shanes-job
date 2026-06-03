@@ -38,6 +38,8 @@ const mockJobsData: JobsData = {
 describe('JobsList', () => {
   beforeEach(() => {
     globalThis.fetch = vi.fn();
+    // Reset URL before each test
+    window.history.replaceState({}, '', '/');
   });
 
   it('shows loading state initially', () => {
@@ -65,10 +67,10 @@ describe('JobsList', () => {
     expect(screen.getByText('San Diego, CA')).toBeInTheDocument();
     expect(screen.getByText('Rise8')).toBeInTheDocument();
     expect(screen.getByText('Product Manager')).toBeInTheDocument();
-    expect(screen.getByText('Remote')).toBeInTheDocument();
+    expect(screen.getAllByText('Remote').length).toBeGreaterThan(0); // Button + location
     expect(screen.getByText('Defense Unicorns')).toBeInTheDocument();
     expect(screen.getAllByText('Engineering').length).toBeGreaterThan(0);
-    expect(screen.getByText('Product')).toBeInTheDocument();
+    expect(screen.getAllByText('Product').length).toBeGreaterThan(0); // Button + discipline
   });
 
   it('displays last updated date', async () => {
@@ -260,6 +262,321 @@ describe('JobsList', () => {
 
       const searchInput = screen.getByRole('searchbox');
       expect(searchInput).toHaveAccessibleName(/Filter by role, location, or company/i);
+    });
+  });
+
+  describe('URL parameters', () => {
+    beforeEach(() => {
+      (globalThis.fetch as ReturnType<typeof vi.fn>).mockResolvedValue({
+        ok: true,
+        json: async () => mockJobsData,
+      });
+    });
+
+    it('initializes search from URL query parameter', async () => {
+      window.history.replaceState({}, '', '/?q=software');
+
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByRole('searchbox')).toHaveValue('software');
+      });
+
+      expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      expect(screen.queryByText('Product Manager')).not.toBeInTheDocument();
+    });
+
+    it('updates URL when search query changes', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'engineer');
+
+      await waitFor(() => {
+        expect(window.location.search).toBe('?q=engineer');
+      });
+    });
+
+    it('removes query parameter when search is cleared', async () => {
+      const user = userEvent.setup();
+      window.history.replaceState({}, '', '/?q=test');
+
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByRole('searchbox')).toHaveValue('test');
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.clear(searchInput);
+
+      await waitFor(() => {
+        expect(window.location.search).toBe('');
+      });
+    });
+
+    it('handles empty query parameter', async () => {
+      window.history.replaceState({}, '', '/?q=');
+
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByRole('searchbox')).toHaveValue('');
+      });
+
+      expect(screen.getByText('Showing 2 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('preserves URL encoding for special characters', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'C++');
+
+      await waitFor(() => {
+        expect(window.location.search).toBe('?q=C%2B%2B');
+      });
+    });
+
+    it('shows copy link button when search query exists', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      // Button should not be visible initially
+      expect(screen.queryByLabelText('Copy shareable link')).not.toBeInTheDocument();
+
+      // Type a search query
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'engineer');
+
+      // Button should now be visible
+      await waitFor(() => {
+        expect(screen.getByLabelText('Copy shareable link')).toBeInTheDocument();
+      });
+    });
+
+    it('copies current URL to clipboard when copy button is clicked', async () => {
+      const user = userEvent.setup();
+      const mockWriteText = vi.fn().mockResolvedValue(undefined);
+
+      // Mock clipboard API
+      Object.defineProperty(navigator, 'clipboard', {
+        value: {
+          writeText: mockWriteText,
+        },
+        writable: true,
+        configurable: true,
+      });
+
+      window.history.replaceState({}, '', '/?q=software');
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const copyButton = screen.getByLabelText('Copy shareable link');
+      await user.click(copyButton);
+
+      expect(mockWriteText).toHaveBeenCalledWith(expect.stringContaining('?q=software'));
+    });
+
+    it('shows success state after copying link', async () => {
+      const user = userEvent.setup();
+
+      // Mock clipboard API
+      Object.defineProperty(navigator, 'clipboard', {
+        value: {
+          writeText: vi.fn().mockResolvedValue(undefined),
+        },
+        writable: true,
+        configurable: true,
+      });
+
+      window.history.replaceState({}, '', '/?q=test');
+      render(<JobsList />);
+
+      // Wait for copy button to appear
+      const copyButton = await screen.findByLabelText('Copy shareable link');
+      expect(copyButton).toHaveTextContent('🔗');
+
+      await user.click(copyButton);
+
+      await waitFor(() => {
+        expect(copyButton).toHaveTextContent('✓');
+      });
+    });
+  });
+
+  describe('quick filters', () => {
+    beforeEach(() => {
+      (globalThis.fetch as ReturnType<typeof vi.fn>).mockResolvedValue({
+        ok: true,
+        json: async () => mockJobsData,
+      });
+    });
+
+    it('renders quick filter buttons', async () => {
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      expect(screen.getByRole('button', { name: 'Product' })).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: 'Design' })).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: 'Engineering' })).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: 'Remote' })).toBeInTheDocument();
+    });
+
+    it('filters by Product when Product button is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const productButton = screen.getByRole('button', { name: 'Product' });
+      await user.click(productButton);
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+      expect(screen.getByText('Product Manager')).toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by Design when Design button is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const designButton = screen.getByRole('button', { name: 'Design' });
+      await user.click(designButton);
+
+      expect(screen.getByText('No jobs match your search.')).toBeInTheDocument();
+      expect(screen.getByText('Showing 0 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by Engineering when Engineering button is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const engineeringButton = screen.getByRole('button', { name: 'Engineering' });
+      await user.click(engineeringButton);
+
+      expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      expect(screen.queryByText('Product Manager')).not.toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by Remote when Remote button is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const remoteButton = screen.getByRole('button', { name: 'Remote' });
+      await user.click(remoteButton);
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+      expect(screen.getByText('Product Manager')).toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('shows active state on selected filter', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const productButton = screen.getByRole('button', { name: 'Product' });
+      await user.click(productButton);
+
+      expect(productButton).toHaveClass('active');
+      expect(productButton).toHaveAttribute('aria-pressed', 'true');
+    });
+
+    it('shows clear button when filter is active', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      // Clear button should not be visible initially
+      expect(screen.queryByLabelText('Clear filter')).not.toBeInTheDocument();
+
+      const productButton = screen.getByRole('button', { name: 'Product' });
+      await user.click(productButton);
+
+      // Clear button should now be visible
+      expect(screen.getByLabelText('Clear filter')).toBeInTheDocument();
+    });
+
+    it('clears filter when clear button is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      // Apply a filter
+      const productButton = screen.getByRole('button', { name: 'Product' });
+      await user.click(productButton);
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+
+      // Click clear
+      const clearButton = screen.getByLabelText('Clear filter');
+      await user.click(clearButton);
+
+      // All jobs should be visible again
+      expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      expect(screen.getByText('Product Manager')).toBeInTheDocument();
+      expect(screen.getByText('Showing 2 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('updates URL when quick filter is clicked', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const remoteButton = screen.getByRole('button', { name: 'Remote' });
+      await user.click(remoteButton);
+
+      await waitFor(() => {
+        expect(window.location.search).toBe('?q=Remote');
+      });
     });
   });
 });

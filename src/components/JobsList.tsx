@@ -2,14 +2,22 @@ import { useState, useEffect } from 'react';
 import type { JobsData } from '../types/jobs';
 import { HeroCarousel } from './HeroCarousel';
 import { Disclaimer } from './Disclaimer';
+import { Resources } from './Resources';
 import { Footer } from './Footer';
 
 export function JobsList() {
   const [data, setData] = useState<JobsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [copySuccess, setCopySuccess] = useState(false);
 
+  // Initialize search query from URL parameter
+  const [searchQuery, setSearchQuery] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('q') || '';
+  });
+
+  // Load jobs data
   useEffect(() => {
     fetch('/jobs.json')
       .then((response) => {
@@ -27,6 +35,23 @@ export function JobsList() {
         setLoading(false);
       });
   }, []);
+
+  // Sync search query to URL
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+
+    if (searchQuery) {
+      params.set('q', searchQuery);
+    } else {
+      params.delete('q');
+    }
+
+    const newUrl = params.toString()
+      ? `${window.location.pathname}?${params.toString()}`
+      : window.location.pathname;
+
+    window.history.replaceState({}, '', newUrl);
+  }, [searchQuery]);
 
   if (loading) {
     return (
@@ -65,13 +90,23 @@ export function JobsList() {
     );
   });
 
+  const handleCopyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopySuccess(true);
+      setTimeout(() => setCopySuccess(false), 2000);
+    } catch (err) {
+      console.error('Failed to copy link:', err);
+    }
+  };
+
   return (
     <div className="jobs-container">
       <div className="jobs-header">
         <p className="eyebrow">Product trio roles in defense tech</p>
         <h1>Shane&apos;s Job List</h1>
         <p className="jobs-intro">
-          Product, Design, and Engineering roles from Lyntris and other defense technology teams.
+          Product, Design, and Engineering roles from defense technology companies.
         </p>
         <p className="last-updated">
           Last updated: {new Date(data.generatedAt).toLocaleDateString()}
@@ -82,18 +117,78 @@ export function JobsList() {
 
       <Disclaimer />
 
+      <Resources />
+
+      <div className="quick-filters">
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Product')}
+          className={`quick-filter-button ${searchQuery.toLowerCase() === 'product' ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase() === 'product'}
+        >
+          Product
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Design')}
+          className={`quick-filter-button ${searchQuery.toLowerCase() === 'design' ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase() === 'design'}
+        >
+          Design
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Engineering')}
+          className={`quick-filter-button ${searchQuery.toLowerCase() === 'engineering' ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase() === 'engineering'}
+        >
+          Engineering
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Remote')}
+          className={`quick-filter-button ${searchQuery.toLowerCase() === 'remote' ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase() === 'remote'}
+        >
+          Remote
+        </button>
+        {searchQuery && (
+          <button
+            type="button"
+            onClick={() => setSearchQuery('')}
+            className="quick-filter-clear"
+            aria-label="Clear filter"
+          >
+            Clear
+          </button>
+        )}
+      </div>
+
       <div className="jobs-filter">
         <label htmlFor="job-search" className="search-label">
           Filter by role, location, or company
         </label>
-        <input
-          id="job-search"
-          type="search"
-          className="search-input"
-          placeholder="Filter by role, location, or company"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
+        <div className="search-input-container">
+          <input
+            id="job-search"
+            type="search"
+            className="search-input"
+            placeholder="Filter by role, location, or company"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          {searchQuery && (
+            <button
+              type="button"
+              onClick={handleCopyLink}
+              className="copy-link-button"
+              aria-label="Copy shareable link"
+              title="Copy link to share this search"
+            >
+              {copySuccess ? '✓' : '🔗'}
+            </button>
+          )}
+        </div>
         <p className="job-count">
           Showing {filteredJobs.length} of {data.jobs.length} roles
         </p>
