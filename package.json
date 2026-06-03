@@ -1,12 +1,12 @@
 {
-  "name": "shanes-jobs",
+  "name": "shanes-job",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Shane's unofficial list of Product, Design, and Engineering jobs across defense technology companies",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theeyeofsauronrests/shanes-jobs.git"
+    "url": "https://github.com/theeyeofsauronrests/shanes-job.git"
   },
   "author": "Shane Quinlan",
   "license": "Apache-2.0",
