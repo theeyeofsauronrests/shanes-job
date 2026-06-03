@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T14:44:30.432Z",
+  "generatedAt": "2026-06-03T14:53:50.591Z",
   "sources": [
     {
       "name": "Lyntris",
@@ -13,28 +13,25 @@
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=design",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=product",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=engineer",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "Rise8",
@@ -70,10 +67,6 @@
     }
   ],
   "totalJobs": 75,
-  "warnings": [
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export."
-  ],
+  "warnings": [],
   "scrapeMethod": "public-board-fetch"
 }
