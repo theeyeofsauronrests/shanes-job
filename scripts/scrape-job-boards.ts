@@ -5,7 +5,7 @@ import { promisify } from 'util';
 import type { Discipline, Job, JobsData } from '../src/types/jobs';
 import { inferDiscipline } from '../src/utils/roleFilter';
 
-type BoardKind = 'ashby' | 'getro' | 'greenhouse' | 'rippling';
+type BoardKind = 'ashby' | 'getro' | 'greenhouse' | 'lever' | 'rippling';
 
 type JobBoardTarget = {
   company: string;
@@ -98,6 +98,96 @@ export const JOB_BOARD_TARGETS: JobBoardTarget[] = [
     kind: 'greenhouse',
     sourceSystem: 'Greenhouse',
     sourceUrl: 'https://job-boards.greenhouse.io/vannevarlabs',
+  },
+  {
+    company: 'Forterra',
+    kind: 'rippling',
+    sourceSystem: 'Rippling',
+    sourceUrl: 'https://ats.rippling.com/forterra/jobs',
+  },
+  {
+    company: 'Shield AI',
+    kind: 'lever',
+    sourceSystem: 'Lever',
+    sourceUrl: 'https://jobs.lever.co/shieldai',
+  },
+  {
+    company: 'Saronic',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/saronic',
+  },
+  {
+    company: 'OneBrief',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/onebrief',
+  },
+  {
+    company: 'Skydio',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/skydio',
+  },
+  {
+    company: 'True Anomaly',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/trueanomalyinc',
+  },
+  {
+    company: 'Chaos Industries',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/chaosindustries',
+  },
+  {
+    company: 'Nominal',
+    kind: 'lever',
+    sourceSystem: 'Lever',
+    sourceUrl: 'https://jobs.lever.co/nominal',
+  },
+  {
+    company: 'Altana AI',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/altanaai',
+  },
+  {
+    company: 'Noda AI',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/noda-ai',
+  },
+  {
+    company: 'Leo Labs',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/leolabsinc',
+  },
+  {
+    company: 'Raft',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/raft',
+  },
+  {
+    company: 'Legion Intelligence',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/yurtsai',
+  },
+  {
+    company: 'Rune',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/runetech',
+  },
+  {
+    company: 'Gallatin',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/gallatin',
   },
 ];
 
@@ -204,7 +294,9 @@ async function fetchText(url: string): Promise<{ body: string; status: number; s
       '--write-out',
       '\n__HTTP_STATUS__:%{http_code}',
       url,
-    ]);
+    ], {
+      maxBuffer: 10 * 1024 * 1024, // 10MB buffer for large API responses
+    });
     const marker = '\n__HTTP_STATUS__:';
     const markerIndex = stdout.lastIndexOf(marker);
 
@@ -383,6 +475,51 @@ function parseRipplingJobs(html: string): RawJob[] {
   });
 }
 
+async function fetchLeverJobs(sourceUrl: string): Promise<RawJob[]> {
+  // Extract company slug from sourceUrl (e.g., "shieldai" from "https://jobs.lever.co/shieldai")
+  const companySlug = sourceUrl.split('/').pop();
+  if (!companySlug) {
+    throw new Error('Could not extract company slug from Lever URL');
+  }
+
+  const apiUrl = `https://api.lever.co/v0/postings/${companySlug}?mode=json`;
+  const { body, status } = await fetchText(apiUrl);
+
+  if (status >= 400) {
+    throw new Error(`Lever API returned ${status}`);
+  }
+
+  const data = JSON.parse(body);
+  if (!Array.isArray(data)) {
+    return [];
+  }
+
+  return data.flatMap((item): RawJob[] => {
+    const record = asRecord(item);
+    const sourceId = asString(record?.id);
+    const title = asString(record?.text);
+    const categories = asRecord(record?.categories);
+    const location = normalizeLocation(asString(categories?.location));
+    const applyUrl = asString(record?.hostedUrl);
+    const department = asString(categories?.department) || asString(categories?.team);
+
+    if (!sourceId || !title || !applyUrl) {
+      return [];
+    }
+
+    return [
+      {
+        sourceId,
+        title,
+        location,
+        applyUrl,
+        department: department || undefined,
+        lastSeenAt: asString(record?.updatedAt) || asString(record?.createdAt),
+      },
+    ];
+  });
+}
+
 function toFilteredJob(target: JobBoardTarget, rawJob: RawJob, timestamp: string): Job | undefined {
   const discipline = inferDiscipline({
     title: rawJob.title,
@@ -411,6 +548,27 @@ async function scrapeTarget(target: JobBoardTarget, timestamp: string): Promise<
   jobs: Job[];
   metadata: SourceMetadata;
 }> {
+  // Lever uses API, others use HTML scraping
+  if (target.kind === 'lever') {
+    const rawJobs = await fetchLeverJobs(target.sourceUrl);
+    const jobs = rawJobs.flatMap((rawJob): Job[] => {
+      const job = toFilteredJob(target, rawJob, timestamp);
+      return job ? [job] : [];
+    });
+
+    return {
+      jobs,
+      metadata: {
+        name: target.company,
+        system: target.sourceSystem,
+        url: target.sourceUrl,
+        status: 'success',
+        scrapedCount: rawJobs.length,
+        jobCount: jobs.length,
+      },
+    };
+  }
+
   const { body, status, statusText } = await fetchText(target.sourceUrl);
 
   if (target.kind === 'getro' && status === 403) {
