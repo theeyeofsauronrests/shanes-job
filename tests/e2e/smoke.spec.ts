@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Lyntris Jobs MVP smoke test', () => {
+test.describe('Shane\'s Job List smoke test', () => {
   test('homepage loads and displays core elements', async ({ page }) => {
     // Navigate to homepage
     await page.goto('/');
 
     // Verify page title
-    await expect(page).toHaveTitle('Lyntris Jobs');
+    await expect(page).toHaveTitle('Shane\'s Job List');
 
     // Verify main heading
-    await expect(page.getByRole('heading', { name: /Lyntris Jobs/i })).toBeVisible();
+    await expect(page.getByRole('heading', { name: /Shane's Job List/i })).toBeVisible();
   });
 
   test('disclaimer is visible', async ({ page }) => {
@@ -35,6 +35,7 @@ test.describe('Lyntris Jobs MVP smoke test', () => {
     await expect(jobCards.first().locator('.job-title')).toBeVisible();
     await expect(jobCards.first().locator('.job-location')).toBeVisible();
     await expect(jobCards.first().locator('.job-company')).toBeVisible();
+    await expect(jobCards.first().locator('.job-discipline')).toBeVisible();
   });
 
   test('filtering changes visible results', async ({ page }) => {

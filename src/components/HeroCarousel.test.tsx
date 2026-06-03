@@ -105,9 +105,9 @@ describe('HeroCarousel', () => {
     const { container } = render(<HeroCarousel />);
 
     const images = container.querySelectorAll('.carousel-slide');
-    expect(images[0]).toHaveAttribute('alt', 'Military tank in rugged terrain');
-    expect(images[1]).toHaveAttribute('alt', 'Advanced tactical controller system');
-    expect(images[2]).toHaveAttribute('alt', 'Fighter aircraft in flight');
+    expect(images[0]).toHaveAttribute('alt', 'Defense technology vehicle in the field');
+    expect(images[1]).toHaveAttribute('alt', 'Mission control interface and hardware');
+    expect(images[2]).toHaveAttribute('alt', 'Aircraft operating in a defense technology environment');
   });
 
   it('inactive slides are hidden from screen readers', () => {

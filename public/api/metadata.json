@@ -1,24 +1,79 @@
 {
-  "lastSuccessfulScrape": "2026-05-29T15:11:01.935Z",
+  "generatedAt": "2026-06-03T14:44:30.432Z",
   "sources": [
     {
-      "name": "Accelint",
+      "name": "Lyntris",
       "system": "Rippling",
-      "method": "DOM Scraping",
-      "lastScraped": "2026-05-29T15:11:01.935Z",
-      "jobCount": 20,
-      "status": "success"
+      "url": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "status": "success",
+      "scrapedCount": 20,
+      "jobCount": 15
     },
     {
-      "name": "Vitesse",
-      "system": "ADP",
-      "method": "API Interception",
-      "lastScraped": "2026-05-29T15:11:01.935Z",
-      "jobCount": 50,
-      "status": "success"
+      "name": "8VC Portfolio",
+      "system": "Getro",
+      "url": "https://jobs.8vc.com/jobs?q=design",
+      "status": "failed",
+      "scrapedCount": 0,
+      "jobCount": 0,
+      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+    },
+    {
+      "name": "8VC Portfolio",
+      "system": "Getro",
+      "url": "https://jobs.8vc.com/jobs?q=product",
+      "status": "failed",
+      "scrapedCount": 0,
+      "jobCount": 0,
+      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+    },
+    {
+      "name": "8VC Portfolio",
+      "system": "Getro",
+      "url": "https://jobs.8vc.com/jobs?q=engineer",
+      "status": "failed",
+      "scrapedCount": 0,
+      "jobCount": 0,
+      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+    },
+    {
+      "name": "Rise8",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/rise8",
+      "status": "success",
+      "scrapedCount": 16,
+      "jobCount": 13
+    },
+    {
+      "name": "Second Front Systems",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/Second-Front-Systems",
+      "status": "success",
+      "scrapedCount": 9,
+      "jobCount": 5
+    },
+    {
+      "name": "Defense Unicorns",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/defenseunicorns",
+      "status": "success",
+      "scrapedCount": 34,
+      "jobCount": 21
+    },
+    {
+      "name": "Vannevar Labs",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/vannevarlabs",
+      "status": "success",
+      "scrapedCount": 27,
+      "jobCount": 21
     }
   ],
-  "totalJobs": 70,
-  "warnings": [],
-  "scrapeMethod": "on-demand"
+  "totalJobs": 75,
+  "warnings": [
+    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
+    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
+    "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+  ],
+  "scrapeMethod": "public-board-fetch"
 }

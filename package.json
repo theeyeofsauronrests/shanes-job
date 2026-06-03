@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Unofficial job board for Lyntris transition",
+  "description": "Unofficial Product, Design, and Engineering jobs list for defense technology companies",
   "repository": {
     "type": "git",
     "url": "https://github.com/theeyeofsauronrests/beta-lyntris-jobs.git"
@@ -21,8 +21,7 @@
     "jobs:validate": "tsx scripts/validate-jobs.ts",
     "jobs:import": "tsx scripts/import-jobs.ts",
     "scrape": "tsx scripts/scrape-all.ts",
-    "scrape:accelint": "tsx scripts/scrape-rippling.ts",
-    "scrape:vitesse": "tsx scripts/scrape-vitesse.ts"
+    "scrape:boards": "tsx scripts/scrape-all.ts"
   },
   "dependencies": {
     "csv-parse": "^6.2.1",

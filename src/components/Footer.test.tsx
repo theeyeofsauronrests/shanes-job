@@ -17,7 +17,7 @@ describe('Footer', () => {
   it('displays unofficial disclaimer text', () => {
     render(<Footer />);
     expect(
-      screen.getByText(/unofficial job board/i)
+      screen.getByText(/unofficial list/i)
     ).toBeInTheDocument();
     expect(
       screen.getByText(/Director, AI Product Management/i)

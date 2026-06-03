@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 
 const images = [
-  { src: '/hero1.png', alt: 'Military tank in rugged terrain' },
-  { src: '/hero2.png', alt: 'Advanced tactical controller system' },
-  { src: '/hero3.png', alt: 'Fighter aircraft in flight' },
+  { src: '/hero1.png', alt: 'Defense technology vehicle in the field' },
+  { src: '/hero2.png', alt: 'Mission control interface and hardware' },
+  { src: '/hero3.png', alt: 'Aircraft operating in a defense technology environment' },
 ];
 
 const AUTO_ADVANCE_INTERVAL = 5000; // 5 seconds
@@ -12,6 +12,14 @@ export function HeroCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+    const shouldReduceMotion =
+      typeof window.matchMedia === 'function' &&
+      window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (shouldReduceMotion) {
+      return undefined;
+    }
+
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
     }, AUTO_ADVANCE_INTERVAL);

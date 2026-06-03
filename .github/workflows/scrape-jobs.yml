@@ -1,7 +1,7 @@
-name: Scrape Job Listings
+name: Scrape Product Trio Jobs
 
 on:
-  workflow_dispatch:  # Manual trigger only - click "Run workflow" button
+  workflow_dispatch:  # Manual trigger only
 
 jobs:
   scrape:
@@ -42,10 +42,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/jobs.json public/api/
-          git commit -m "chore: update job listings from automated scrape
+          git commit -m "chore: update product trio job listings
 
-          - Accelint: scraped from Rippling
-          - Vitesse: scraped from ADP
+          - Sources: public Lyntris, Greenhouse, Ashby, and configured Getro boards
+          - Filter: Product, Design, and Engineering roles
           - Generated: $(date -u +"%Y-%m-%d %H:%M UTC")"
           git push
 

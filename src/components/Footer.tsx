@@ -10,7 +10,8 @@ export function Footer() {
         <div className="footer-text">
           <p className="footer-maintainer">Created by Shane Quinlan</p>
           <p className="footer-subtitle">
-            Hi! My name is Shane. I work at Lyntris as the Director, AI Product Management. This is an unofficial job board, not a product of Lyntris, Accelint, or Vitesse.
+            Hi, my name is Shane. I work at Lyntris as the Director, AI Product Management.
+            This is my unofficial list for Product, Design, and Engineering roles in defense tech.
           </p>
           <div className="footer-links">
             <a

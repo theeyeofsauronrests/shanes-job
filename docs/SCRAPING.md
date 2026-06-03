@@ -1,289 +1,81 @@
-# Job Scraping Documentation
+# Scraping
 
-## Overview
+The scraper refreshes Shane's Job List from public job boards. It does not use credentials, secrets, private APIs, applicant data, or gated ATS access.
 
-The Lyntris Jobs project includes automated scrapers for both Accelint and Vitesse job boards. The scrapers run on-demand (not scheduled) and use **free, DOM-based extraction** - no API costs.
+## Command
 
-## Architecture
-
-### Accelint (Rippling)
-- **Source**: `https://ats.rippling.com/accelintjobboardtest/jobs`
-- **Method**: Playwright headless browser + DOM scraping
-- **How it works**:
-  1. Launches Chromium headless browser
-  2. Navigates to Rippling job board
-  3. Waits for JavaScript to render job listings
-  4. Extracts job data from DOM (titles, IDs, apply URLs)
-  5. Saves to `data/accelint-scraped.json`
-
-### Vitesse (ADP)
-- **Source**: `https://vitessesys.com/careers/#open-positions`
-- **Method**: ADP Workforce Now API interception
-- **How it works**:
-  1. Launches Chromium headless browser
-  2. Navigates to Vitesse careers page
-  3. Intercepts the ADP API call that loads jobs
-  4. Parses ADP JSON response (titles, locations, requisition IDs)
-  5. Saves to `data/vitesse-scraped.json`
-
-### Output Generation
-After scraping both sources, the merge script:
-1. Combines jobs from both sources
-2. Generates `public/jobs.json` (for static site)
-3. Generates `api/jobs.json` (for external API consumers)
-4. Generates `api/metadata.json` (scrape status + source info)
-
-## Running Locally
-
-### Prerequisites
-- Node.js 20+
-- npm dependencies installed (`npm install`)
-- Playwright browsers installed (automatic on first run)
-
-### Commands
-
-**Scrape everything (Accelint + Vitesse):**
 ```bash
 npm run scrape
-```
-
-**Scrape individual sources:**
-```bash
-npm run scrape:accelint   # Accelint only
-npm run scrape:vitesse    # Vitesse only
-```
-
-**Validate output:**
-```bash
 npm run jobs:validate
 ```
 
-### Expected Output
+The command writes:
 
-```
-═══════════════════════════════════════════════════
-🚀 Lyntris Jobs - Automated Scraper
-═══════════════════════════════════════════════════
+- `public/jobs.json`
+- `public/api/jobs.json`
+- `public/api/metadata.json`
 
-📍 [1/2] Scraping Accelint from Rippling...
-✅ Accelint: 20 jobs
+## Configured Sources
 
-📍 [2/2] Scraping Vitesse from ADP...
-✅ Vitesse: 6 jobs
+Configured targets live in [scripts/scrape-job-boards.ts](/Users/scrumlord/Documents/beta-lyntris-jobs/scripts/scrape-job-boards.ts).
 
-═══════════════════════════════════════════════════
-📊 Scraping Summary
-═══════════════════════════════════════════════════
-Accelint (Rippling): 20 jobs
-Vitesse (ADP):       6 jobs
-Total:               26 jobs
+Current targets:
 
-💾 Saved: public/jobs.json
-💾 Saved: api/jobs.json
-💾 Saved: api/metadata.json
+| Company | ATS | URL |
+| --- | --- | --- |
+| Lyntris | Rippling | `https://ats.rippling.com/accelintjobboardtest/jobs` |
+| 8VC Portfolio | Getro | `https://jobs.8vc.com/jobs?q=design` |
+| 8VC Portfolio | Getro | `https://jobs.8vc.com/jobs?q=product` |
+| 8VC Portfolio | Getro | `https://jobs.8vc.com/jobs?q=engineer` |
+| Rise8 | Greenhouse | `https://job-boards.greenhouse.io/rise8` |
+| Second Front Systems | Ashby | `https://jobs.ashbyhq.com/Second-Front-Systems` |
+| Defense Unicorns | Greenhouse | `https://job-boards.greenhouse.io/defenseunicorns` |
+| Vannevar Labs | Greenhouse | `https://job-boards.greenhouse.io/vannevarlabs` |
 
-✅ All done! Run `npm run dev` to see the updated jobs.
-```
+## Current Parser Behavior
 
-## Running via GitHub Actions
+- Greenhouse: reads public Remix embedded JSON.
+- Ashby: reads public `window.__appData`.
+- Rippling: reads public Next.js embedded job data.
+- Getro: configured as requested, but the 8VC Getro URLs currently return `403` to unauthenticated automated fetches. The scraper records this as a source warning instead of failing the whole refresh.
 
-### Manual Trigger
+## Role Filtering
 
-1. Go to **Actions** tab in GitHub
-2. Select **"Scrape Job Listings"** workflow
-3. Click **"Run workflow"** button
-4. Wait ~2 minutes for scraping to complete
-5. Workflow auto-commits updated JSON files to `main`
-6. Vercel auto-deploys the updated site
+The scraper keeps Product, Design, and Engineering-adjacent jobs. It filters out sales, recruiting, finance, HR, and other back-office roles unless the title matches the intended product-trio scope.
 
-### Workflow Summary
+Examples kept:
 
-The GitHub Actions workflow:
-- ✅ Runs on Ubuntu with Node.js 20
-- ✅ Installs dependencies + Playwright
-- ✅ Runs full scraper (`npm run scrape`)
-- ✅ Validates output (`npm run jobs:validate`)
-- ✅ Commits changes (if any) to `main`
-- ✅ Generates summary report in Actions UI
+- Product Manager
+- Technical Product Manager
+- Technical Program Manager
+- Mission Manager
+- Mission Lead
+- Solutions Architect
+- Product Designer
+- Brand Designer
+- Design Engineer
+- Software Engineer
+- Platform Engineer
+- Developer
 
-**No secrets required** - both job boards are publicly accessible.
+The classifier lives in [src/utils/roleFilter.ts](/Users/scrumlord/Documents/beta-lyntris-jobs/src/utils/roleFilter.ts).
 
-## Cost Analysis
+## Safety Rules
 
-| Component | Cost |
-|-----------|------|
-| Playwright (headless browser) | Free (local or GitHub Actions) |
-| GitHub Actions minutes | Free tier (2000 min/month) |
-| Rippling scraping | Free (public board) |
-| ADP API interception | Free (public endpoint) |
-| **Total monthly cost** | **$0.00** |
+- Do not scrape gated ADP pages.
+- Do not add browser automation that logs in.
+- Do not store credentials, API keys, or secrets.
+- Do not fabricate role-specific apply URLs.
+- If a public source blocks automated export, keep the failure visible in metadata.
 
-Expected runtime per scrape: **1-2 minutes**
+## GitHub Action
 
-## Troubleshooting
+`.github/workflows/scrape-jobs.yml` runs the scraper manually via `workflow_dispatch`.
 
-### Scraper hangs or times out
+The action:
 
-**Rippling timeout:**
-- Rippling site can be slow to load (30+ seconds)
-- Increase timeout in `scripts/scrape-rippling.ts` if needed
-- Check if Rippling is down: https://status.rippling.com
-
-**Vitesse timeout:**
-- ADP API call should complete in < 10 seconds
-- Check if Vitesse site structure changed
-- Verify ADP widget still exists on careers page
-
-### Zero jobs found
-
-**Accelint:**
-- Verify Rippling job board URL is still valid
-- Check if HTML structure changed (inspect selectors)
-- Look for Rippling maintenance windows
-
-**Vitesse:**
-- Verify ADP API endpoint is still being called
-- Check raw API output: `data/vitesse-raw-api.json`
-- Confirm Vitesse still uses ADP (not a new ATS)
-
-### Missing job fields
-
-**Locations not extracted:**
-- Accelint: Rippling DOM doesn't always include location
-- Vitesse: Falls back to "Location not specified" if ADP data incomplete
-- This is non-blocking - jobs still display without locations
-
-**Apply URLs wrong:**
-- Accelint: Check if Rippling changed URL structure
-- Vitesse: ADP sometimes omits apply links (falls back to careers page)
-
-### SSL certificate errors (local only)
-
-If you see `UNABLE_TO_GET_ISSUER_CERT_LOCALLY`:
-- This is a local development issue only
-- GitHub Actions won't have this problem
-- Workaround: use Playwright's page interception (already implemented)
-
-## Data Schema
-
-### Intermediate Files (gitignored)
-
-**`data/accelint-scraped.json`:**
-```json
-{
-  "generatedAt": "2026-05-26T12:00:00.000Z",
-  "source": "Rippling",
-  "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-  "jobCount": 20,
-  "jobs": [...]
-}
-```
-
-**`data/vitesse-scraped.json`:**
-```json
-{
-  "generatedAt": "2026-05-26T12:00:00.000Z",
-  "source": "ADP Workforce Now API",
-  "sourceUrl": "https://vitessesys.com/careers/",
-  "jobCount": 6,
-  "jobs": [...]
-}
-```
-
-### Final Outputs (committed)
-
-**`public/jobs.json`** (consumed by static site):
-```json
-{
-  "generatedAt": "2026-05-26T12:00:00.000Z",
-  "sourceNotes": [
-    "Accelint: 20 jobs scraped from Rippling",
-    "Vitesse: 6 jobs scraped from ADP",
-    "Automated via on-demand scraper script"
-  ],
-  "jobs": [...]
-}
-```
-
-**`api/jobs.json`** (for external consumers):
-```json
-{
-  "version": "1.0",
-  "generatedAt": "2026-05-26T12:00:00.000Z",
-  "sources": [
-    {
-      "name": "Accelint",
-      "system": "Rippling",
-      "method": "DOM Scraping",
-      "lastScraped": "2026-05-26T12:00:00.000Z",
-      "jobCount": 20,
-      "status": "success"
-    },
-    {
-      "name": "Vitesse",
-      "system": "ADP",
-      "method": "API Interception",
-      "lastScraped": "2026-05-26T12:00:00.000Z",
-      "jobCount": 6,
-      "status": "success"
-    }
-  ],
-  "totalJobs": 26,
-  "jobs": [...],
-  "accessUrl": "https://beta-lyntris-jobs.vercel.app/api/jobs.json",
-  "cors": "enabled"
-}
-```
-
-**`api/metadata.json`** (monitoring):
-```json
-{
-  "lastSuccessfulScrape": "2026-05-26T12:00:00.000Z",
-  "sources": [...],
-  "totalJobs": 26,
-  "warnings": [],
-  "scrapeMethod": "on-demand"
-}
-```
-
-## Maintenance
-
-### When to re-scrape
-
-Run the scraper when:
-- ✅ You notice jobs are outdated on the site
-- ✅ Weekly on Monday mornings (recommended)
-- ✅ When you hear about new job postings
-- ✅ After Rippling or ADP site changes
-
-### Monitoring scrape quality
-
-Check these indicators after each scrape:
-- Job count shouldn't drop dramatically (> 50%)
-- All jobs should have titles
-- Most jobs should have locations
-- All apply URLs should be valid HTTPS
-
-### Updating scrapers
-
-If job boards change:
-
-**Rippling:**
-1. Check `rippling-page.html` (saved during scrape)
-2. Update selectors in `scripts/scrape-rippling.ts`
-3. Test locally before committing
-
-**Vitesse:**
-1. Check `data/vitesse-raw-api.json` (saved during scrape)
-2. Update field mappings in `scripts/scrape-vitesse.ts`
-3. Test locally before committing
-
-## Future Enhancements
-
-Potential improvements (not implemented yet):
-- [ ] Scheduled daily scrapes (cron-based)
-- [ ] Email/Slack notifications on failures
-- [ ] Historical job tracking (store snapshots)
-- [ ] Diff reports (jobs added/removed since last scrape)
-- [ ] Rippling location extraction improvements
-- [ ] Vitesse apply URL extraction from ADP
+1. Installs dependencies.
+2. Installs Chromium for any future Playwright-backed source.
+3. Runs `npm run scrape`.
+4. Runs `npm run jobs:validate`.
+5. Commits changes to `public/jobs.json` and `public/api/` when job data changes.

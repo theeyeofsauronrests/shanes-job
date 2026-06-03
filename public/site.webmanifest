@@ -1,11 +1,11 @@
 {
-  "name": "Lyntris Jobs",
-  "short_name": "Lyntris Jobs",
-  "description": "Unofficial job board for Lyntris transition",
+  "name": "Shane's Job List",
+  "short_name": "Shane's Jobs",
+  "description": "Unofficial Product, Design, and Engineering jobs list for defense technology companies",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#7863F7",
+  "background_color": "#050505",
+  "theme_color": "#FFB020",
   "icons": [
     {
       "src": "/favicon.png",

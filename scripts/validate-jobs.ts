@@ -1,25 +1,6 @@
-import { z } from 'zod';
 import { readFileSync } from 'fs';
 import { resolve } from 'path';
-
-const JobSchema = z.object({
-  id: z.string().min(1, 'Job ID is required'),
-  title: z.string().min(1, 'Job title is required'),
-  location: z.string().min(1, 'Job location is required'),
-  legacyCompany: z.enum(['Accelint', 'Vitesse'], {
-    errorMap: () => ({ message: 'legacyCompany must be either "Accelint" or "Vitesse"' }),
-  }),
-  applyUrl: z.string().url('Apply URL must be a valid HTTPS URL').startsWith('https://', 'Apply URL must use HTTPS'),
-  sourceUrl: z.string().url('Source URL must be a valid URL'),
-  sourceSystem: z.string().min(1, 'Source system is required'),
-  lastSeenAt: z.string().datetime('lastSeenAt must be a valid ISO 8601 datetime'),
-});
-
-const JobsFileSchema = z.object({
-  generatedAt: z.string().datetime('generatedAt must be a valid ISO 8601 datetime'),
-  sourceNotes: z.array(z.string()).optional(),
-  jobs: z.array(JobSchema),
-});
+import { JobsFileSchema } from './job-schema';
 
 function validateJobs() {
   const jobsPath = resolve(process.cwd(), 'public/jobs.json');
@@ -32,7 +13,7 @@ function validateJobs() {
 
     if (!result.success) {
       console.error('❌ Validation failed:');
-      result.error.errors.forEach((err) => {
+      result.error.issues.forEach((err) => {
         console.error(`  - ${err.path.join('.')}: ${err.message}`);
       });
       process.exit(1);

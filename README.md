@@ -1,252 +1,131 @@
-# Lyntris Jobs
+# Shane's Job List
 
-An unofficial job board for exploring open positions across legacy Accelint and Vitesse Systems during the Lyntris transition.
+An unofficial static jobs page maintained by Shane Quinlan. It focuses on Product, Design, and Engineering roles at Lyntris and other defense technology companies.
 
-**⚠️ IMPORTANT: This is a personal side project by Shane Quinlan. It is NOT an official product of Lyntris, Accelint, or Vitesse Systems.**
+This is not an official recruiting site for Lyntris, Rise8, Second Front Systems, Defense Unicorns, Vannevar Labs, 8VC, or any other listed company. The linked application page is always the source of truth.
 
-## What is this?
+## What It Does
 
-Lyntris Jobs is a simple, static web application that aggregates job listings from Accelint and Vitesse Systems to help candidates explore opportunities during the company transition to Lyntris.
-
-**Key features:**
-
-- 🔍 Search and filter jobs by role, location, and company
-- 🎨 Clean interface with Lyntris-inspired design
-- 📱 Mobile-responsive layout
-- 🚀 Fast static site with no backend required
-- 🔒 No tracking, no analytics, no data collection
-
-## Live Site
-
-Visit the live site at: https://beta-lyntris-jobs.vercel.app/
+- Loads job data from `public/jobs.json`
+- Filters roles by title, location, company, and discipline
+- Shows role-specific apply links in a new tab
+- Keeps the site static: no login, backend, database, tracking, cookies, or applicant data collection
+- Scrapes only public job boards in local/CI scripts
 
 ## Running Locally
 
-### Prerequisites
-
-- Node.js 18+ and npm
-
-### Setup
-
 ```bash
-# Clone the repository
-git clone https://github.com/theeyeofsauronrests/beta-lyntris-jobs.git
-cd beta-lyntris-jobs
-
-# Install dependencies
 npm install
-
-# Start development server
 npm run dev
 ```
 
-Visit [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:5173](http://localhost:5173).
 
-### Available Commands
+## Commands
 
 ```bash
-npm run dev           # Start development server
-npm run build         # Build for production
-npm run preview       # Preview production build
-npm test              # Run unit tests
-npm run test:e2e      # Run end-to-end tests
-npm run lint          # Check code quality
-npm run jobs:import   # Import jobs from CSV
+npm run dev            # Start Vite
+npm run build          # Typecheck and build static files
+npm test               # Run unit tests
+npm run test:e2e       # Run Playwright smoke tests
+npm run jobs:validate  # Validate public/jobs.json
+npm run jobs:import    # Import manual CSV data
+npm run scrape         # Refresh jobs from configured public boards
 ```
 
-## How It Works
+## Job Data
 
-### Data Source
+The app reads:
 
-Job listings are maintained manually in a CSV file and imported into the application:
-
-- **Accelint jobs**: Sourced from the public [Rippling job board](https://ats.rippling.com/accelintjobboardtest/jobs)
-- **Vitesse jobs**: Manually entered from available sources (ADP requires credentials)
-
-### Updating Job Data
-
-To update job listings:
-
-1. Edit `data/jobs.csv` with current job information
-2. Run the import script:
-   ```bash
-   npm run jobs:import
-   ```
-3. Verify the changes:
-   ```bash
-   npm run dev
-   # Visit http://localhost:5173
-   ```
-4. Commit and push:
-   ```bash
-   git add data/jobs.csv public/jobs.json
-   git commit -m "Update job listings"
-   git push
-   ```
-
-The site will automatically redeploy with updated job data.
-
-**CSV format:**
-
-```csv
-title,location,legacyCompany,applyUrl,sourceSystem
-"Software Engineer","San Diego, CA",Accelint,https://example.com/apply,Rippling
-"Systems Engineer","Chantilly, VA",Vitesse,https://example.com/apply2,ADP
+```text
+public/jobs.json
 ```
 
-See [data/README.md](data/README.md) for complete CSV format specification and validation rules.
+Each job has:
+
+```json
+{
+  "id": "rise8-greenhouse-4340607007",
+  "title": "Software Engineer III",
+  "location": "Remote",
+  "company": "Rise8",
+  "discipline": "Engineering",
+  "department": "Engineering",
+  "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4340607007",
+  "sourceUrl": "https://job-boards.greenhouse.io/rise8",
+  "sourceSystem": "Greenhouse",
+  "lastSeenAt": "2026-06-03T00:00:00.000Z"
+}
+```
+
+`discipline` is optional but, when present, must be `Product`, `Design`, or `Engineering`.
+
+## Scraping
+
+Configured sources live in [scripts/scrape-job-boards.ts](/Users/scrumlord/Documents/beta-lyntris-jobs/scripts/scrape-job-boards.ts).
+
+Current source types:
+
+- Lyntris public Rippling board
+- Greenhouse boards for Rise8, Defense Unicorns, and Vannevar Labs
+- Ashby board for Second Front Systems
+- 8VC Getro URLs are configured, but Getro currently returns `403` to unauthenticated automated fetches
+
+Run:
+
+```bash
+npm run scrape
+npm run jobs:validate
+```
+
+The scraper filters out sales, recruiting, finance, HR, and other back-office roles unless the title matches the product-trio intent, such as `Mission Manager`, `Solutions Architect`, `Product Manager`, `Product Designer`, `Developer`, or `Engineer`.
+
+## Manual Import
+
+Manual CSV import is still available for approved exports or corrections:
+
+```bash
+npm run jobs:import
+```
+
+See [data/README.md](/Users/scrumlord/Documents/beta-lyntris-jobs/data/README.md).
 
 ## Project Structure
 
 ```text
-beta-lyntris-jobs/
-├── src/                    # React application source
-│   ├── components/         # React components
-│   │   ├── Disclaimer.tsx  # Unofficial status disclaimer
-│   │   ├── Footer.tsx      # Footer with profile and contact
-│   │   ├── HeroCarousel.tsx# Homepage carousel
-│   │   └── JobsList.tsx    # Job listing and search
-│   ├── types/              # TypeScript type definitions
-│   └── App.tsx             # Main application component
-├── public/                 # Static assets
-│   ├── jobs.json           # Generated job data (from CSV)
-│   ├── hero1.png           # Carousel image 1 (tank)
-│   ├── hero2.png           # Carousel image 2 (controller)
-│   ├── hero3.png           # Carousel image 3 (fighter)
-│   └── shane.png           # Profile image
-├── data/
-│   ├── jobs.csv            # Manual job data entry
-│   └── README.md           # CSV import guide
-├── scripts/
-│   └── import-jobs.ts      # CSV to JSON import script
-├── tests/                  # Test files
-├── docs/                   # Documentation
-│   ├── PRD.md              # Product requirements
-│   ├── DESIGN.md           # Design system
-│   ├── WORKFLOW.md         # Development workflow
-│   └── DEPLOYMENT.md       # Deployment guide
-└── README.md               # This file
+src/
+  components/        React UI
+  types/             Shared job types
+  utils/             Role filtering logic
+scripts/
+  scrape-job-boards.ts
+  scrape-all.ts
+  import-jobs.ts
+  validate-jobs.ts
+public/
+  jobs.json
+  api/
+data/
+  jobs.csv
+docs/
 ```
 
-## Assets
+## Privacy And Security
 
-### Hero Carousel Images
-
-The homepage features a rotating carousel with three images:
-
-- `public/hero1.png` - Tank image
-- `public/hero2.png` - Controller image
-- `public/hero3.png` - Fighter aircraft image
-
-These images auto-advance every 5 seconds and support keyboard navigation.
-
-### Profile Image
-
-The footer includes Shane Quinlan's profile image (`public/shane.png`) with contact information:
-
-- **LinkedIn**: [Shane Quinlan](https://www.linkedin.com/in/shane-quinlan-58848363/)
-- **Email**: <shane.quinlan@hypergiant.com>
-
-## Tech Stack
-
-- **Framework**: [Vite](https://vite.dev) 8.0
-- **UI Library**: [React](https://react.dev) 19.2
-- **Language**: [TypeScript](https://www.typescriptlang.org) 6.0
-- **Testing**: [Vitest](https://vitest.dev) 4.1 + [Playwright](https://playwright.dev) 1.60
-- **Styling**: Plain CSS with [Lyntris Brand Standards](docs/DESIGN.md)
-- **Deployment**: Static site (GitHub Pages, Netlify, Vercel, etc.)
-
-## Design System
-
-The application follows Lyntris Brand Standards:
-
-- **Colors**: Black (#000000), Ultra Violet (#7863F7), Gray scale
-- **Typography**: Space Grotesk (headings), Inter (body), Space Mono (monospace)
-- **Geometry**: Square, 0px border-radius, clean lines
-
-See [docs/DESIGN.md](docs/DESIGN.md) for complete design guidelines.
-
-## Documentation
-
-- **[PRD.md](docs/PRD.md)** - Product requirements and acceptance criteria
-- **[DESIGN.md](docs/DESIGN.md)** - Design system and brand guidelines
-- **[WORKFLOW.md](docs/WORKFLOW.md)** - Development workflow
-- **[DEPLOYMENT.md](docs/DEPLOYMENT.md)** - Deployment guide for GitHub Pages, Netlify, Vercel
-- **[data/README.md](data/README.md)** - CSV import guide
-
-## Deployment
-
-The application is a static site that can be deployed to any static hosting service.
-
-**Quick deployment:**
-
-```bash
-npm run build  # Creates dist/ directory
-```
-
-Upload `dist/` to your hosting service, or use automated deployment:
-
-- **GitHub Pages**: Automated via `.github/workflows/deploy.yml`
-- **Netlify/Vercel**: Auto-deploy on push to main
-
-See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for detailed deployment instructions.
-
-## Contributing
-
-This is a personal project, but contributions are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/my-feature`)
-3. Make your changes
-4. Run tests (`npm test`)
-5. Commit your changes (`git commit -m "Add my feature"`)
-6. Push to the branch (`git push origin feature/my-feature`)
-7. Open a Pull Request
-
-### Development Workflow
-
-See [docs/WORKFLOW.md](docs/WORKFLOW.md) for the complete development workflow.
-
-**Quick workflow:**
-
-1. Create issue-based branch
-2. Make changes with tests
-3. Run verification: `npm run build && npm test && npm run lint`
-4. Create PR
-5. Merge after review
-
-## Privacy & Security
-
-- No user tracking or analytics
-- No cookies or local storage
-- No data collection
-- No environment variables required
-- No secrets or API keys
-- All data is public job listings
-- External links open with `rel="noopener noreferrer"`
+- No applicant forms
+- No resume upload
+- No cookies, analytics, telemetry, or tracking pixels
+- No required environment variables
+- No secrets
+- No credentialed scraping
 
 ## License
 
-Licensed under the Apache License, Version 2.0.
-
-See [LICENSE](LICENSE) for details.
-
-## Disclaimer
-
-**This project is an unofficial side project and is not affiliated with, endorsed by, or sponsored by Lyntris, Accelint, or Vitesse Systems.**
-
-The job listings displayed on this site are sourced from publicly available information and manual data entry. For official job postings and to apply, please visit the official company career pages or use the "Apply" links provided for each job listing.
+Apache-2.0. See [LICENSE](/Users/scrumlord/Documents/beta-lyntris-jobs/LICENSE).
 
 ## Contact
 
-**Shane Quinlan**
+Shane Quinlan
 
-- Director, AI Product Management at Lyntris
-- LinkedIn: [shane-quinlan-58848363](https://www.linkedin.com/in/shane-quinlan-58848363/)
-- Email: <shane.quinlan@hypergiant.com>
-
-For issues or suggestions, please [open an issue](https://github.com/theeyeofsauronrests/beta-lyntris-jobs/issues) on GitHub.
-
----
-
-Built with ❤️ by Shane Quinlan
+- [LinkedIn](https://www.linkedin.com/in/shane-quinlan-58848363/)
+- <shane.quinlan@hypergiant.com>

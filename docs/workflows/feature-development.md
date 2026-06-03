@@ -1,7 +1,7 @@
 ---
 name: GitHub Issue to Merged Feature
 version: 1.0.0
-description: End-to-end workflow for implementing each Lyntris Jobs feature from GitHub issue through merge and next-task selection.
+description: End-to-end workflow for implementing each Shane's Job List feature from GitHub issue through merge and next-task selection.
 tags: [github-issues, development, tests, docs, pull-request]
 exported: 2026-05-15T00:00:00Z
 ---

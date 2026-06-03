@@ -4,9 +4,9 @@ import { parseCSV, validateRow, convertToJob } from './import-jobs';
 describe('import-jobs', () => {
   describe('parseCSV', () => {
     it('parses valid CSV with quotes', () => {
-      const csv = `title,location,legacyCompany,applyUrl,sourceSystem
-"Software Engineer","San Diego, CA",Accelint,https://example.com/apply,Rippling
-"Systems Engineer","Remote, USA",Vitesse,https://example.com/apply2,ADP`;
+      const csv = `title,location,company,applyUrl,sourceSystem,department
+"Software Engineer","San Diego, CA",Rise8,https://example.com/apply,Greenhouse,Engineering
+"Product Manager","Remote",Defense Unicorns,https://example.com/apply2,Greenhouse,R&D`;
 
       const rows = parseCSV(csv);
 
@@ -14,23 +14,25 @@ describe('import-jobs', () => {
       expect(rows[0]).toEqual({
         title: 'Software Engineer',
         location: 'San Diego, CA',
-        legacyCompany: 'Accelint',
+        company: 'Rise8',
         applyUrl: 'https://example.com/apply',
-        sourceSystem: 'Rippling',
+        sourceSystem: 'Greenhouse',
+        department: 'Engineering',
+        discipline: undefined,
       });
     });
 
     it('throws error if CSV has no data rows', () => {
-      const csv = `title,location,legacyCompany,applyUrl,sourceSystem`;
+      const csv = 'title,location,company,applyUrl,sourceSystem';
 
       expect(() => parseCSV(csv)).toThrow('must contain a header row and at least one data row');
     });
 
     it('throws error if header is missing required field', () => {
       const csv = `title,location,applyUrl,sourceSystem
-"Software Engineer","San Diego, CA",https://example.com/apply,Rippling`;
+"Software Engineer","San Diego, CA",https://example.com/apply,Greenhouse`;
 
-      expect(() => parseCSV(csv)).toThrow('CSV header missing required field: legacyCompany');
+      expect(() => parseCSV(csv)).toThrow('CSV header missing required field: company');
     });
   });
 
@@ -38,9 +40,10 @@ describe('import-jobs', () => {
     const validRow = {
       title: 'Software Engineer',
       location: 'San Diego, CA',
-      legacyCompany: 'Accelint',
+      company: 'Rise8',
       applyUrl: 'https://example.com/apply',
-      sourceSystem: 'Rippling',
+      sourceSystem: 'Greenhouse',
+      department: 'Engineering',
     };
 
     it('validates a correct row', () => {
@@ -57,14 +60,14 @@ describe('import-jobs', () => {
       expect(() => validateRow(row, 2)).toThrow('Row 2: location is required');
     });
 
-    it('throws error if legacyCompany is missing', () => {
-      const row = { ...validRow, legacyCompany: '' };
-      expect(() => validateRow(row, 2)).toThrow('Row 2: legacyCompany is required');
+    it('throws error if company is missing', () => {
+      const row = { ...validRow, company: '' };
+      expect(() => validateRow(row, 2)).toThrow('Row 2: company is required');
     });
 
-    it('throws error if legacyCompany is invalid', () => {
-      const row = { ...validRow, legacyCompany: 'InvalidCompany' };
-      expect(() => validateRow(row, 2)).toThrow('Row 2: legacyCompany must be "Accelint" or "Vitesse"');
+    it('throws error if discipline is invalid', () => {
+      const row = { ...validRow, discipline: 'Sales' };
+      expect(() => validateRow(row, 2)).toThrow('Row 2: discipline must be one of Product, Design, Engineering');
     });
 
     it('throws error if applyUrl is missing', () => {
@@ -92,9 +95,10 @@ describe('import-jobs', () => {
     const csvRow = {
       title: 'Software Engineer',
       location: 'San Diego, CA',
-      legacyCompany: 'Accelint',
+      company: 'Rise8',
       applyUrl: 'https://example.com/apply',
-      sourceSystem: 'Rippling',
+      sourceSystem: 'Greenhouse',
+      department: 'Engineering',
     };
 
     it('converts CSV row to Job record', () => {
@@ -103,56 +107,54 @@ describe('import-jobs', () => {
       expect(job).toMatchObject({
         title: 'Software Engineer',
         location: 'San Diego, CA',
-        legacyCompany: 'Accelint',
+        company: 'Rise8',
+        discipline: 'Engineering',
+        department: 'Engineering',
         applyUrl: 'https://example.com/apply',
         sourceUrl: 'https://example.com/apply',
-        sourceSystem: 'Rippling',
+        sourceSystem: 'Greenhouse',
       });
-      expect(job.id).toMatch(/^accelint-manual-0-/);
+      expect(job.id).toMatch(/^rise8-manual-0-/);
       expect(job.lastSeenAt).toMatch(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/);
     });
 
     it('generates unique IDs for different jobs', () => {
       const job1 = convertToJob(csvRow, 0);
-      const job2 = convertToJob({ ...csvRow, title: 'Project Manager' }, 1);
+      const job2 = convertToJob({ ...csvRow, title: 'Product Manager' }, 1);
 
       expect(job1.id).not.toBe(job2.id);
     });
 
-    it('generates ID from title and index', () => {
+    it('generates ID from company, title, and index', () => {
       const job = convertToJob({ ...csvRow, title: 'Senior Software Engineer (Level III)' }, 5);
 
-      expect(job.id).toBe('accelint-manual-5-senior-software-engineer-level-iii');
+      expect(job.id).toBe('rise8-manual-5-senior-software-engineer-level-iii');
     });
 
-    it('handles Vitesse jobs', () => {
-      const vitesseRow = {
-        ...csvRow,
-        legacyCompany: 'Vitesse',
-        location: 'Chantilly, VA',
-      };
+    it('uses provided discipline when valid', () => {
+      const job = convertToJob({ ...csvRow, discipline: 'Product' }, 0);
 
-      const job = convertToJob(vitesseRow, 0);
-
-      expect(job.legacyCompany).toBe('Vitesse');
-      expect(job.id).toMatch(/^vitesse-manual-0-/);
+      expect(job.discipline).toBe('Product');
     });
 
     it('trims whitespace from fields', () => {
       const rowWithSpaces = {
         title: '  Software Engineer  ',
         location: '  San Diego, CA  ',
-        legacyCompany: 'Accelint',
+        company: '  Rise8  ',
         applyUrl: '  https://example.com/apply  ',
-        sourceSystem: '  Rippling  ',
+        sourceSystem: '  Greenhouse  ',
+        department: '  Engineering  ',
       };
 
       const job = convertToJob(rowWithSpaces, 0);
 
       expect(job.title).toBe('Software Engineer');
       expect(job.location).toBe('San Diego, CA');
+      expect(job.company).toBe('Rise8');
       expect(job.applyUrl).toBe('https://example.com/apply');
-      expect(job.sourceSystem).toBe('Rippling');
+      expect(job.sourceSystem).toBe('Greenhouse');
+      expect(job.department).toBe('Engineering');
     });
   });
 });

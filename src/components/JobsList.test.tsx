@@ -12,7 +12,9 @@ const mockJobsData: JobsData = {
       id: 'test-job-1',
       title: 'Software Engineer',
       location: 'San Diego, CA',
-      legacyCompany: 'Accelint',
+      company: 'Rise8',
+      discipline: 'Engineering',
+      department: 'Engineering',
       applyUrl: 'https://example.com/apply/1',
       sourceUrl: 'https://example.com/jobs',
       sourceSystem: 'Test',
@@ -20,9 +22,11 @@ const mockJobsData: JobsData = {
     },
     {
       id: 'test-job-2',
-      title: 'Project Manager',
-      location: 'Chantilly, VA',
-      legacyCompany: 'Vitesse',
+      title: 'Product Manager',
+      location: 'Remote',
+      company: 'Defense Unicorns',
+      discipline: 'Product',
+      department: 'R&D',
       applyUrl: 'https://example.com/apply/2',
       sourceUrl: 'https://example.com/jobs',
       sourceSystem: 'Test',
@@ -38,7 +42,7 @@ describe('JobsList', () => {
 
   it('shows loading state initially', () => {
     (globalThis.fetch as ReturnType<typeof vi.fn>).mockImplementation(
-      () => new Promise(() => {})
+      () => new Promise(() => {}),
     );
 
     render(<JobsList />);
@@ -57,11 +61,14 @@ describe('JobsList', () => {
       expect(screen.getByText('Software Engineer')).toBeInTheDocument();
     });
 
+    expect(screen.getByRole('heading', { name: "Shane's Job List" })).toBeInTheDocument();
     expect(screen.getByText('San Diego, CA')).toBeInTheDocument();
-    expect(screen.getByText('Accelint')).toBeInTheDocument();
-    expect(screen.getByText('Project Manager')).toBeInTheDocument();
-    expect(screen.getByText('Chantilly, VA')).toBeInTheDocument();
-    expect(screen.getByText('Vitesse')).toBeInTheDocument();
+    expect(screen.getByText('Rise8')).toBeInTheDocument();
+    expect(screen.getByText('Product Manager')).toBeInTheDocument();
+    expect(screen.getByText('Remote')).toBeInTheDocument();
+    expect(screen.getByText('Defense Unicorns')).toBeInTheDocument();
+    expect(screen.getAllByText('Engineering').length).toBeGreaterThan(0);
+    expect(screen.getByText('Product')).toBeInTheDocument();
   });
 
   it('displays last updated date', async () => {
@@ -98,7 +105,7 @@ describe('JobsList', () => {
 
   it('shows error state when fetch fails', async () => {
     (globalThis.fetch as ReturnType<typeof vi.fn>).mockRejectedValueOnce(
-      new Error('Network error')
+      new Error('Network error'),
     );
 
     render(<JobsList />);
@@ -142,11 +149,11 @@ describe('JobsList', () => {
     });
 
     expect(
-      screen.getByText('There are currently no open positions listed.')
+      screen.getByText('There are currently no open positions listed.'),
     ).toBeInTheDocument();
   });
 
-  describe('Filtering', () => {
+  describe('filtering', () => {
     beforeEach(() => {
       (globalThis.fetch as ReturnType<typeof vi.fn>).mockResolvedValue({
         ok: true,
@@ -174,7 +181,7 @@ describe('JobsList', () => {
       await user.type(searchInput, 'software');
 
       expect(screen.getByText('Software Engineer')).toBeInTheDocument();
-      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.queryByText('Product Manager')).not.toBeInTheDocument();
       expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
     });
 
@@ -187,14 +194,14 @@ describe('JobsList', () => {
       });
 
       const searchInput = screen.getByRole('searchbox');
-      await user.type(searchInput, 'chantilly');
+      await user.type(searchInput, 'remote');
 
       expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
-      expect(screen.getByText('Project Manager')).toBeInTheDocument();
+      expect(screen.getByText('Product Manager')).toBeInTheDocument();
       expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
     });
 
-    it('filters by legacy company case-insensitively', async () => {
+    it('filters by company case-insensitively', async () => {
       const user = userEvent.setup();
       render(<JobsList />);
 
@@ -203,10 +210,26 @@ describe('JobsList', () => {
       });
 
       const searchInput = screen.getByRole('searchbox');
-      await user.type(searchInput, 'accelint');
+      await user.type(searchInput, 'rise8');
 
       expect(screen.getByText('Software Engineer')).toBeInTheDocument();
-      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.queryByText('Product Manager')).not.toBeInTheDocument();
+      expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
+    });
+
+    it('filters by discipline case-insensitively', async () => {
+      const user = userEvent.setup();
+      render(<JobsList />);
+
+      await waitFor(() => {
+        expect(screen.getByText('Software Engineer')).toBeInTheDocument();
+      });
+
+      const searchInput = screen.getByRole('searchbox');
+      await user.type(searchInput, 'product');
+
+      expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
+      expect(screen.getByText('Product Manager')).toBeInTheDocument();
       expect(screen.getByText('Showing 1 of 2 roles')).toBeInTheDocument();
     });
 
@@ -222,7 +245,7 @@ describe('JobsList', () => {
       await user.type(searchInput, 'nonexistent');
 
       expect(screen.queryByText('Software Engineer')).not.toBeInTheDocument();
-      expect(screen.queryByText('Project Manager')).not.toBeInTheDocument();
+      expect(screen.queryByText('Product Manager')).not.toBeInTheDocument();
       expect(screen.getByText('No jobs match your search.')).toBeInTheDocument();
       expect(screen.getByText('Try a different search term.')).toBeInTheDocument();
       expect(screen.getByText('Showing 0 of 2 roles')).toBeInTheDocument();

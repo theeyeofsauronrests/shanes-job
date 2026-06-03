@@ -60,14 +60,19 @@ export function JobsList() {
     return (
       job.title.toLowerCase().includes(query) ||
       job.location.toLowerCase().includes(query) ||
-      job.legacyCompany.toLowerCase().includes(query)
+      job.company.toLowerCase().includes(query) ||
+      (job.discipline?.toLowerCase().includes(query) ?? false)
     );
   });
 
   return (
     <div className="jobs-container">
       <div className="jobs-header">
-        <h1>Lyntris Jobs</h1>
+        <p className="eyebrow">Product trio roles in defense tech</p>
+        <h1>Shane&apos;s Job List</h1>
+        <p className="jobs-intro">
+          Product, Design, and Engineering roles from Lyntris and other defense technology teams.
+        </p>
         <p className="last-updated">
           Last updated: {new Date(data.generatedAt).toLocaleDateString()}
         </p>
@@ -105,7 +110,13 @@ export function JobsList() {
             <div key={job.id} className="job-card">
               <h2 className="job-title">{job.title}</h2>
               <p className="job-location">{job.location}</p>
-              <p className="job-company">{job.legacyCompany}</p>
+              <div className="job-meta">
+                <span className="job-company">{job.company}</span>
+                {job.discipline ? (
+                  <span className="job-discipline">{job.discipline}</span>
+                ) : null}
+              </div>
+              {job.department ? <p className="job-department">{job.department}</p> : null}
               <a
                 href={job.applyUrl}
                 target="_blank"

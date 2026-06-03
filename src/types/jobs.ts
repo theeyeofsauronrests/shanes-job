@@ -1,18 +1,22 @@
-export type LegacyCompany = 'Accelint' | 'Vitesse';
+export const DISCIPLINES = ['Product', 'Design', 'Engineering'] as const;
 
-export interface Job {
+export type Discipline = (typeof DISCIPLINES)[number];
+
+export type Job = {
   id: string;
   title: string;
   location: string;
-  legacyCompany: LegacyCompany;
+  company: string;
+  discipline?: Discipline;
+  department?: string;
   applyUrl: string;
   sourceUrl: string;
   sourceSystem: string;
   lastSeenAt: string;
-}
+};
 
-export interface JobsData {
+export type JobsData = {
   generatedAt: string;
   sourceNotes?: string[];
   jobs: Job[];
-}
+};
