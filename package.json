@@ -1,12 +1,12 @@
 {
-  "name": "beta-lyntris-jobs",
+  "name": "shanes-jobs",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Unofficial Product, Design, and Engineering jobs list for defense technology companies",
+  "description": "Shane's unofficial list of Product, Design, and Engineering jobs across defense technology companies",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theeyeofsauronrests/beta-lyntris-jobs.git"
+    "url": "https://github.com/theeyeofsauronrests/shanes-jobs.git"
   },
   "author": "Shane Quinlan",
   "license": "Apache-2.0",

@@ -1,8 +1,8 @@
 # Shane's Job List
 
-An unofficial static jobs page maintained by Shane Quinlan. It focuses on Product, Design, and Engineering roles at Lyntris and other defense technology companies.
+An unofficial static jobs page maintained by Shane Quinlan. It focuses on Product, Design, and Engineering roles across defense technology companies.
 
-This is not an official recruiting site for Lyntris, Rise8, Second Front Systems, Defense Unicorns, Vannevar Labs, 8VC, or any other listed company. The linked application page is always the source of truth.
+**This site is not affiliated with, endorsed by, or officially connected to any of the companies listed here.** Job details and application links are sourced from public career pages. This site does not represent the views, policies, or hiring practices of any listed company. The linked application page is always the authoritative source of truth.
 
 ## What It Does
 
@@ -62,11 +62,11 @@ Each job has:
 
 ## Scraping
 
-Configured sources live in [scripts/scrape-job-boards.ts](/Users/scrumlord/Documents/beta-lyntris-jobs/scripts/scrape-job-boards.ts).
+Configured sources live in `scripts/scrape-job-boards.ts`.
 
 Current source types:
 
-- Lyntris public Rippling board
+- Accelint public Rippling board
 - Greenhouse boards for Rise8, Defense Unicorns, and Vannevar Labs
 - Ashby board for Second Front Systems
 - 8VC Getro URLs are configured, but Getro currently returns `403` to unauthenticated automated fetches
@@ -88,7 +88,7 @@ Manual CSV import is still available for approved exports or corrections:
 npm run jobs:import
 ```
 
-See [data/README.md](/Users/scrumlord/Documents/beta-lyntris-jobs/data/README.md).
+See `data/README.md`.
 
 ## Project Structure
 
@@ -121,7 +121,7 @@ docs/
 
 ## License
 
-Apache-2.0. See [LICENSE](/Users/scrumlord/Documents/beta-lyntris-jobs/LICENSE).
+Apache-2.0. See `LICENSE`.
 
 ## Contact
 
