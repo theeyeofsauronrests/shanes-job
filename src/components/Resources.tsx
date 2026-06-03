@@ -1,7 +1,7 @@
 export function Resources() {
   return (
     <div className="resources">
-      <h2>Defense Tech Resources</h2>
+      <h2>Job Search Resources</h2>
       <ul className="resources-list">
         <li>
           <a
@@ -24,8 +24,8 @@ export function Resources() {
             <strong>Defense Tech Jobs</strong>
           </a>
           <span className="resource-description">
-            The OG of DefTech jobs with the latest-and-greatest roles across the ecosystem.
-            It will always have more and better jobs than this site — a must-follow, must-subscribe resource.
+            Comprehensive job board with the latest roles across the defense tech ecosystem.
+            A must-follow, must-subscribe resource with extensive coverage.
           </span>
         </li>
         <li>
@@ -37,7 +37,7 @@ export function Resources() {
             <strong>Tectonic Defense</strong>
           </a>
           <span className="resource-description">
-            The go-to resource for DefTech news.
+            News and analysis covering the defense technology industry.
           </span>
         </li>
       </ul>

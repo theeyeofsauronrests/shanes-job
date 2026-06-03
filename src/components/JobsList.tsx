@@ -103,10 +103,10 @@ export function JobsList() {
   return (
     <div className="jobs-container">
       <div className="jobs-header">
-        <p className="eyebrow">Product trio roles in defense tech</p>
+        <p className="eyebrow">Product, Design, and Engineering roles</p>
         <h1>Shane&apos;s Job List</h1>
         <p className="jobs-intro">
-          Product, Design, and Engineering roles from defense technology companies.
+          Curated opportunities for Product Managers, Designers, and Engineers.
         </p>
         <p className="last-updated">
           Last updated: {new Date(data.generatedAt).toLocaleDateString()}

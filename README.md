@@ -1,6 +1,6 @@
 # Shane's Job List
 
-An unofficial static jobs page maintained by Shane Quinlan. It focuses on Product, Design, and Engineering roles across defense technology companies.
+An unofficial static jobs page maintained by Shane Quinlan. It focuses on Product, Design, and Engineering roles across technology companies.
 
 **This site is not affiliated with, endorsed by, or officially connected to any of the companies listed here.** Job details and application links are sourced from public career pages. This site does not represent the views, policies, or hiring practices of any listed company. The linked application page is always the authoritative source of truth.
 
