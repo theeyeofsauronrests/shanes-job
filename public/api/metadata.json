@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T18:46:32.117Z",
+  "generatedAt": "2026-06-12T13:39:47.967Z",
   "sources": [
     {
       "name": "Lyntris",
@@ -54,8 +54,8 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/defenseunicorns",
       "status": "success",
-      "scrapedCount": 39,
-      "jobCount": 26
+      "scrapedCount": 40,
+      "jobCount": 27
     },
     {
       "name": "Vannevar Labs",
@@ -78,15 +78,15 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/shieldai",
       "status": "success",
-      "scrapedCount": 359,
-      "jobCount": 211
+      "scrapedCount": 375,
+      "jobCount": 219
     },
     {
       "name": "Saronic",
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/saronic",
       "status": "success",
-      "scrapedCount": 274,
+      "scrapedCount": 275,
       "jobCount": 121
     },
     {
@@ -103,7 +103,7 @@
       "url": "https://jobs.ashbyhq.com/skydio",
       "status": "success",
       "scrapedCount": 126,
-      "jobCount": 76
+      "jobCount": 77
     },
     {
       "name": "True Anomaly",
@@ -119,7 +119,7 @@
       "url": "https://job-boards.greenhouse.io/chaosindustries",
       "status": "success",
       "scrapedCount": 50,
-      "jobCount": 7
+      "jobCount": 8
     },
     {
       "name": "Nominal",
@@ -186,7 +186,7 @@
       "jobCount": 13
     }
   ],
-  "totalJobs": 648,
+  "totalJobs": 659,
   "warnings": [],
   "scrapeMethod": "public-board-fetch"
 }
