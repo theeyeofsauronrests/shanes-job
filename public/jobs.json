@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T17:50:05.918Z",
+  "generatedAt": "2026-06-22T12:44:07.292Z",
   "sourceNotes": [
     "Jobs are collected from public job boards only.",
     "Results are filtered to Product, Design, and Engineering-adjacent roles.",
@@ -124,7 +124,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167430007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:58:07.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167191007",
@@ -136,7 +136,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167191007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167227007",
@@ -148,7 +148,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167227007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-22T12:25:42.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167230007",
@@ -160,7 +160,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167230007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-22T12:25:42.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167379007",
@@ -172,7 +172,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167379007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167380007",
@@ -184,7 +184,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167380007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5159089007",
@@ -196,7 +196,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5159089007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167355007",
@@ -208,7 +208,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167355007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "chaos-industries-greenhouse-5167360007",
@@ -220,7 +220,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167360007",
       "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T04:26:27.000Z"
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
+    },
+    {
+      "id": "chaos-industries-greenhouse-5167362007",
+      "title": "Cybersecurity Administrator, Data Loss Prevention",
+      "location": "Washington, District of Columbia, United States",
+      "company": "Chaos Industries",
+      "discipline": "Engineering",
+      "department": "Engineering",
+      "applyUrl": "https://job-boards.greenhouse.io/chaosindustries/jobs/5167362007",
+      "sourceUrl": "https://job-boards.greenhouse.io/chaosindustries",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-18T20:43:57.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5164721007",
@@ -232,7 +244,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5164721007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5155997007",
@@ -244,7 +256,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5155997007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5143652007",
@@ -256,7 +268,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5143652007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5076453007",
@@ -268,7 +280,31 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5076453007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
+    },
+    {
+      "id": "defense-unicorns-greenhouse-5169709007",
+      "title": "Engineering Manager",
+      "location": "United State - Remote",
+      "company": "Defense Unicorns",
+      "discipline": "Engineering",
+      "department": "R&D",
+      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5169709007",
+      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
+    },
+    {
+      "id": "defense-unicorns-greenhouse-5169676007",
+      "title": "FDE Data Engineer- Space",
+      "location": "United States - Remote",
+      "company": "Defense Unicorns",
+      "discipline": "Engineering",
+      "department": "Federal Delivery",
+      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5169676007",
+      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5132886007",
@@ -280,7 +316,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5132886007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5164715007",
@@ -292,7 +328,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5164715007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5162264007",
@@ -304,7 +340,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5162264007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5119680007",
@@ -316,7 +352,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5119680007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5149571007",
@@ -328,7 +364,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5149571007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5156493007",
@@ -340,7 +376,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5156493007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5126965007",
@@ -352,7 +388,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5126965007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5132489007",
@@ -364,19 +400,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5132489007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
-    },
-    {
-      "id": "defense-unicorns-greenhouse-5156388007",
-      "title": "Mission Manager - Navy",
-      "location": "Remote",
-      "company": "Defense Unicorns",
-      "discipline": "Product",
-      "department": "Federal Delivery",
-      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5156388007",
-      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
-      "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5163507007",
@@ -388,7 +412,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5163507007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:30:09.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-4725864007",
@@ -400,7 +424,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/4725864007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5107193007",
@@ -412,7 +436,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5107193007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5127118007",
@@ -424,7 +448,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5127118007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5151114007",
@@ -436,7 +460,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5151114007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5165337007",
@@ -448,7 +472,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5165337007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:42:31.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
+    },
+    {
+      "id": "defense-unicorns-greenhouse-5049314007",
+      "title": "Platform Engineer",
+      "location": "Remote, United States",
+      "company": "Defense Unicorns",
+      "discipline": "Engineering",
+      "department": "Federal Delivery",
+      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5049314007",
+      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5140648007",
@@ -460,7 +496,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5140648007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5125755007",
@@ -472,7 +508,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5125755007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5132847007",
@@ -484,7 +520,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5132847007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
+    },
+    {
+      "id": "defense-unicorns-greenhouse-5169149007",
+      "title": "Release Readiness Engineer / Technical Writer",
+      "location": "United States - Remote",
+      "company": "Defense Unicorns",
+      "discipline": "Engineering",
+      "department": "Federal Delivery",
+      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5169149007",
+      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5165082007",
@@ -496,7 +544,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5165082007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5160550007",
@@ -508,7 +556,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5160550007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
+    },
+    {
+      "id": "defense-unicorns-greenhouse-5169665007",
+      "title": "Senior FDE Data Engineer",
+      "location": "United States - Remote",
+      "company": "Defense Unicorns",
+      "discipline": "Engineering",
+      "department": "Federal Delivery",
+      "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5169665007",
+      "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5125872007",
@@ -519,7 +579,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5125872007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5075047007",
@@ -531,7 +591,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5075047007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5149531007",
@@ -543,7 +603,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5149531007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-4661526007",
@@ -555,7 +615,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/4661526007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5086802007",
@@ -567,11 +627,11 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5086802007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5125711007",
-      "title": "Software Engineer (Mid-Senior)",
+      "title": "Software Engineer, Golang (Mid-Senior)",
       "location": "Remote, United States",
       "company": "Defense Unicorns",
       "discipline": "Engineering",
@@ -579,7 +639,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5125711007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5101333007",
@@ -591,7 +651,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5101333007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "defense-unicorns-greenhouse-5103692007",
@@ -603,7 +663,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5103692007",
       "sourceUrl": "https://job-boards.greenhouse.io/defenseunicorns",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T02:26:58.000Z"
+      "lastSeenAt": "2026-06-21T16:36:03.000Z"
     },
     {
       "id": "forterra-rippling-369ac5dc-7434-449e-8409-f11d657da995",
@@ -615,7 +675,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/369ac5dc-7434-449e-8409-f11d657da995",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-2170f3c2-bd2e-42ad-90c3-0034303af795",
@@ -627,7 +687,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/2170f3c2-bd2e-42ad-90c3-0034303af795",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-ea96df27-49ea-4f18-92df-1a0100a7bb68",
@@ -639,7 +699,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/ea96df27-49ea-4f18-92df-1a0100a7bb68",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-2ae8a4f9-7871-481d-8313-bf3953735e0b",
@@ -651,7 +711,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/2ae8a4f9-7871-481d-8313-bf3953735e0b",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-4a9255fd-b0b9-4c83-85ae-fe0671989831",
@@ -663,7 +723,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/4a9255fd-b0b9-4c83-85ae-fe0671989831",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-336cf6c3-8948-496a-98c1-597d4728821e",
@@ -675,7 +735,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/336cf6c3-8948-496a-98c1-597d4728821e",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-afe657c0-aa3e-4001-89e0-b97bc6078651",
@@ -687,7 +747,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/afe657c0-aa3e-4001-89e0-b97bc6078651",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-dde5026a-9089-4524-b9d0-c0a84019643e",
@@ -699,7 +759,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/dde5026a-9089-4524-b9d0-c0a84019643e",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-11780563-f90c-4163-a2cf-351dd13d9ed6",
@@ -711,7 +771,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/11780563-f90c-4163-a2cf-351dd13d9ed6",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-d0739e7f-3ffd-4d72-a6c6-051da1b0e523",
@@ -723,7 +783,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/d0739e7f-3ffd-4d72-a6c6-051da1b0e523",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-1b8af45a-6a23-40cc-9576-74350f2facfe",
@@ -735,7 +795,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/1b8af45a-6a23-40cc-9576-74350f2facfe",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-4fe29d22-eccf-4783-a275-06bb937b1bbf",
@@ -747,7 +807,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/4fe29d22-eccf-4783-a275-06bb937b1bbf",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-e832183e-08c5-43bd-840d-12545b224ec7",
@@ -759,7 +819,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/e832183e-08c5-43bd-840d-12545b224ec7",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-976ec164-fea9-4ad5-92d6-a72aab3a6491",
@@ -771,7 +831,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/976ec164-fea9-4ad5-92d6-a72aab3a6491",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-e7bcb167-819f-451d-ab16-ae557b7b0eb2",
@@ -783,7 +843,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/e7bcb167-819f-451d-ab16-ae557b7b0eb2",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-314a0305-18fc-4db8-8fe6-617f7c2929e3",
@@ -795,7 +855,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/314a0305-18fc-4db8-8fe6-617f7c2929e3",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "forterra-rippling-429dc95b-63ef-4340-a991-f3878a77f1a4",
@@ -807,7 +867,7 @@
       "applyUrl": "https://ats.rippling.com/forterra/jobs/429dc95b-63ef-4340-a991-f3878a77f1a4",
       "sourceUrl": "https://ats.rippling.com/forterra/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "gallatin-ashby-e5af0fe5-9fa9-4e33-860b-305ec859e002",
@@ -975,7 +1035,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5125838007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-5161438007",
@@ -987,31 +1047,31 @@
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5161438007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-5157353007",
       "title": "Manager, Deployment Engineering - hybrid D.C area (DevOps/DevSecOps/Site Reliability/Deployment Engineering)",
-      "location": "Washington D.C",
+      "location": "Washington D.C (hybrid)",
       "company": "Legion Intelligence",
       "discipline": "Engineering",
       "department": "Federal Solutions",
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5157353007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-4417767007",
-      "title": "Senior Solutions Engineer - Washington D.C.",
-      "location": "Washington D.C.",
+      "title": "Senior Solutions Engineer - D.C. Area (hybrid)",
+      "location": "Washington D.C. (hybrid)",
       "company": "Legion Intelligence",
       "discipline": "Engineering",
       "department": "Commercial Solutions",
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/4417767007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-5053001007",
@@ -1023,7 +1083,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5053001007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-5017455007",
@@ -1035,7 +1095,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5017455007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "legion-intelligence-greenhouse-5167886007",
@@ -1047,7 +1107,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/yurtsai/jobs/5167886007",
       "sourceUrl": "https://job-boards.greenhouse.io/yurtsai",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:35:53.000Z"
+      "lastSeenAt": "2026-06-20T19:59:16.000Z"
     },
     {
       "id": "leo-labs-greenhouse-4239282009",
@@ -1059,7 +1119,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/leolabsinc/jobs/4239282009",
       "sourceUrl": "https://job-boards.greenhouse.io/leolabsinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-17T16:21:43.000Z"
+      "lastSeenAt": "2026-06-18T20:41:22.000Z"
     },
     {
       "id": "leo-labs-greenhouse-4254229009",
@@ -1071,7 +1131,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/leolabsinc/jobs/4254229009",
       "sourceUrl": "https://job-boards.greenhouse.io/leolabsinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-17T16:21:43.000Z"
+      "lastSeenAt": "2026-06-18T20:41:22.000Z"
     },
     {
       "id": "leo-labs-greenhouse-4254952009",
@@ -1083,19 +1143,43 @@
       "applyUrl": "https://job-boards.greenhouse.io/leolabsinc/jobs/4254952009",
       "sourceUrl": "https://job-boards.greenhouse.io/leolabsinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-17T16:21:43.000Z"
+      "lastSeenAt": "2026-06-18T20:41:22.000Z"
+    },
+    {
+      "id": "leo-labs-greenhouse-4290159009",
+      "title": "Technical Program Manager (Contingent Upon Contract Award)",
+      "location": "Washington DC Metro",
+      "company": "Leo Labs",
+      "discipline": "Product",
+      "department": "Sales",
+      "applyUrl": "https://job-boards.greenhouse.io/leolabsinc/jobs/4290159009",
+      "sourceUrl": "https://job-boards.greenhouse.io/leolabsinc",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-18T20:41:22.000Z"
+    },
+    {
+      "id": "lyntris-rippling-52868110-a594-4497-b9d2-42ecf63c3594",
+      "title": "Cybersecurity Analyst / Information Systems Security Officer (ISSO)",
+      "location": "San Diego, CA",
+      "company": "Lyntris",
+      "discipline": "Engineering",
+      "department": "Engineering",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/52868110-a594-4497-b9d2-42ecf63c3594",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-7297ad71-d170-40ee-b862-ec12d8d79b9c",
       "title": "Data Engineer",
-      "location": "St. Paul, MN",
+      "location": "Saint Paul, MN",
       "company": "Lyntris",
       "discipline": "Engineering",
       "department": "Engineering",
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/7297ad71-d170-40ee-b862-ec12d8d79b9c",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-5d2a7242-56b5-4199-9e23-15f39a42748c",
@@ -1107,7 +1191,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/5d2a7242-56b5-4199-9e23-15f39a42748c",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
@@ -1119,7 +1203,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c7ad97b1-dbf9-4b86-aa00-c95ae0ad74c3",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
@@ -1131,7 +1215,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a26230b7-7e4c-4402-b92b-d2c0cbdef5c3",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-eec6e96c-6e93-40d2-b007-9123a5fed906",
@@ -1143,7 +1227,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/eec6e96c-6e93-40d2-b007-9123a5fed906",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-13ce4da4-70f4-44b0-8aca-fc3ffb977036",
@@ -1155,19 +1239,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/13ce4da4-70f4-44b0-8aca-fc3ffb977036",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "lyntris-rippling-ae833838-bd2a-4f35-ae67-49353817404b",
-      "title": "Senior Network Engineer",
-      "location": "San Diego, CA",
-      "company": "Lyntris",
-      "discipline": "Engineering",
-      "department": "Engineering",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/ae833838-bd2a-4f35-ae67-49353817404b",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-c741b566-6f74-447c-8bd1-da2a6e8f7268",
@@ -1179,7 +1251,19 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/c741b566-6f74-447c-8bd1-da2a6e8f7268",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
+    },
+    {
+      "id": "lyntris-rippling-ae833838-bd2a-4f35-ae67-49353817404b",
+      "title": "Senior Network Engineer",
+      "location": "San Diego, CA",
+      "company": "Lyntris",
+      "discipline": "Engineering",
+      "department": "Engineering",
+      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/ae833838-bd2a-4f35-ae67-49353817404b",
+      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
+      "sourceSystem": "Rippling",
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
@@ -1191,7 +1275,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/19af24e9-418e-4ad1-beaa-4bdfbe69cc0f",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-f9696a47-eff8-4489-ad02-c160d6a07a64",
@@ -1203,7 +1287,7 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/f9696a47-eff8-4489-ad02-c160d6a07a64",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-32b9fb30-22a8-4703-bead-e09554604807",
@@ -1215,43 +1299,31 @@
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/32b9fb30-22a8-4703-bead-e09554604807",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-4e92152d-810e-4873-b550-2beb69d82a2d",
       "title": "Senior Systems Engineer",
-      "location": "St. Paul, MN",
+      "location": "Saint Paul, MN",
       "company": "Lyntris",
       "discipline": "Engineering",
       "department": "Engineering",
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/4e92152d-810e-4873-b550-2beb69d82a2d",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "lyntris-rippling-a560533f-7b8f-428f-92ca-080ed80b9a56",
       "title": "Senior Teamcenter Application Developer",
-      "location": "St. Paul, MN",
+      "location": "Saint Paul, MN",
       "company": "Lyntris",
       "discipline": "Engineering",
       "department": "Engineering",
       "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/a560533f-7b8f-428f-92ca-080ed80b9a56",
       "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
       "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "lyntris-rippling-9aa761f5-9cc8-48fb-a4b6-e4d679515128",
-      "title": "Software Engineer/Algorithm Developer (Venator)",
-      "location": "San Diego, CA",
-      "company": "Lyntris",
-      "discipline": "Engineering",
-      "department": "Engineering",
-      "applyUrl": "https://ats.rippling.com/accelintjobboardtest/jobs/9aa761f5-9cc8-48fb-a4b6-e4d679515128",
-      "sourceUrl": "https://ats.rippling.com/accelintjobboardtest/jobs",
-      "sourceSystem": "Rippling",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "noda-ai-ashby-762b29b8-17cc-4a3c-b040-02b297b680dc",
@@ -1290,18 +1362,6 @@
       "lastSeenAt": "2026-05-28T15:26:18.818Z"
     },
     {
-      "id": "noda-ai-ashby-16d2f30d-61f6-4e17-b3a7-994f92e64963",
-      "title": "Forward-Deployed Solution Engineer - International",
-      "location": "Kuwait",
-      "company": "Noda AI",
-      "discipline": "Engineering",
-      "department": "Customer Solutions",
-      "applyUrl": "https://jobs.ashbyhq.com/noda-ai/16d2f30d-61f6-4e17-b3a7-994f92e64963",
-      "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-06-06T19:00:47.900Z"
-    },
-    {
       "id": "noda-ai-ashby-12f71d18-17df-47f7-bd0e-715bce10dbe9",
       "title": "Forward-Deployed Solution Engineer - International",
       "location": "Qatar",
@@ -1314,18 +1374,6 @@
       "lastSeenAt": "2026-06-06T19:01:56.775Z"
     },
     {
-      "id": "noda-ai-ashby-2f80d222-82bf-4b89-bc32-fbea37dfa18e",
-      "title": "Forward-Deployed Solution Engineer - International",
-      "location": "Bahrain",
-      "company": "Noda AI",
-      "discipline": "Engineering",
-      "department": "Customer Solutions",
-      "applyUrl": "https://jobs.ashbyhq.com/noda-ai/2f80d222-82bf-4b89-bc32-fbea37dfa18e",
-      "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-06-06T18:57:08.698Z"
-    },
-    {
       "id": "noda-ai-ashby-08a9faf2-76a9-496a-80da-b77384aa9041",
       "title": "Forward-Deployed Solution Engineer - International",
       "location": "UAE",
@@ -1336,6 +1384,30 @@
       "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-06-06T19:04:46.778Z"
+    },
+    {
+      "id": "noda-ai-ashby-16d2f30d-61f6-4e17-b3a7-994f92e64963",
+      "title": "Forward-Deployed Solution Engineer - International",
+      "location": "Kuwait",
+      "company": "Noda AI",
+      "discipline": "Engineering",
+      "department": "Customer Solutions",
+      "applyUrl": "https://jobs.ashbyhq.com/noda-ai/16d2f30d-61f6-4e17-b3a7-994f92e64963",
+      "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-06T19:00:47.900Z"
+    },
+    {
+      "id": "noda-ai-ashby-2f80d222-82bf-4b89-bc32-fbea37dfa18e",
+      "title": "Forward-Deployed Solution Engineer - International",
+      "location": "Bahrain",
+      "company": "Noda AI",
+      "discipline": "Engineering",
+      "department": "Customer Solutions",
+      "applyUrl": "https://jobs.ashbyhq.com/noda-ai/2f80d222-82bf-4b89-bc32-fbea37dfa18e",
+      "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-06T18:57:08.698Z"
     },
     {
       "id": "noda-ai-ashby-aa8bd3fc-dce0-473c-8db5-5303bb29eec7",
@@ -1444,18 +1516,6 @@
       "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-08T22:04:54.573Z"
-    },
-    {
-      "id": "noda-ai-ashby-0f0293b8-1a45-480f-a279-01ca0a62e8e8",
-      "title": "Tactical Communications & Networking Engineer",
-      "location": "Austin",
-      "company": "Noda AI",
-      "discipline": "Engineering",
-      "department": "Core Engineering",
-      "applyUrl": "https://jobs.ashbyhq.com/noda-ai/0f0293b8-1a45-480f-a279-01ca0a62e8e8",
-      "sourceUrl": "https://jobs.ashbyhq.com/noda-ai",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-06-03T14:12:54.476Z"
     },
     {
       "id": "noda-ai-ashby-d54879c6-e65a-42b6-a7ca-714a53366842",
@@ -1626,6 +1686,30 @@
       "lastSeenAt": "2026-06-10T15:07:24.793Z"
     },
     {
+      "id": "onebrief-ashby-fbd0fd12-5aed-4428-9373-55ec2c5076f3",
+      "title": "Software Development Engineer in Test",
+      "location": "United States | Remote",
+      "company": "OneBrief",
+      "discipline": "Engineering",
+      "department": "Battle Road Digital",
+      "applyUrl": "https://jobs.ashbyhq.com/onebrief/fbd0fd12-5aed-4428-9373-55ec2c5076f3",
+      "sourceUrl": "https://jobs.ashbyhq.com/onebrief",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-18T19:39:52.660Z"
+    },
+    {
+      "id": "onebrief-ashby-8ee26b8a-97dd-4035-95e2-6ebe657fa59b",
+      "title": "Software Development Engineer in Test [Geospatial]",
+      "location": "United States | Remote",
+      "company": "OneBrief",
+      "discipline": "Engineering",
+      "department": "Battle Road Digital",
+      "applyUrl": "https://jobs.ashbyhq.com/onebrief/8ee26b8a-97dd-4035-95e2-6ebe657fa59b",
+      "sourceUrl": "https://jobs.ashbyhq.com/onebrief",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-18T19:39:55.275Z"
+    },
+    {
       "id": "onebrief-ashby-aa76bd44-9c25-4bc5-8e45-fe66d58f20d2",
       "title": "Staff Design Engineer",
       "location": "United States | Remote",
@@ -1707,7 +1791,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6011015004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6014608004",
@@ -1719,7 +1803,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6014608004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5973277004",
@@ -1731,7 +1815,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5973277004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5789867004",
@@ -1743,19 +1827,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5789867004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
-    },
-    {
-      "id": "raft-greenhouse-5968743004",
-      "title": "Forward Deployed Engineer",
-      "location": "Oahu, HI",
-      "company": "Raft",
-      "discipline": "Engineering",
-      "department": "Delivery",
-      "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5968743004",
-      "sourceUrl": "https://job-boards.greenhouse.io/raft",
-      "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5996858004",
@@ -1767,7 +1839,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5996858004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5978149004",
@@ -1779,7 +1851,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5978149004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5973324004",
@@ -1791,7 +1863,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5973324004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6007073004",
@@ -1803,19 +1875,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6007073004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
-    },
-    {
-      "id": "raft-greenhouse-5831661004",
-      "title": "Platform Engineer",
-      "location": "San Diego, Ca",
-      "company": "Raft",
-      "discipline": "Engineering",
-      "department": "N3bula",
-      "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5831661004",
-      "sourceUrl": "https://job-boards.greenhouse.io/raft",
-      "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5996890004",
@@ -1827,7 +1887,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5996890004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6009520004",
@@ -1839,7 +1899,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6009520004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5836803004",
@@ -1851,7 +1911,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5836803004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5973882004",
@@ -1863,7 +1923,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5973882004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-5848319004",
@@ -1875,7 +1935,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/5848319004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6010455004",
@@ -1887,7 +1947,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6010455004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6014622004",
@@ -1899,7 +1959,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6014622004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6013624004",
@@ -1911,7 +1971,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6013624004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6018454004",
@@ -1923,7 +1983,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6018454004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "raft-greenhouse-6015559004",
@@ -1935,7 +1995,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/raft/jobs/6015559004",
       "sourceUrl": "https://job-boards.greenhouse.io/raft",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:08:25.000Z"
+      "lastSeenAt": "2026-06-18T18:33:01.000Z"
     },
     {
       "id": "rise8-greenhouse-4603320007",
@@ -1947,7 +2007,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4603320007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4527025007",
@@ -1959,7 +2019,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4527025007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5106091007",
@@ -1971,7 +2031,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5106091007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4664171007",
@@ -1983,7 +2043,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4664171007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5143027007",
@@ -1995,7 +2055,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5143027007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4957053007",
@@ -2007,7 +2067,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4957053007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5112777007",
@@ -2019,7 +2079,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5112777007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4474613007",
@@ -2031,7 +2091,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4474613007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5143187007",
@@ -2043,7 +2103,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5143187007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4340611007",
@@ -2055,7 +2115,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4340611007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5142997007",
@@ -2067,7 +2127,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5142997007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5108110007",
@@ -2079,7 +2139,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5108110007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-4340607007",
@@ -2091,7 +2151,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/4340607007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rise8-greenhouse-5108746007",
@@ -2103,7 +2163,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/rise8/jobs/5108746007",
       "sourceUrl": "https://job-boards.greenhouse.io/rise8",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-16T13:16:51.000Z"
+      "lastSeenAt": "2026-06-16T13:16:50.000Z"
     },
     {
       "id": "rune-ashby-8f5d3125-c2ea-42ee-a685-47745f7e3860",
@@ -2166,18 +2226,6 @@
       "lastSeenAt": "2026-04-10T12:44:13.540Z"
     },
     {
-      "id": "rune-ashby-9c8f4c5a-99c9-47aa-861e-67a251cde271",
-      "title": "Forward Deployed Engineer",
-      "location": "Austin, TX",
-      "company": "Rune",
-      "discipline": "Engineering",
-      "department": "Engineering",
-      "applyUrl": "https://jobs.ashbyhq.com/runetech/9c8f4c5a-99c9-47aa-861e-67a251cde271",
-      "sourceUrl": "https://jobs.ashbyhq.com/runetech",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-04-14T19:17:24.135Z"
-    },
-    {
       "id": "rune-ashby-80fbcd23-c072-4801-9bba-efbb820b8901",
       "title": "Forward Deployed Engineer",
       "location": "Rosslyn, VA",
@@ -2188,6 +2236,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/runetech",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-04-17T23:02:34.903Z"
+    },
+    {
+      "id": "rune-ashby-9c8f4c5a-99c9-47aa-861e-67a251cde271",
+      "title": "Forward Deployed Engineer",
+      "location": "Austin, TX",
+      "company": "Rune",
+      "discipline": "Engineering",
+      "department": "Engineering",
+      "applyUrl": "https://jobs.ashbyhq.com/runetech/9c8f4c5a-99c9-47aa-861e-67a251cde271",
+      "sourceUrl": "https://jobs.ashbyhq.com/runetech",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-04-14T19:17:24.135Z"
     },
     {
       "id": "rune-ashby-5a3bbe6b-d913-433c-882b-c48089814f96",
@@ -2235,7 +2295,7 @@
       "applyUrl": "https://jobs.ashbyhq.com/runetech/b030644c-12fa-450d-b177-b5c8de3d0974",
       "sourceUrl": "https://jobs.ashbyhq.com/runetech",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-06-09T18:54:59.228Z"
+      "lastSeenAt": "2026-06-18T20:04:00.879Z"
     },
     {
       "id": "rune-ashby-7c9d58a8-2847-4226-97bd-1bd53c36852c",
@@ -2248,6 +2308,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/runetech",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-20T23:27:30.679Z"
+    },
+    {
+      "id": "rune-ashby-24504e77-941a-43d0-be52-52c5ad84220d",
+      "title": "Mission Manager",
+      "location": "Honolulu, HI",
+      "company": "Rune",
+      "discipline": "Product",
+      "department": "Mission Success",
+      "applyUrl": "https://jobs.ashbyhq.com/runetech/24504e77-941a-43d0-be52-52c5ad84220d",
+      "sourceUrl": "https://jobs.ashbyhq.com/runetech",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-18T21:58:09.987Z"
     },
     {
       "id": "rune-ashby-2448463b-1a37-4b5a-9cc6-4fa1b18bc9c9",
@@ -2331,7 +2403,7 @@
       "applyUrl": "https://jobs.ashbyhq.com/saronic/764ea3db-8d4e-4c6b-adb2-8313dec1ad36",
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T17:54:26.538Z"
+      "lastSeenAt": "2026-06-18T19:00:58.531Z"
     },
     {
       "id": "saronic-ashby-86a5c4d4-819f-42cd-9ccf-d888ec0e950f",
@@ -2355,7 +2427,7 @@
       "applyUrl": "https://jobs.ashbyhq.com/saronic/a62ce18c-8048-4a80-b368-96f7e4585a9c",
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-20T20:38:43.410Z"
+      "lastSeenAt": "2026-06-18T19:03:20.228Z"
     },
     {
       "id": "saronic-ashby-4f519428-efa1-48ee-b558-1545304c26ba",
@@ -2478,18 +2550,6 @@
       "lastSeenAt": "2026-05-08T16:29:09.016Z"
     },
     {
-      "id": "saronic-ashby-abb1c82f-73b7-40e3-b822-906d699dbe3e",
-      "title": "Forward Deployed Hardware Engineer",
-      "location": "Austin, TX",
-      "company": "Saronic",
-      "discipline": "Engineering",
-      "department": "Forward Deployed Engineering",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/abb1c82f-73b7-40e3-b822-906d699dbe3e",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T16:13:08.254Z"
-    },
-    {
       "id": "saronic-ashby-11ba12ec-5438-4c90-b493-62f3a4664051",
       "title": "Forward Deployed Hardware Engineer",
       "location": "San Diego, CA",
@@ -2500,6 +2560,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-21T16:27:02.371Z"
+    },
+    {
+      "id": "saronic-ashby-abb1c82f-73b7-40e3-b822-906d699dbe3e",
+      "title": "Forward Deployed Hardware Engineer",
+      "location": "Austin, TX",
+      "company": "Saronic",
+      "discipline": "Engineering",
+      "department": "Forward Deployed Engineering",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/abb1c82f-73b7-40e3-b822-906d699dbe3e",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-08T16:13:08.254Z"
     },
     {
       "id": "saronic-ashby-4bd52e96-1903-4d2a-8e04-0e4d8851059e",
@@ -2655,7 +2727,7 @@
       "applyUrl": "https://jobs.ashbyhq.com/saronic/da72b14c-4473-4df0-ba3f-08afd772a6ea",
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T16:22:59.307Z"
+      "lastSeenAt": "2026-06-18T19:01:40.626Z"
     },
     {
       "id": "saronic-ashby-6abceabf-eaf9-4c2c-8238-673bbb12ad3d",
@@ -2766,18 +2838,6 @@
       "lastSeenAt": "2026-05-21T20:25:26.742Z"
     },
     {
-      "id": "saronic-ashby-22b04c6b-15b3-423a-b10c-8255dcd224de",
-      "title": "Manufacturing Tooling Engineer",
-      "location": "Austin, TX",
-      "company": "Saronic",
-      "discipline": "Engineering",
-      "department": "Mechanical Engineering",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/22b04c6b-15b3-423a-b10c-8255dcd224de",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T16:24:33.010Z"
-    },
-    {
       "id": "saronic-ashby-eca9aacf-6666-48ba-8d2a-b08b78cbc6ee",
       "title": "Manufacturing Tooling Engineer",
       "location": "Austin, TX",
@@ -2788,6 +2848,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-08T16:23:55.751Z"
+    },
+    {
+      "id": "saronic-ashby-22b04c6b-15b3-423a-b10c-8255dcd224de",
+      "title": "Manufacturing Tooling Engineer",
+      "location": "Austin, TX",
+      "company": "Saronic",
+      "discipline": "Engineering",
+      "department": "Mechanical Engineering",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/22b04c6b-15b3-423a-b10c-8255dcd224de",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-08T16:24:33.010Z"
     },
     {
       "id": "saronic-ashby-7e318d54-5be9-478e-9177-6f5403029417",
@@ -2886,18 +2958,6 @@
       "lastSeenAt": "2026-05-08T16:24:45.833Z"
     },
     {
-      "id": "saronic-ashby-063dadf2-154e-46c1-88b5-c56e6aedb29d",
-      "title": "Mission Operations Engineer – Technical Instructor",
-      "location": "Virginia Beach, VA",
-      "company": "Saronic",
-      "discipline": "Engineering",
-      "department": "Mission Training",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/063dadf2-154e-46c1-88b5-c56e6aedb29d",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T16:30:45.415Z"
-    },
-    {
       "id": "saronic-ashby-b25f3085-57cb-41e2-9e52-9d75c3dd4d43",
       "title": "Mission Operations Engineer – Technical Instructor",
       "location": "San Diego, CA",
@@ -2908,6 +2968,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-08T16:30:52.603Z"
+    },
+    {
+      "id": "saronic-ashby-063dadf2-154e-46c1-88b5-c56e6aedb29d",
+      "title": "Mission Operations Engineer – Technical Instructor",
+      "location": "Virginia Beach, VA",
+      "company": "Saronic",
+      "discipline": "Engineering",
+      "department": "Mission Training",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/063dadf2-154e-46c1-88b5-c56e6aedb29d",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-08T16:30:45.415Z"
     },
     {
       "id": "saronic-ashby-920e7886-7419-4fe1-a12e-590c136c52de",
@@ -3318,18 +3390,6 @@
       "lastSeenAt": "2026-06-12T14:40:59.759Z"
     },
     {
-      "id": "saronic-ashby-9e205e4c-a398-4b1d-a5a1-4833f2a99d6b",
-      "title": "Senior Systems Software Engineer",
-      "location": "San Diego, CA",
-      "company": "Saronic",
-      "discipline": "Engineering",
-      "department": "Software",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/9e205e4c-a398-4b1d-a5a1-4833f2a99d6b",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T18:16:54.077Z"
-    },
-    {
       "id": "saronic-ashby-06bd7e03-06e2-4fad-9f00-79f9a01c2e16",
       "title": "Senior Systems Software Engineer",
       "location": "Austin, TX",
@@ -3340,6 +3400,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-08T18:16:06.131Z"
+    },
+    {
+      "id": "saronic-ashby-9e205e4c-a398-4b1d-a5a1-4833f2a99d6b",
+      "title": "Senior Systems Software Engineer",
+      "location": "San Diego, CA",
+      "company": "Saronic",
+      "discipline": "Engineering",
+      "department": "Software",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/9e205e4c-a398-4b1d-a5a1-4833f2a99d6b",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-08T18:16:54.077Z"
     },
     {
       "id": "saronic-ashby-d5f30d63-303c-4899-8d68-c248c8d7905b",
@@ -3354,18 +3426,6 @@
       "lastSeenAt": "2026-06-05T18:13:19.396Z"
     },
     {
-      "id": "saronic-ashby-24acc2bc-3f0d-4be5-821f-5ded585f485d",
-      "title": "Senior Wire Harness Design Engineer (EWIS)",
-      "location": "Austin, TX",
-      "company": "Saronic",
-      "discipline": "Design",
-      "department": "Electrical Engineering",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/24acc2bc-3f0d-4be5-821f-5ded585f485d",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-06-01T20:49:47.830Z"
-    },
-    {
       "id": "saronic-ashby-4f33e7bd-94bf-4687-a807-4618c0144e08",
       "title": "Senior Wire Harness Design Engineer (EWIS)",
       "location": "New Orleans, LA",
@@ -3376,6 +3436,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-06-01T21:05:04.638Z"
+    },
+    {
+      "id": "saronic-ashby-24acc2bc-3f0d-4be5-821f-5ded585f485d",
+      "title": "Senior Wire Harness Design Engineer (EWIS)",
+      "location": "Austin, TX",
+      "company": "Saronic",
+      "discipline": "Design",
+      "department": "Electrical Engineering",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/24acc2bc-3f0d-4be5-821f-5ded585f485d",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-01T20:49:47.830Z"
     },
     {
       "id": "saronic-ashby-c1d88459-bde6-4474-b36c-8f259e6a6db5",
@@ -3411,7 +3483,7 @@
       "applyUrl": "https://jobs.ashbyhq.com/saronic/394e51ac-fded-46e2-8f9e-ebd8a6884376",
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T16:33:50.177Z"
+      "lastSeenAt": "2026-06-18T19:02:38.159Z"
     },
     {
       "id": "saronic-ashby-79a043f5-af3c-4737-aa1a-a36c2d49de16",
@@ -3558,18 +3630,6 @@
       "lastSeenAt": "2026-05-07T19:51:55.349Z"
     },
     {
-      "id": "saronic-ashby-9475dabc-5602-48b1-adde-c146a6969d5a",
-      "title": "Supplier Quality Engineer",
-      "location": "Austin, TX",
-      "company": "Saronic",
-      "discipline": "Engineering",
-      "department": "Supply Chain",
-      "applyUrl": "https://jobs.ashbyhq.com/saronic/9475dabc-5602-48b1-adde-c146a6969d5a",
-      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-08T18:18:59.846Z"
-    },
-    {
       "id": "saronic-ashby-2573f8c9-71f7-4068-8edf-e2733eeba5ce",
       "title": "Supplier Quality Engineer",
       "location": "Franklin, LA",
@@ -3580,6 +3640,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/saronic",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-08T18:19:07.742Z"
+    },
+    {
+      "id": "saronic-ashby-9475dabc-5602-48b1-adde-c146a6969d5a",
+      "title": "Supplier Quality Engineer",
+      "location": "Austin, TX",
+      "company": "Saronic",
+      "discipline": "Engineering",
+      "department": "Supply Chain",
+      "applyUrl": "https://jobs.ashbyhq.com/saronic/9475dabc-5602-48b1-adde-c146a6969d5a",
+      "sourceUrl": "https://jobs.ashbyhq.com/saronic",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-08T18:18:59.846Z"
     },
     {
       "id": "saronic-ashby-caf6b48b-3248-4e90-9f00-a52d1eedee3f",
@@ -3783,7 +3855,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/41468aca-c1c2-4a7b-aec8-f499e64b6d1e",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-baaae144-6477-4f3b-975b-ec1d04d0a7e4",
@@ -3795,7 +3867,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/baaae144-6477-4f3b-975b-ec1d04d0a7e4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-30df7ce0-c4c3-400e-ac9c-12537cea37ce",
@@ -3807,7 +3879,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/30df7ce0-c4c3-400e-ac9c-12537cea37ce",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-eb4fc5c9-92ce-427e-ab72-f52c073a5ed4",
@@ -3819,7 +3891,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/eb4fc5c9-92ce-427e-ab72-f52c073a5ed4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-dd795a91-7317-44ea-8197-caf6266eb8f8",
@@ -3831,7 +3903,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/dd795a91-7317-44ea-8197-caf6266eb8f8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-144f5cec-7d0c-40eb-99b9-dd6f89fa7a91",
@@ -3843,7 +3915,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/144f5cec-7d0c-40eb-99b9-dd6f89fa7a91",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-2cfe6692-a266-4d27-8832-ef652fa57ee4",
@@ -3855,7 +3927,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/2cfe6692-a266-4d27-8832-ef652fa57ee4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ea6d68b6-f5d1-4b80-abb0-0db794279b8c",
@@ -3867,7 +3939,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ea6d68b6-f5d1-4b80-abb0-0db794279b8c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-94a077e0-de57-49e9-8985-b467e46b8be1",
@@ -3879,7 +3951,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/94a077e0-de57-49e9-8985-b467e46b8be1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-37fa20c1-57dc-4aa1-9515-ecc87f22f31b",
@@ -3891,7 +3963,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/37fa20c1-57dc-4aa1-9515-ecc87f22f31b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1b229cdc-9a0b-4704-b39b-b3b4c6e3fa89",
@@ -3903,7 +3975,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1b229cdc-9a0b-4704-b39b-b3b4c6e3fa89",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c9321f8a-b367-4dcb-9308-bd64ae6bac1d",
@@ -3915,7 +3987,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c9321f8a-b367-4dcb-9308-bd64ae6bac1d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c298829a-40f2-4b81-9d2a-6fb69c22418b",
@@ -3927,7 +3999,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c298829a-40f2-4b81-9d2a-6fb69c22418b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-87d982f2-8b2b-4c73-9a19-71e461c7b724",
@@ -3939,7 +4011,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/87d982f2-8b2b-4c73-9a19-71e461c7b724",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-aad6341b-0825-48e0-8d31-95e72f915ca0",
@@ -3951,7 +4023,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/aad6341b-0825-48e0-8d31-95e72f915ca0",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-49d0cfc6-952f-42b6-ad6c-630597a1780a",
@@ -3963,7 +4035,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/49d0cfc6-952f-42b6-ad6c-630597a1780a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-37f1de6d-d17b-437b-af16-d8ce8d7d0782",
@@ -3975,7 +4047,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/37f1de6d-d17b-437b-af16-d8ce8d7d0782",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d4f0de22-d9eb-42a4-b192-21a9c30460e1",
@@ -3987,7 +4059,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d4f0de22-d9eb-42a4-b192-21a9c30460e1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7b464b08-12bf-4d07-826d-8fabb3f33954",
@@ -3999,7 +4071,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7b464b08-12bf-4d07-826d-8fabb3f33954",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-e136857b-1cd9-4fea-9ff5-ad7587ff1835",
@@ -4011,7 +4083,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/e136857b-1cd9-4fea-9ff5-ad7587ff1835",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-73be298c-49d5-4f38-bdf5-93a0c0e8a7a5",
@@ -4023,7 +4095,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/73be298c-49d5-4f38-bdf5-93a0c0e8a7a5",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-07546f7f-9a69-4adb-96d6-f94505e7523f",
@@ -4035,7 +4107,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/07546f7f-9a69-4adb-96d6-f94505e7523f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7507c2f7-e2c4-4d3f-a55f-17f9c63140db",
@@ -4047,7 +4119,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7507c2f7-e2c4-4d3f-a55f-17f9c63140db",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b7ebe7cb-45df-4cda-a0d3-cc7b88258e36",
@@ -4059,7 +4131,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b7ebe7cb-45df-4cda-a0d3-cc7b88258e36",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-87a9df91-ce26-475f-9d93-c01991441847",
@@ -4071,7 +4143,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/87a9df91-ce26-475f-9d93-c01991441847",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3550353a-f5db-49ab-b9fb-00f7bdb7b692",
@@ -4083,7 +4155,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3550353a-f5db-49ab-b9fb-00f7bdb7b692",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1d56e321-727e-4d28-a99c-99c4aec117eb",
@@ -4095,7 +4167,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1d56e321-727e-4d28-a99c-99c4aec117eb",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-eb40936b-c469-4b30-9805-b83ad6dd3191",
@@ -4107,7 +4179,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/eb40936b-c469-4b30-9805-b83ad6dd3191",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c5c89666-d394-4d08-b846-7db8e205bea3",
@@ -4119,7 +4191,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c5c89666-d394-4d08-b846-7db8e205bea3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-2158dfae-2453-4278-87de-141500e87ee1",
@@ -4131,7 +4203,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/2158dfae-2453-4278-87de-141500e87ee1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f56dc368-862d-46fe-afe5-899f225547b5",
@@ -4143,7 +4215,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f56dc368-862d-46fe-afe5-899f225547b5",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-dfe3c9f3-900f-4f97-afac-7acf1cb7e592",
@@ -4155,7 +4227,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/dfe3c9f3-900f-4f97-afac-7acf1cb7e592",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-61a20f23-41ca-4cdc-8ee1-419516c56d9b",
@@ -4167,7 +4239,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/61a20f23-41ca-4cdc-8ee1-419516c56d9b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-133ad6aa-d624-4fad-b1cc-1f8f42d0401f",
@@ -4179,7 +4251,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/133ad6aa-d624-4fad-b1cc-1f8f42d0401f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-133e1006-4bcd-4a31-afaf-c85ad113b749",
@@ -4191,7 +4263,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/133e1006-4bcd-4a31-afaf-c85ad113b749",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-28ebb068-b00d-4a34-a4d7-a471c84e09ff",
@@ -4203,7 +4275,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/28ebb068-b00d-4a34-a4d7-a471c84e09ff",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-751d5f0b-0c1b-4c1a-b0ab-691b7fc88f1a",
@@ -4215,7 +4287,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/751d5f0b-0c1b-4c1a-b0ab-691b7fc88f1a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a65707de-fc21-4555-8817-f2dc37200831",
@@ -4227,7 +4299,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a65707de-fc21-4555-8817-f2dc37200831",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-dc29adac-fe50-41c1-a466-71b7700626ba",
@@ -4239,7 +4311,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/dc29adac-fe50-41c1-a466-71b7700626ba",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7d6a8fe1-66eb-4771-9e1d-0182490d0cd5",
@@ -4251,7 +4323,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7d6a8fe1-66eb-4771-9e1d-0182490d0cd5",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-9a6944c7-f448-45bd-a272-09c94d2faa80",
@@ -4263,7 +4335,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/9a6944c7-f448-45bd-a272-09c94d2faa80",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-cf148e69-2ca0-4bfd-a4cc-af214bfcce8a",
@@ -4275,7 +4347,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/cf148e69-2ca0-4bfd-a4cc-af214bfcce8a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-fe7531e1-c25e-4e4a-9661-19e3a2ab8e69",
@@ -4287,7 +4359,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/fe7531e1-c25e-4e4a-9661-19e3a2ab8e69",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-55e14c5c-ee01-4c42-afc1-3583cf5e93d9",
@@ -4299,7 +4371,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/55e14c5c-ee01-4c42-afc1-3583cf5e93d9",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3cecec97-d846-4fe0-914a-4a266f333db9",
@@ -4311,7 +4383,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3cecec97-d846-4fe0-914a-4a266f333db9",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-41100943-59b9-46d4-a180-682638f104c8",
@@ -4323,7 +4395,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/41100943-59b9-46d4-a180-682638f104c8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7288397f-6318-4d86-a4de-1f321ce3cc85",
@@ -4335,7 +4407,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7288397f-6318-4d86-a4de-1f321ce3cc85",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7cc0e741-8e36-4d49-8046-ba051a535705",
@@ -4347,7 +4419,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7cc0e741-8e36-4d49-8046-ba051a535705",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7974e5f9-67e3-46b8-8c81-b4a4fae0fbd4",
@@ -4359,7 +4431,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7974e5f9-67e3-46b8-8c81-b4a4fae0fbd4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-19aea956-a8ff-4a8c-8552-16d954257ac1",
@@ -4371,7 +4443,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/19aea956-a8ff-4a8c-8552-16d954257ac1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-4b31c2db-feb0-4a4f-96e3-20af7b267e2d",
@@ -4383,7 +4455,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/4b31c2db-feb0-4a4f-96e3-20af7b267e2d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1120529c-2f7d-4b27-a29b-50976c49c433",
@@ -4395,7 +4467,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1120529c-2f7d-4b27-a29b-50976c49c433",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-bfcf87d0-60b0-4769-bc65-4a5544b43278",
@@ -4407,7 +4479,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/bfcf87d0-60b0-4769-bc65-4a5544b43278",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0af53b2b-e1ba-4e73-9e94-a4a689cabab9",
@@ -4419,7 +4491,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0af53b2b-e1ba-4e73-9e94-a4a689cabab9",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-622ee448-5ab3-4b2e-b20b-1fff995cbc45",
@@ -4431,7 +4503,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/622ee448-5ab3-4b2e-b20b-1fff995cbc45",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-819a0502-f705-4f02-8784-ddfb1ca2b289",
@@ -4443,19 +4515,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/819a0502-f705-4f02-8784-ddfb1ca2b289",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-be0a4dc7-d2ca-428b-91ef-516012965b5f",
-      "title": "Power Electronics - Staff Electrical Engineer (R4479)",
-      "location": "Dallas, Texas",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "X-BAT Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/be0a4dc7-d2ca-428b-91ef-516012965b5f",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f6bbec19-f1c6-44ce-9af5-132b25b6e83a",
@@ -4467,7 +4527,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f6bbec19-f1c6-44ce-9af5-132b25b6e83a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-12f75166-fed5-4cc1-863d-c172e8852fb4",
@@ -4479,7 +4539,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/12f75166-fed5-4cc1-863d-c172e8852fb4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-4bc0d612-d68b-43ce-8bb2-19e07d0577c7",
@@ -4491,7 +4551,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/4bc0d612-d68b-43ce-8bb2-19e07d0577c7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0034444c-c0c4-4884-a49f-b921bd661b03",
@@ -4503,7 +4563,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0034444c-c0c4-4884-a49f-b921bd661b03",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3dddb78e-4ade-48e3-95d3-84a160dc421d",
@@ -4515,7 +4575,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3dddb78e-4ade-48e3-95d3-84a160dc421d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c59d711d-4370-4d79-af73-5b54d7f19034",
@@ -4527,7 +4587,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c59d711d-4370-4d79-af73-5b54d7f19034",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-4ccdcce2-ce09-4180-aba4-01f3e405e0e5",
@@ -4539,7 +4599,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/4ccdcce2-ce09-4180-aba4-01f3e405e0e5",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0d1400ec-f456-4d5b-8592-740a656260b0",
@@ -4551,7 +4611,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0d1400ec-f456-4d5b-8592-740a656260b0",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0036466f-7c47-42ac-9df4-3485ad0f75e2",
@@ -4563,7 +4623,19 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0036466f-7c47-42ac-9df4-3485ad0f75e2",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
+    },
+    {
+      "id": "shield-ai-lever-df29f189-21de-40b9-a485-4aef884df365",
+      "title": "Principal Technical Product Manager (R5249)",
+      "location": "United States",
+      "company": "Shield AI",
+      "discipline": "Product",
+      "department": "Hivemind Special Division",
+      "applyUrl": "https://jobs.lever.co/shieldai/df29f189-21de-40b9-a485-4aef884df365",
+      "sourceUrl": "https://jobs.lever.co/shieldai",
+      "sourceSystem": "Lever",
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7886f437-2d5e-4616-8dcb-3dc488f1f585",
@@ -4575,7 +4647,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7886f437-2d5e-4616-8dcb-3dc488f1f585",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3d073907-8204-4d5a-82b8-40a64ae75844",
@@ -4587,7 +4659,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3d073907-8204-4d5a-82b8-40a64ae75844",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-115aa1cf-8ac5-4002-8b75-5c7e64945883",
@@ -4599,7 +4671,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/115aa1cf-8ac5-4002-8b75-5c7e64945883",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-2394368a-67ff-441c-83c3-e998446327e7",
@@ -4611,7 +4683,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/2394368a-67ff-441c-83c3-e998446327e7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a64042bd-5490-4ef7-9e93-38e1b120b1d3",
@@ -4623,7 +4695,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a64042bd-5490-4ef7-9e93-38e1b120b1d3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0fc2025e-01ba-452b-b3e7-d3df4de88a08",
@@ -4635,7 +4707,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0fc2025e-01ba-452b-b3e7-d3df4de88a08",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-caf807bc-fda0-4fdc-8f44-d2c2c66e8e84",
@@ -4647,7 +4719,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/caf807bc-fda0-4fdc-8f44-d2c2c66e8e84",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-179d532c-71e4-40b3-ac42-7842ff75d4ea",
@@ -4659,7 +4731,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/179d532c-71e4-40b3-ac42-7842ff75d4ea",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-bfaad59d-1648-41f7-80a9-f94cd857c968",
@@ -4671,7 +4743,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/bfaad59d-1648-41f7-80a9-f94cd857c968",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-425c064c-7585-462f-973d-66d685d1ab17",
@@ -4683,7 +4755,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/425c064c-7585-462f-973d-66d685d1ab17",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-952faf2d-4730-4d8d-9c1c-6f914ecd1eef",
@@ -4695,7 +4767,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/952faf2d-4730-4d8d-9c1c-6f914ecd1eef",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-4d6c0395-4b2c-4e5f-a658-98ec604678cb",
@@ -4707,7 +4779,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/4d6c0395-4b2c-4e5f-a658-98ec604678cb",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ca9c2a51-fc9c-4258-a420-85b9a97b28b3",
@@ -4719,7 +4791,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ca9c2a51-fc9c-4258-a420-85b9a97b28b3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-21d73732-e08b-415e-a6ec-b2763b6faaeb",
@@ -4731,7 +4803,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/21d73732-e08b-415e-a6ec-b2763b6faaeb",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-fe446245-61e6-47b2-a6cc-beffb0bdb999",
@@ -4743,7 +4815,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/fe446245-61e6-47b2-a6cc-beffb0bdb999",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-498f7d45-a951-45ad-aa7f-3f54bf3dd2bb",
@@ -4755,7 +4827,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/498f7d45-a951-45ad-aa7f-3f54bf3dd2bb",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7e80ee36-5e20-4a4b-ba65-87d43db66cd6",
@@ -4767,7 +4839,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7e80ee36-5e20-4a4b-ba65-87d43db66cd6",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d5fdafe1-2e50-4543-98b1-38f3a3d26e12",
@@ -4779,7 +4851,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d5fdafe1-2e50-4543-98b1-38f3a3d26e12",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-e764ace5-77fb-4f03-b21e-4e9149e356a6",
@@ -4791,7 +4863,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/e764ace5-77fb-4f03-b21e-4e9149e356a6",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-12901f0e-56f1-4654-939d-1605d5b10e75",
@@ -4803,7 +4875,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/12901f0e-56f1-4654-939d-1605d5b10e75",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-faf6d4fb-bcef-4b9f-9a6c-e27dd3af5d21",
@@ -4815,7 +4887,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/faf6d4fb-bcef-4b9f-9a6c-e27dd3af5d21",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-6d3cf300-d22e-47bb-b190-e376bd8715f1",
@@ -4827,7 +4899,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/6d3cf300-d22e-47bb-b190-e376bd8715f1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b625e641-6c48-4d2f-a1b7-381f7a24207a",
@@ -4839,7 +4911,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b625e641-6c48-4d2f-a1b7-381f7a24207a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-9464e0a2-af89-46ea-8a80-b390e1f9b857",
@@ -4851,7 +4923,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/9464e0a2-af89-46ea-8a80-b390e1f9b857",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f1caddb8-261d-4355-b9ff-bced1e2d5e25",
@@ -4863,7 +4935,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f1caddb8-261d-4355-b9ff-bced1e2d5e25",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-28332c5d-703f-42e8-bb9b-ceafb14fb765",
@@ -4875,7 +4947,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/28332c5d-703f-42e8-bb9b-ceafb14fb765",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-99975ad6-3b57-494b-9374-b46a761a097e",
@@ -4887,7 +4959,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/99975ad6-3b57-494b-9374-b46a761a097e",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-62764a66-3abe-400e-9f85-dac472ff7711",
@@ -4899,7 +4971,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/62764a66-3abe-400e-9f85-dac472ff7711",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-5118a08f-4ae8-431f-a06f-6dba3eaff113",
@@ -4911,7 +4983,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/5118a08f-4ae8-431f-a06f-6dba3eaff113",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-40dd9984-fe68-4ea7-a1ab-291c9303dfb4",
@@ -4923,7 +4995,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/40dd9984-fe68-4ea7-a1ab-291c9303dfb4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3daaf9c5-164e-4a8e-abc9-b475a38522c3",
@@ -4935,7 +5007,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3daaf9c5-164e-4a8e-abc9-b475a38522c3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c885261d-0c85-48c3-8059-8be12eb4cb19",
@@ -4947,7 +5019,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c885261d-0c85-48c3-8059-8be12eb4cb19",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-da557908-3911-49de-9548-509645e8b445",
@@ -4959,7 +5031,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/da557908-3911-49de-9548-509645e8b445",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-849e740f-9a62-4881-b304-71c6c8301282",
@@ -4971,7 +5043,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/849e740f-9a62-4881-b304-71c6c8301282",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-70bbf24d-192d-4153-a827-be6090013dc7",
@@ -4983,7 +5055,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/70bbf24d-192d-4153-a827-be6090013dc7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-9388629c-94b8-421a-a145-1ce83d74a10d",
@@ -4995,7 +5067,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/9388629c-94b8-421a-a145-1ce83d74a10d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-9d317f29-93ac-46fd-a1a6-a6e0d36146e3",
@@ -5007,7 +5079,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/9d317f29-93ac-46fd-a1a6-a6e0d36146e3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-991fd24c-e076-45e4-a113-ffa6633df0d4",
@@ -5019,7 +5091,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/991fd24c-e076-45e4-a113-ffa6633df0d4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-5a47cd5d-0efb-4d4e-925a-eb104f90904c",
@@ -5031,19 +5103,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/5a47cd5d-0efb-4d4e-925a-eb104f90904c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-ef4ee6b8-9a11-4870-bbbd-1140f1434cef",
-      "title": "Senior Engineer, Test & Evaluation (R5141)",
-      "location": "Dallas, Texas",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "X-BAT Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/ef4ee6b8-9a11-4870-bbbd-1140f1434cef",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d0635c93-bb07-4585-80d3-c53aaa2fdf6d",
@@ -5055,7 +5115,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d0635c93-bb07-4585-80d3-c53aaa2fdf6d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f38c09b5-ce0f-4b87-ae4f-319cc9e26d5d",
@@ -5067,7 +5127,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f38c09b5-ce0f-4b87-ae4f-319cc9e26d5d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-df95d2c2-8186-451a-8ab0-bb946098648f",
@@ -5079,7 +5139,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/df95d2c2-8186-451a-8ab0-bb946098648f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-6e5d59f1-cd4a-451b-be66-5db9af34df44",
@@ -5091,7 +5151,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/6e5d59f1-cd4a-451b-be66-5db9af34df44",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-569eae3d-c566-4f55-ae17-a428a5b959dc",
@@ -5103,7 +5163,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/569eae3d-c566-4f55-ae17-a428a5b959dc",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8c9f2dfa-45e1-441b-8e58-c603f99c5d38",
@@ -5115,7 +5175,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8c9f2dfa-45e1-441b-8e58-c603f99c5d38",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-e2937327-d2de-44b5-8975-a3612ef2dfbe",
@@ -5127,7 +5187,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/e2937327-d2de-44b5-8975-a3612ef2dfbe",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c65332c3-5cd0-404d-97f9-e3a71895ed91",
@@ -5139,7 +5199,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c65332c3-5cd0-404d-97f9-e3a71895ed91",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-90085b1f-299c-41fe-8a92-12e0c68c8b96",
@@ -5151,7 +5211,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/90085b1f-299c-41fe-8a92-12e0c68c8b96",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-6c140531-db2d-4fdf-8055-a4418a9d262b",
@@ -5163,7 +5223,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/6c140531-db2d-4fdf-8055-a4418a9d262b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-183856ee-0477-4038-8068-123a993fb717",
@@ -5175,7 +5235,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/183856ee-0477-4038-8068-123a993fb717",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-00e419e1-cd8b-47c3-9c82-40b07d51bf87",
@@ -5187,7 +5247,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/00e419e1-cd8b-47c3-9c82-40b07d51bf87",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-655697a5-faf3-4821-bc4d-6fcbb145d18d",
@@ -5199,7 +5259,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/655697a5-faf3-4821-bc4d-6fcbb145d18d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-aec9e538-6071-47c5-9c9b-8aadc0bd3f7e",
@@ -5211,7 +5271,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/aec9e538-6071-47c5-9c9b-8aadc0bd3f7e",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c223a9c5-e3b3-4da1-b523-1b1045bdf296",
@@ -5223,7 +5283,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c223a9c5-e3b3-4da1-b523-1b1045bdf296",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ccddd964-0a35-4650-9690-28d54b690298",
@@ -5235,7 +5295,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ccddd964-0a35-4650-9690-28d54b690298",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-afce47eb-85ce-40e9-897a-578cd15833d7",
@@ -5247,7 +5307,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/afce47eb-85ce-40e9-897a-578cd15833d7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a6b11a01-e749-4b1a-90a4-828524ceb7a0",
@@ -5259,7 +5319,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a6b11a01-e749-4b1a-90a4-828524ceb7a0",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-cca5ba8a-6fbd-4cff-a2d4-0faf9c3a57e7",
@@ -5271,7 +5331,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/cca5ba8a-6fbd-4cff-a2d4-0faf9c3a57e7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b83ccaaf-9a2b-4514-96a9-b3e3f003965f",
@@ -5283,7 +5343,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b83ccaaf-9a2b-4514-96a9-b3e3f003965f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-83df2a0d-c3c0-4daf-8818-117544460c26",
@@ -5295,7 +5355,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/83df2a0d-c3c0-4daf-8818-117544460c26",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-bc4898c3-6866-4aa8-8de6-6ff8db0c7574",
@@ -5307,7 +5367,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/bc4898c3-6866-4aa8-8de6-6ff8db0c7574",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c58ec77c-cc6d-4f11-9299-f108c490ef8a",
@@ -5319,7 +5379,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c58ec77c-cc6d-4f11-9299-f108c490ef8a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d345caad-82d3-4d53-ba5f-c93882547f09",
@@ -5331,7 +5391,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d345caad-82d3-4d53-ba5f-c93882547f09",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1a2aa3ca-7742-4da0-bc9a-a804a70c8e7a",
@@ -5343,7 +5403,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1a2aa3ca-7742-4da0-bc9a-a804a70c8e7a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-e1b78ed6-0a52-49e1-9014-735873dab5a5",
@@ -5355,7 +5415,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/e1b78ed6-0a52-49e1-9014-735873dab5a5",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a71ef068-f820-4d86-aec3-956a7982c3b2",
@@ -5367,7 +5427,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a71ef068-f820-4d86-aec3-956a7982c3b2",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-71278ad9-359f-48dd-bad4-fc63ab6b9f1d",
@@ -5379,11 +5439,11 @@
       "applyUrl": "https://jobs.lever.co/shieldai/71278ad9-359f-48dd-bad4-fc63ab6b9f1d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0bad72df-12eb-45bf-ba1c-9f76f40b26f6",
-      "title": "Senior Staff Engineer, GCS / Communications Systems Engineer (R5020)",
+      "title": "Senior Staff Engineer, GCS / Communications Systems (R5020)",
       "location": "San Diego, California",
       "company": "Shield AI",
       "discipline": "Engineering",
@@ -5391,7 +5451,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0bad72df-12eb-45bf-ba1c-9f76f40b26f6",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8ab0ecee-89be-4670-bcc0-055b8afbf254",
@@ -5403,19 +5463,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8ab0ecee-89be-4670-bcc0-055b8afbf254",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-07b710be-516f-42b6-8b19-abbf1804d0fe",
-      "title": "Senior Staff Engineer, Lead Cybersecurity Engineer (R5012)",
-      "location": "San Diego, California",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "X-BAT Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/07b710be-516f-42b6-8b19-abbf1804d0fe",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d99bdd28-b380-4527-9e68-b1ef43ab7cb1",
@@ -5427,7 +5475,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d99bdd28-b380-4527-9e68-b1ef43ab7cb1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-e949e412-bf17-416d-a460-291d20a2c599",
@@ -5439,19 +5487,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/e949e412-bf17-416d-a460-291d20a2c599",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-55be4281-21ab-4111-a79c-bfaa83b7d730",
-      "title": "Senior Staff Engineer, Mechanisms (R4857)",
-      "location": "United States",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "X-BAT Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/55be4281-21ab-4111-a79c-bfaa83b7d730",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b8d0f420-0711-4ca4-9d0f-11d58da64f32",
@@ -5463,7 +5499,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b8d0f420-0711-4ca4-9d0f-11d58da64f32",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c20dd47f-751f-4750-ab67-f352410aa5ac",
@@ -5475,7 +5511,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c20dd47f-751f-4750-ab67-f352410aa5ac",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a9b38ec7-eaeb-4881-bc46-722e3bfd06b8",
@@ -5487,7 +5523,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a9b38ec7-eaeb-4881-bc46-722e3bfd06b8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-25011392-094f-482c-b007-f307fb8c4f9f",
@@ -5499,7 +5535,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/25011392-094f-482c-b007-f307fb8c4f9f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0a4c3e5c-3b63-4f16-a483-3a8247f78228",
@@ -5511,7 +5547,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0a4c3e5c-3b63-4f16-a483-3a8247f78228",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c83937ad-af8a-4077-ae41-98b9a2f9241a",
@@ -5523,7 +5559,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c83937ad-af8a-4077-ae41-98b9a2f9241a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b35f5f09-84ca-494b-aa64-9689325638cc",
@@ -5535,7 +5571,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b35f5f09-84ca-494b-aa64-9689325638cc",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-29d5b3ec-2401-4b2c-9571-5fa6fecb6c0c",
@@ -5547,7 +5583,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/29d5b3ec-2401-4b2c-9571-5fa6fecb6c0c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-17a5ac9a-3f4c-45c0-91ef-e552afc247a7",
@@ -5559,7 +5595,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/17a5ac9a-3f4c-45c0-91ef-e552afc247a7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-c3703339-0aa5-4d0d-92f9-4c2e2882f7a4",
@@ -5571,11 +5607,11 @@
       "applyUrl": "https://jobs.lever.co/shieldai/c3703339-0aa5-4d0d-92f9-4c2e2882f7a4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-29306b5d-7c93-4378-a63c-e2b726d80ef0",
-      "title": "Senior Staff Engineer, Weapons Systems Engineer (SD/TX/DC) (R5019)",
+      "title": "Senior Staff Engineer, Weapons Systems (SD/TX/DC) (R5019)",
       "location": "United States",
       "company": "Shield AI",
       "discipline": "Engineering",
@@ -5583,7 +5619,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/29306b5d-7c93-4378-a63c-e2b726d80ef0",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b63b3f50-9b7b-42c0-8a9d-f3ba4ed1f099",
@@ -5595,7 +5631,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b63b3f50-9b7b-42c0-8a9d-f3ba4ed1f099",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-fd347d9c-3dc1-401e-aec2-43b5b38bc260",
@@ -5607,7 +5643,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/fd347d9c-3dc1-401e-aec2-43b5b38bc260",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-cd2da1f3-502e-44cd-9bea-38ffd09c4413",
@@ -5619,7 +5655,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/cd2da1f3-502e-44cd-9bea-38ffd09c4413",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d4076886-b26e-4c83-aafe-f0acbb245d63",
@@ -5631,7 +5667,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d4076886-b26e-4c83-aafe-f0acbb245d63",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0a7f0460-5035-4959-9713-80471fcae3c1",
@@ -5643,7 +5679,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0a7f0460-5035-4959-9713-80471fcae3c1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-643ee58e-e364-4892-83ed-162a3ff654f9",
@@ -5655,7 +5691,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/643ee58e-e364-4892-83ed-162a3ff654f9",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1e013d7b-2ddb-4a0f-8969-d99abda57207",
@@ -5667,7 +5703,19 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1e013d7b-2ddb-4a0f-8969-d99abda57207",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
+    },
+    {
+      "id": "shield-ai-lever-07b710be-516f-42b6-8b19-abbf1804d0fe",
+      "title": "Senior Staff, Lead Cybersecurity Engineer (R5012)",
+      "location": "San Diego, California",
+      "company": "Shield AI",
+      "discipline": "Engineering",
+      "department": "X-BAT Division",
+      "applyUrl": "https://jobs.lever.co/shieldai/07b710be-516f-42b6-8b19-abbf1804d0fe",
+      "sourceUrl": "https://jobs.lever.co/shieldai",
+      "sourceSystem": "Lever",
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-6b372289-c8df-40ff-9d36-98926dc7fa8c",
@@ -5679,7 +5727,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/6b372289-c8df-40ff-9d36-98926dc7fa8c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b682f55e-ca09-444b-8251-38422567ada8",
@@ -5691,7 +5739,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b682f55e-ca09-444b-8251-38422567ada8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8867fc46-a0e3-4680-b6e4-a011de1aad98",
@@ -5703,7 +5751,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8867fc46-a0e3-4680-b6e4-a011de1aad98",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-eef811a9-5e6d-44af-9ee2-f4259de7aeee",
@@ -5715,7 +5763,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/eef811a9-5e6d-44af-9ee2-f4259de7aeee",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-3b688ab2-7fd2-450b-86cc-eada11e06d66",
@@ -5727,7 +5775,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/3b688ab2-7fd2-450b-86cc-eada11e06d66",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-04df761d-632e-4398-8fc6-47ec02be580c",
@@ -5739,7 +5787,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/04df761d-632e-4398-8fc6-47ec02be580c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a1703b54-4856-4369-8a41-142e22bb8a34",
@@ -5751,7 +5799,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a1703b54-4856-4369-8a41-142e22bb8a34",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-277d8a41-6b43-4135-bbd1-86cd95189720",
@@ -5763,7 +5811,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/277d8a41-6b43-4135-bbd1-86cd95189720",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ca142049-83c4-40bf-9522-3e323d4c3672",
@@ -5775,7 +5823,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ca142049-83c4-40bf-9522-3e323d4c3672",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-9a3a2c7f-c5f5-4253-b173-560f102fc13c",
@@ -5787,7 +5835,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/9a3a2c7f-c5f5-4253-b173-560f102fc13c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-287b6bce-52fc-4a64-9fe9-f25445baf6eb",
@@ -5799,7 +5847,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/287b6bce-52fc-4a64-9fe9-f25445baf6eb",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8846ec30-76f4-4f4d-88ef-09aa3389fadc",
@@ -5811,7 +5859,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8846ec30-76f4-4f4d-88ef-09aa3389fadc",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-75c6cb21-5e86-4676-aaab-821f9aab4e5d",
@@ -5823,7 +5871,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/75c6cb21-5e86-4676-aaab-821f9aab4e5d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ed36d9df-a47e-4905-8e2b-aaee98182df8",
@@ -5835,7 +5883,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ed36d9df-a47e-4905-8e2b-aaee98182df8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-adcb212a-b83c-4da1-a9d4-91b91fdd6155",
@@ -5847,7 +5895,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/adcb212a-b83c-4da1-a9d4-91b91fdd6155",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1d77e789-a2be-414c-9a1f-f4bc284343ea",
@@ -5859,7 +5907,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1d77e789-a2be-414c-9a1f-f4bc284343ea",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-d12619b5-ab54-4797-9d1c-9b0a6ab3a281",
@@ -5871,7 +5919,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/d12619b5-ab54-4797-9d1c-9b0a6ab3a281",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-77b463a8-a2bb-423e-952b-c9e63b45b0fa",
@@ -5883,7 +5931,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/77b463a8-a2bb-423e-952b-c9e63b45b0fa",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-86bbc19b-138b-4974-b27a-ad488230669e",
@@ -5895,7 +5943,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/86bbc19b-138b-4974-b27a-ad488230669e",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7d210135-6de0-4433-bd46-198035378bb8",
@@ -5907,7 +5955,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7d210135-6de0-4433-bd46-198035378bb8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-7923525a-d620-46b1-8771-9972dc82e893",
@@ -5919,7 +5967,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/7923525a-d620-46b1-8771-9972dc82e893",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-abbca258-77dc-4429-87fd-37e6f0b5adf8",
@@ -5931,7 +5979,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/abbca258-77dc-4429-87fd-37e6f0b5adf8",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-36691848-fa43-4c4b-9152-736f539f323c",
@@ -5943,7 +5991,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/36691848-fa43-4c4b-9152-736f539f323c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-38746bcd-9f50-4c37-b661-878a4f38a466",
@@ -5955,7 +6003,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/38746bcd-9f50-4c37-b661-878a4f38a466",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a3dfba6d-09ec-42c3-9328-dbb2b5fbdab3",
@@ -5967,7 +6015,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a3dfba6d-09ec-42c3-9328-dbb2b5fbdab3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-27bbf841-7b7e-4405-a201-08e252472a91",
@@ -5979,7 +6027,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/27bbf841-7b7e-4405-a201-08e252472a91",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-52b8fbdc-4197-4c8e-8c1d-2a5a86441a29",
@@ -5991,7 +6039,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/52b8fbdc-4197-4c8e-8c1d-2a5a86441a29",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-52b8f7b5-3a88-4e78-8f22-a3edc3bf1e73",
@@ -6003,7 +6051,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/52b8f7b5-3a88-4e78-8f22-a3edc3bf1e73",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8e9e5ff8-b706-4c64-8f7e-3102d1e8458c",
@@ -6015,7 +6063,19 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8e9e5ff8-b706-4c64-8f7e-3102d1e8458c",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
+    },
+    {
+      "id": "shield-ai-lever-6b63f120-fedc-4157-95cb-6eebe9854538",
+      "title": "Staff Engineer, Power System Battery Pack Designer (R4479)",
+      "location": "Dallas, Texas",
+      "company": "Shield AI",
+      "discipline": "Engineering",
+      "department": "V-BAT Division",
+      "applyUrl": "https://jobs.lever.co/shieldai/6b63f120-fedc-4157-95cb-6eebe9854538",
+      "sourceUrl": "https://jobs.lever.co/shieldai",
+      "sourceSystem": "Lever",
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-6265ee65-8136-41b5-9279-97f9a4b1d2f6",
@@ -6027,19 +6087,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/6265ee65-8136-41b5-9279-97f9a4b1d2f6",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-ed0205dd-46b7-4261-bf6b-499aaa754664",
-      "title": "Staff Engineer, Software (C++/Networking) (R4337)",
-      "location": "San Diego, California",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "Hivemind Platform Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/ed0205dd-46b7-4261-bf6b-499aaa754664",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8690bc50-83d1-40bd-bd7f-0bc0b7814e98",
@@ -6051,7 +6099,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8690bc50-83d1-40bd-bd7f-0bc0b7814e98",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-548aa2ee-c711-4d58-9f3d-dc19868fd391",
@@ -6063,7 +6111,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/548aa2ee-c711-4d58-9f3d-dc19868fd391",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f0a50041-da78-45b0-849d-481a8a67c085",
@@ -6075,7 +6123,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f0a50041-da78-45b0-849d-481a8a67c085",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-10936087-44a4-47db-bddf-105436e872aa",
@@ -6087,7 +6135,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/10936087-44a4-47db-bddf-105436e872aa",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1f0a4bfe-acd7-4ace-913e-42937e9b23e2",
@@ -6099,7 +6147,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1f0a4bfe-acd7-4ace-913e-42937e9b23e2",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-173aa386-c87c-4b7e-9a3f-eb99c7943fbc",
@@ -6111,7 +6159,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/173aa386-c87c-4b7e-9a3f-eb99c7943fbc",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f8849287-b9ff-4c3e-a37f-be20e39c597b",
@@ -6123,7 +6171,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f8849287-b9ff-4c3e-a37f-be20e39c597b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-ee7f7c27-9e53-4e20-a7fc-3a37ad35d47d",
@@ -6135,7 +6183,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/ee7f7c27-9e53-4e20-a7fc-3a37ad35d47d",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-2370b285-80b6-4603-95a9-abdf690750b7",
@@ -6147,7 +6195,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/2370b285-80b6-4603-95a9-abdf690750b7",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0ea1cea2-6bb5-40e9-a3ca-c9ab45498454",
@@ -6159,7 +6207,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0ea1cea2-6bb5-40e9-a3ca-c9ab45498454",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-466470a1-4a1a-4c49-8adc-90cd6358ea76",
@@ -6171,7 +6219,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/466470a1-4a1a-4c49-8adc-90cd6358ea76",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8528a928-79a7-46ad-93d6-25d3fdabbc4b",
@@ -6183,7 +6231,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8528a928-79a7-46ad-93d6-25d3fdabbc4b",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-1e53409e-18ef-44b1-88e0-c90a5551f6cf",
@@ -6195,19 +6243,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/1e53409e-18ef-44b1-88e0-c90a5551f6cf",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
-    },
-    {
-      "id": "shield-ai-lever-dc9cd4bf-fc16-4016-aed4-776029ca3d35",
-      "title": "Staff Engineer, Test & Evaluation (R5141)",
-      "location": "Dallas, Texas",
-      "company": "Shield AI",
-      "discipline": "Engineering",
-      "department": "X-BAT Division",
-      "applyUrl": "https://jobs.lever.co/shieldai/dc9cd4bf-fc16-4016-aed4-776029ca3d35",
-      "sourceUrl": "https://jobs.lever.co/shieldai",
-      "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-bbc92590-2f3e-467c-8ffc-c2efd0e8b98a",
@@ -6219,7 +6255,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/bbc92590-2f3e-467c-8ffc-c2efd0e8b98a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-2c4f19cf-7a9c-47b7-a16e-2066f17ea998",
@@ -6231,7 +6267,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/2c4f19cf-7a9c-47b7-a16e-2066f17ea998",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-a918e92a-3cc6-47df-bc74-4e2781d226d4",
@@ -6243,7 +6279,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/a918e92a-3cc6-47df-bc74-4e2781d226d4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-88a4633a-d0b1-4025-b3ff-cb4c976fadc9",
@@ -6255,7 +6291,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/88a4633a-d0b1-4025-b3ff-cb4c976fadc9",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-18347d18-9816-4085-b0da-5f2ff84687c1",
@@ -6267,7 +6303,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/18347d18-9816-4085-b0da-5f2ff84687c1",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-4cdda6f8-a132-431b-910e-8dfc1d1fec24",
@@ -6279,7 +6315,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/4cdda6f8-a132-431b-910e-8dfc1d1fec24",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-20ba2fbb-f9b3-4408-ac5c-7809a8446ea3",
@@ -6291,7 +6327,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/20ba2fbb-f9b3-4408-ac5c-7809a8446ea3",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-addd3b2a-4b3b-41d8-9821-1cf50a442836",
@@ -6303,7 +6339,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/addd3b2a-4b3b-41d8-9821-1cf50a442836",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-8b2b23c7-5841-4783-b8da-4c8222dd9f34",
@@ -6315,7 +6351,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/8b2b23c7-5841-4783-b8da-4c8222dd9f34",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-0428f808-4977-4289-969e-8eeb3156e4c2",
@@ -6327,7 +6363,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/0428f808-4977-4289-969e-8eeb3156e4c2",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-76691555-47d7-4801-800a-b3386a8bb8de",
@@ -6339,7 +6375,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/76691555-47d7-4801-800a-b3386a8bb8de",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-b6dcf09f-1fb2-4ac1-b2e6-9fab8acb4e79",
@@ -6351,7 +6387,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/b6dcf09f-1fb2-4ac1-b2e6-9fab8acb4e79",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-f6accb83-eb53-449d-802c-09171e216f8a",
@@ -6363,7 +6399,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/f6accb83-eb53-449d-802c-09171e216f8a",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-49d637fc-8dfe-485f-910e-941a496b50d4",
@@ -6375,7 +6411,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/49d637fc-8dfe-485f-910e-941a496b50d4",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-25feb5d5-903c-444f-abe9-518c0be8882f",
@@ -6387,7 +6423,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/25feb5d5-903c-444f-abe9-518c0be8882f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-5044fc9d-3138-46fe-a90d-058cf1373746",
@@ -6399,7 +6435,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/5044fc9d-3138-46fe-a90d-058cf1373746",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "shield-ai-lever-000362bc-8cc0-4569-8b47-a3c463f67b2f",
@@ -6411,7 +6447,7 @@
       "applyUrl": "https://jobs.lever.co/shieldai/000362bc-8cc0-4569-8b47-a3c463f67b2f",
       "sourceUrl": "https://jobs.lever.co/shieldai",
       "sourceSystem": "Lever",
-      "lastSeenAt": "2026-06-18T17:50:05.918Z"
+      "lastSeenAt": "2026-06-22T12:44:07.292Z"
     },
     {
       "id": "skydio-ashby-cc83824e-a1cd-4bc7-9206-7264da9fbd61",
@@ -6462,18 +6498,6 @@
       "lastSeenAt": "2026-05-27T18:56:18.155Z"
     },
     {
-      "id": "skydio-ashby-cd6d8410-419b-4713-8d4d-7eb72b134d5a",
-      "title": "Autonomy Engineer - Deep Learning Model Acceleration",
-      "location": "San Mateo, California, United States",
-      "company": "Skydio",
-      "discipline": "Engineering",
-      "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/cd6d8410-419b-4713-8d4d-7eb72b134d5a",
-      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2025-12-15T23:33:27.744Z"
-    },
-    {
       "id": "skydio-ashby-0aff9e3d-6c59-4463-845c-850b78b48172",
       "title": "Autonomy Engineer - Deep Learning Model Acceleration",
       "location": "Zurich, Switzerland",
@@ -6484,6 +6508,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-27T18:56:35.766Z"
+    },
+    {
+      "id": "skydio-ashby-cd6d8410-419b-4713-8d4d-7eb72b134d5a",
+      "title": "Autonomy Engineer - Deep Learning Model Acceleration",
+      "location": "San Mateo, California, United States",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Autonomy",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/cd6d8410-419b-4713-8d4d-7eb72b134d5a",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2025-12-15T23:33:27.744Z"
     },
     {
       "id": "skydio-ashby-20754382-05e7-4cb6-a0f9-0daf9338ba78",
@@ -6558,18 +6594,6 @@
       "lastSeenAt": "2026-04-21T20:03:18.186Z"
     },
     {
-      "id": "skydio-ashby-d13e3179-e646-4873-84a6-d492a692bc25",
-      "title": "Autonomy Engineer Intern - Deep Learning (Computational Photography)",
-      "location": "San Mateo, California, United States",
-      "company": "Skydio",
-      "discipline": "Engineering",
-      "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/d13e3179-e646-4873-84a6-d492a692bc25",
-      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-04-22T00:01:58.315Z"
-    },
-    {
       "id": "skydio-ashby-92a7a891-d332-459c-9aa8-e96afea4f2a4",
       "title": "Autonomy Engineer Intern - Deep Learning (Computational Photography)",
       "location": "Zurich, Switzerland",
@@ -6582,16 +6606,16 @@
       "lastSeenAt": "2026-05-27T18:45:09.270Z"
     },
     {
-      "id": "skydio-ashby-17f6173b-c96f-4b02-a6b5-da0a91ad95e5",
-      "title": "Autonomy Engineer Intern Fall 2026",
+      "id": "skydio-ashby-d13e3179-e646-4873-84a6-d492a692bc25",
+      "title": "Autonomy Engineer Intern - Deep Learning (Computational Photography)",
       "location": "San Mateo, California, United States",
       "company": "Skydio",
       "discipline": "Engineering",
       "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/17f6173b-c96f-4b02-a6b5-da0a91ad95e5",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/d13e3179-e646-4873-84a6-d492a692bc25",
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-04-21T20:10:00.287Z"
+      "lastSeenAt": "2026-04-22T00:01:58.315Z"
     },
     {
       "id": "skydio-ashby-c48dabe8-cb67-4694-aacc-f9ef4d34ae50",
@@ -6616,6 +6640,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2025-12-15T21:51:53.479Z"
+    },
+    {
+      "id": "skydio-ashby-f0013b6c-2389-426e-99d5-58b4ee4b1928",
+      "title": "Deployment Engineer - Northeast",
+      "location": "US Remote",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Professional Services and Training",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/f0013b6c-2389-426e-99d5-58b4ee4b1928",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-19T18:09:09.649Z"
     },
     {
       "id": "skydio-ashby-6138ba1c-c048-407d-9ea2-7b51a3d38756",
@@ -6846,18 +6882,6 @@
       "lastSeenAt": "2026-03-04T20:03:01.274Z"
     },
     {
-      "id": "skydio-ashby-4ded3e5e-cdfe-4dc5-bbaf-0d3023521246",
-      "title": "Senior Autonomy Engineer - Deep Learning",
-      "location": "Zurich, Switzerland",
-      "company": "Skydio",
-      "discipline": "Engineering",
-      "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/4ded3e5e-cdfe-4dc5-bbaf-0d3023521246",
-      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-27T18:55:58.850Z"
-    },
-    {
       "id": "skydio-ashby-a6421d3e-fdd0-48d6-8d8f-3fd605cdf09f",
       "title": "Senior Autonomy Engineer - Deep Learning",
       "location": "San Mateo, California, United States",
@@ -6868,6 +6892,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2025-12-16T17:51:44.074Z"
+    },
+    {
+      "id": "skydio-ashby-4ded3e5e-cdfe-4dc5-bbaf-0d3023521246",
+      "title": "Senior Autonomy Engineer - Deep Learning",
+      "location": "Zurich, Switzerland",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Autonomy",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/4ded3e5e-cdfe-4dc5-bbaf-0d3023521246",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-27T18:55:58.850Z"
     },
     {
       "id": "skydio-ashby-134f29cc-da9f-4214-9d9c-d044f93af39e",
@@ -6952,6 +6988,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-20T18:31:32.890Z"
+    },
+    {
+      "id": "skydio-ashby-bee8ad98-8b08-4d3c-b2ea-c581e52f91ea",
+      "title": "Senior Salesforce Engineer",
+      "location": "US Remote",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Sales",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/bee8ad98-8b08-4d3c-b2ea-c581e52f91ea",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-06-19T17:18:19.213Z"
     },
     {
       "id": "skydio-ashby-67a7d89f-9c4e-4f60-bdf1-a60b8addd8ae",
@@ -7122,18 +7170,6 @@
       "lastSeenAt": "2026-03-04T18:18:10.433Z"
     },
     {
-      "id": "skydio-ashby-50dad059-b43b-4be1-84ab-2c350a68848f",
-      "title": "Software Engineer - Cloud Simulation & Full-Stack",
-      "location": "Zurich, Switzerland",
-      "company": "Skydio",
-      "discipline": "Engineering",
-      "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/50dad059-b43b-4be1-84ab-2c350a68848f",
-      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-27T19:05:27.941Z"
-    },
-    {
       "id": "skydio-ashby-7d7dfadc-c6fd-4958-8d59-004a91bff55e",
       "title": "Software Engineer - Cloud Simulation & Full-Stack",
       "location": "San Mateo, California, United States",
@@ -7144,6 +7180,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-03-04T18:18:02.326Z"
+    },
+    {
+      "id": "skydio-ashby-50dad059-b43b-4be1-84ab-2c350a68848f",
+      "title": "Software Engineer - Cloud Simulation & Full-Stack",
+      "location": "Zurich, Switzerland",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Autonomy",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/50dad059-b43b-4be1-84ab-2c350a68848f",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-27T19:05:27.941Z"
     },
     {
       "id": "skydio-ashby-ef9f7dd2-5a88-49b4-a507-d5fc9cad565a",
@@ -7170,18 +7218,6 @@
       "lastSeenAt": "2026-05-27T00:36:16.903Z"
     },
     {
-      "id": "skydio-ashby-7a8f3e6c-d576-41af-a81e-bf4fe20da12a",
-      "title": "Software Engineer - Simulation & Robotics Engineer",
-      "location": "San Mateo, California, United States",
-      "company": "Skydio",
-      "discipline": "Engineering",
-      "department": "Autonomy",
-      "applyUrl": "https://jobs.ashbyhq.com/skydio/7a8f3e6c-d576-41af-a81e-bf4fe20da12a",
-      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
-      "sourceSystem": "Ashby",
-      "lastSeenAt": "2026-05-27T19:03:11.316Z"
-    },
-    {
       "id": "skydio-ashby-3193c6ab-27d2-4558-8ad8-1d3a1512ab72",
       "title": "Software Engineer - Simulation & Robotics Engineer",
       "location": "Zurich, Switzerland",
@@ -7192,6 +7228,18 @@
       "sourceUrl": "https://jobs.ashbyhq.com/skydio",
       "sourceSystem": "Ashby",
       "lastSeenAt": "2026-05-27T19:04:35.574Z"
+    },
+    {
+      "id": "skydio-ashby-7a8f3e6c-d576-41af-a81e-bf4fe20da12a",
+      "title": "Software Engineer - Simulation & Robotics Engineer",
+      "location": "San Mateo, California, United States",
+      "company": "Skydio",
+      "discipline": "Engineering",
+      "department": "Autonomy",
+      "applyUrl": "https://jobs.ashbyhq.com/skydio/7a8f3e6c-d576-41af-a81e-bf4fe20da12a",
+      "sourceUrl": "https://jobs.ashbyhq.com/skydio",
+      "sourceSystem": "Ashby",
+      "lastSeenAt": "2026-05-27T19:03:11.316Z"
     },
     {
       "id": "skydio-ashby-f6320e9b-4eed-408d-8d37-d509fb0406ee",
@@ -7359,7 +7407,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091447007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5091451007",
@@ -7371,7 +7419,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091451007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5150587007",
@@ -7383,7 +7431,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5150587007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5044635007",
@@ -7395,7 +7443,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5044635007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5091655007",
@@ -7407,7 +7455,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091655007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5091641007",
@@ -7419,7 +7467,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091641007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5091669007",
@@ -7431,7 +7479,19 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091669007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
+    },
+    {
+      "id": "true-anomaly-greenhouse-5091380007",
+      "title": "Mechanisms Engineer (III or Senior), Motor Control",
+      "location": "Denver, CO or Long Beach, CA",
+      "company": "True Anomaly",
+      "discipline": "Engineering",
+      "department": "Payloads Engineering",
+      "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5091380007",
+      "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
+      "sourceSystem": "Greenhouse",
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5167404007",
@@ -7443,7 +7503,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5167404007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5151525007",
@@ -7455,7 +7515,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5151525007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5166540007",
@@ -7467,7 +7527,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5166540007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5048439007",
@@ -7479,7 +7539,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5048439007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5107925007",
@@ -7491,7 +7551,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5107925007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5108466007",
@@ -7503,7 +7563,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5108466007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5150285007",
@@ -7515,7 +7575,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5150285007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5120791007",
@@ -7527,7 +7587,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5120791007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5107218007",
@@ -7539,7 +7599,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5107218007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5147602007",
@@ -7551,7 +7611,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5147602007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5099686007",
@@ -7563,7 +7623,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099686007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5099702007",
@@ -7575,7 +7635,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5099702007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5166543007",
@@ -7587,7 +7647,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5166543007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5166552007",
@@ -7599,7 +7659,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5166552007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5146602007",
@@ -7611,7 +7671,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5146602007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5165020007",
@@ -7623,7 +7683,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5165020007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5151532007",
@@ -7635,7 +7695,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5151532007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5166545007",
@@ -7647,7 +7707,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5166545007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5138120007",
@@ -7659,7 +7719,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5138120007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "true-anomaly-greenhouse-5127274007",
@@ -7671,7 +7731,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5127274007",
       "sourceUrl": "https://job-boards.greenhouse.io/trueanomalyinc",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T16:58:22.000Z"
+      "lastSeenAt": "2026-06-19T02:08:29.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5106734007",
@@ -7683,7 +7743,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5106734007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5164588007",
@@ -7695,7 +7755,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5164588007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5134315007",
@@ -7707,7 +7767,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5134315007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5156839007",
@@ -7719,7 +7779,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5156839007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5082044007",
@@ -7731,7 +7791,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5082044007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5165272007",
@@ -7743,7 +7803,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5165272007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-4172631007",
@@ -7755,7 +7815,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/4172631007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5045937007",
@@ -7767,7 +7827,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5045937007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5045652007",
@@ -7779,7 +7839,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5045652007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5166384007",
@@ -7791,7 +7851,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5166384007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5117422007",
@@ -7803,7 +7863,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5117422007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5161757007",
@@ -7815,7 +7875,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5161757007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5115342007",
@@ -7827,7 +7887,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5115342007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5099077007",
@@ -7839,7 +7899,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5099077007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5166244007",
@@ -7851,7 +7911,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5166244007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T17:02:17.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-4765225007",
@@ -7863,7 +7923,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/4765225007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5165235007",
@@ -7875,7 +7935,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5165235007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-4763846007",
@@ -7887,7 +7947,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/4763846007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5125334007",
@@ -7899,7 +7959,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5125334007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5116185007",
@@ -7911,7 +7971,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5116185007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5041992007",
@@ -7923,7 +7983,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5041992007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5115401007",
@@ -7935,7 +7995,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5115401007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5100492007",
@@ -7947,7 +8007,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5100492007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5038982007",
@@ -7959,7 +8019,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5038982007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5106754007",
@@ -7971,7 +8031,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5106754007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5083725007",
@@ -7983,7 +8043,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5083725007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5106817007",
@@ -7995,7 +8055,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5106817007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-4191402007",
@@ -8007,7 +8067,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/4191402007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5089923007",
@@ -8019,7 +8079,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5089923007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     },
     {
       "id": "vannevar-labs-greenhouse-5051042007",
@@ -8031,7 +8091,7 @@
       "applyUrl": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5051042007",
       "sourceUrl": "https://job-boards.greenhouse.io/vannevarlabs",
       "sourceSystem": "Greenhouse",
-      "lastSeenAt": "2026-06-18T03:48:11.000Z"
+      "lastSeenAt": "2026-06-19T04:33:00.000Z"
     }
   ]
 }
