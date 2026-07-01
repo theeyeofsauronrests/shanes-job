@@ -297,6 +297,90 @@ export const JOB_BOARD_TARGETS: JobBoardTarget[] = [
     sourceSystem: 'Greenhouse',
     sourceUrl: 'https://job-boards.greenhouse.io/jetzero',
   },
+  {
+    company: 'Apex Space',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/apex-technology-inc',
+  },
+  {
+    company: 'Picogrid',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/picogrid',
+  },
+  {
+    company: 'Turion Space',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/turion-space',
+  },
+  {
+    company: 'Code Metal',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/code-metal',
+  },
+  {
+    company: 'Shift5',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/shift5',
+  },
+  {
+    company: 'REGENT',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/regent',
+  },
+  {
+    company: 'Horizon3.ai',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/horizon3ai',
+  },
+  {
+    company: 'HavocAI',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/havocai',
+  },
+  {
+    company: 'Re:Build Manufacturing',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/rebuildmanufacturing',
+  },
+  {
+    company: 'TRM Labs',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/trm-labs',
+  },
+  {
+    company: 'Virtualitics',
+    kind: 'lever',
+    sourceSystem: 'Lever',
+    sourceUrl: 'https://jobs.lever.co/virtualitics',
+  },
+  {
+    company: 'Reliable Robotics',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/reliable-robotics',
+  },
+  {
+    company: 'RED 6',
+    kind: 'ashby',
+    sourceSystem: 'Ashby',
+    sourceUrl: 'https://jobs.ashbyhq.com/Red6',
+  },
+  {
+    company: 'Vulcan Elements',
+    kind: 'greenhouse',
+    sourceSystem: 'Greenhouse',
+    sourceUrl: 'https://job-boards.greenhouse.io/vulcanelements',
+  },
 ];
 
 function asRecord(value: unknown): Record<string, unknown> | undefined {
