@@ -261,7 +261,7 @@ describe('JobsList', () => {
       });
 
       const searchInput = screen.getByRole('searchbox');
-      expect(searchInput).toHaveAccessibleName(/Filter by role, location, or company/i);
+      expect(searchInput).toHaveAccessibleName(/Filter by role, location, company, or industry/i);
     });
   });
 

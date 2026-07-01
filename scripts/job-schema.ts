@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { DISCIPLINES } from '../src/types/jobs';
+import { DISCIPLINES, INDUSTRIES } from '../src/types/jobs';
 
 export const JobSchema = z.object({
   id: z.string().min(1, 'Job ID is required'),
@@ -8,6 +8,7 @@ export const JobSchema = z.object({
   company: z.string().min(1, 'Company is required'),
   discipline: z.enum(DISCIPLINES).optional(),
   department: z.string().min(1, 'Department cannot be empty').optional(),
+  industry: z.enum(INDUSTRIES).optional(),
   applyUrl: z
     .string()
     .url('Apply URL must be a valid HTTPS URL')
