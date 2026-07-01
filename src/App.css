@@ -551,6 +551,22 @@ body {
   text-transform: uppercase;
 }
 
+.job-industry {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  background: var(--fog);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  color: var(--steel);
+  padding: 4px var(--space-sm);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
 .job-department {
   font-size: 12px;
   font-weight: 400;

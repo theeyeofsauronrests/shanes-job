@@ -86,7 +86,8 @@ export function JobsList() {
       job.title.toLowerCase().includes(query) ||
       job.location.toLowerCase().includes(query) ||
       job.company.toLowerCase().includes(query) ||
-      (job.discipline?.toLowerCase().includes(query) ?? false)
+      (job.discipline?.toLowerCase().includes(query) ?? false) ||
+      (job.industry?.toLowerCase().includes(query) ?? false)
     );
   });
 
@@ -164,16 +165,67 @@ export function JobsList() {
         )}
       </div>
 
+      <div className="quick-filters">
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Space')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('space') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('space')}
+        >
+          Space & Satellites
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Robotics')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('robotics') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('robotics')}
+        >
+          Robotics & Autonomy
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Defense')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('defense') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('defense')}
+        >
+          Defense Software
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Cyber')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('cyber') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('cyber')}
+        >
+          Cybersecurity
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('AI')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('ai') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('ai')}
+        >
+          AI & Analytics
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery('Manufacturing')}
+          className={`quick-filter-button ${searchQuery.toLowerCase().includes('manufacturing') ? 'active' : ''}`}
+          aria-pressed={searchQuery.toLowerCase().includes('manufacturing')}
+        >
+          Manufacturing
+        </button>
+      </div>
+
       <div className="jobs-filter">
         <label htmlFor="job-search" className="search-label">
-          Filter by role, location, or company
+          Filter by role, location, company, or industry
         </label>
         <div className="search-input-container">
           <input
             id="job-search"
             type="search"
             className="search-input"
-            placeholder="Filter by role, location, or company"
+            placeholder="Filter by role, location, company, or industry"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -209,6 +261,9 @@ export function JobsList() {
                 <span className="job-company">{job.company}</span>
                 {job.discipline ? (
                   <span className="job-discipline">{job.discipline}</span>
+                ) : null}
+                {job.industry ? (
+                  <span className="job-industry">{job.industry}</span>
                 ) : null}
               </div>
               {job.department ? <p className="job-department">{job.department}</p> : null}
