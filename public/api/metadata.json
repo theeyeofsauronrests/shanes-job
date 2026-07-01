@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:57:54.406Z",
+  "generatedAt": "2026-07-01T14:48:21.969Z",
   "sources": [
     {
       "name": "Lyntris",
@@ -57,16 +57,16 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/defenseunicorns",
       "status": "success",
-      "scrapedCount": 49,
-      "jobCount": 39
+      "scrapedCount": 48,
+      "jobCount": 38
     },
     {
       "name": "Vannevar Labs",
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/vannevarlabs",
       "status": "success",
-      "scrapedCount": 32,
-      "jobCount": 28
+      "scrapedCount": 31,
+      "jobCount": 27
     },
     {
       "name": "Forterra",
@@ -81,8 +81,8 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/shieldai",
       "status": "success",
-      "scrapedCount": 393,
-      "jobCount": 217
+      "scrapedCount": 396,
+      "jobCount": 222
     },
     {
       "name": "Saronic",
@@ -161,7 +161,7 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/raft",
       "status": "success",
-      "scrapedCount": 21,
+      "scrapedCount": 19,
       "jobCount": 15
     },
     {
@@ -193,15 +193,15 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/CesiumAstro",
       "status": "success",
-      "scrapedCount": 262,
-      "jobCount": 167
+      "scrapedCount": 259,
+      "jobCount": 166
     },
     {
       "name": "Hermeus",
       "system": "Lever",
       "url": "https://jobs.lever.co/hermeus",
       "status": "success",
-      "scrapedCount": 104,
+      "scrapedCount": 105,
       "jobCount": 74
     },
     {
@@ -273,7 +273,7 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/loftorbital",
       "status": "success",
-      "scrapedCount": 58,
+      "scrapedCount": 57,
       "jobCount": 38
     },
     {
@@ -281,7 +281,7 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/MachinaLabs",
       "status": "success",
-      "scrapedCount": 23,
+      "scrapedCount": 25,
       "jobCount": 15
     },
     {
@@ -290,14 +290,14 @@
       "url": "https://job-boards.greenhouse.io/chainguard",
       "status": "success",
       "scrapedCount": 50,
-      "jobCount": 14
+      "jobCount": 13
     },
     {
       "name": "Chainalysis",
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/chainalysis-careers",
       "status": "success",
-      "scrapedCount": 47,
+      "scrapedCount": 46,
       "jobCount": 18
     },
     {
@@ -305,7 +305,7 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/hadrian-automation",
       "status": "success",
-      "scrapedCount": 129,
+      "scrapedCount": 126,
       "jobCount": 61
     },
     {
@@ -329,11 +329,123 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/jetzero",
       "status": "success",
-      "scrapedCount": 25,
-      "jobCount": 19
+      "scrapedCount": 24,
+      "jobCount": 18
+    },
+    {
+      "name": "Apex Space",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/apex-technology-inc",
+      "status": "success",
+      "scrapedCount": 104,
+      "jobCount": 64
+    },
+    {
+      "name": "Picogrid",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/picogrid",
+      "status": "success",
+      "scrapedCount": 19,
+      "jobCount": 7
+    },
+    {
+      "name": "Turion Space",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/turion-space",
+      "status": "success",
+      "scrapedCount": 22,
+      "jobCount": 14
+    },
+    {
+      "name": "Code Metal",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/code-metal",
+      "status": "success",
+      "scrapedCount": 21,
+      "jobCount": 16
+    },
+    {
+      "name": "Shift5",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/shift5",
+      "status": "success",
+      "scrapedCount": 9,
+      "jobCount": 6
+    },
+    {
+      "name": "REGENT",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/regent",
+      "status": "success",
+      "scrapedCount": 15,
+      "jobCount": 8
+    },
+    {
+      "name": "Horizon3.ai",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/horizon3ai",
+      "status": "success",
+      "scrapedCount": 68,
+      "jobCount": 16
+    },
+    {
+      "name": "HavocAI",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/havocai",
+      "status": "success",
+      "scrapedCount": 16,
+      "jobCount": 9
+    },
+    {
+      "name": "Re:Build Manufacturing",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/rebuildmanufacturing",
+      "status": "success",
+      "scrapedCount": 50,
+      "jobCount": 32
+    },
+    {
+      "name": "TRM Labs",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/trm-labs",
+      "status": "success",
+      "scrapedCount": 112,
+      "jobCount": 49
+    },
+    {
+      "name": "Virtualitics",
+      "system": "Lever",
+      "url": "https://jobs.lever.co/virtualitics",
+      "status": "success",
+      "scrapedCount": 6,
+      "jobCount": 2
+    },
+    {
+      "name": "Reliable Robotics",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/reliable-robotics",
+      "status": "success",
+      "scrapedCount": 64,
+      "jobCount": 54
+    },
+    {
+      "name": "RED 6",
+      "system": "Ashby",
+      "url": "https://jobs.ashbyhq.com/Red6",
+      "status": "success",
+      "scrapedCount": 13,
+      "jobCount": 6
+    },
+    {
+      "name": "Vulcan Elements",
+      "system": "Greenhouse",
+      "url": "https://job-boards.greenhouse.io/vulcanelements",
+      "status": "success",
+      "scrapedCount": 36,
+      "jobCount": 12
     }
   ],
-  "totalJobs": 1308,
+  "totalJobs": 1603,
   "warnings": [
     "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
     "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
