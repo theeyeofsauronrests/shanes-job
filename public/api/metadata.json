@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T14:48:21.969Z",
+  "generatedAt": "2026-07-01T19:55:04.673Z",
   "sources": [
     {
       "name": "Lyntris",
@@ -13,28 +13,25 @@
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=design",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=product",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "8VC Portfolio",
       "system": "Getro",
       "url": "https://jobs.8vc.com/jobs?q=engineer",
-      "status": "failed",
+      "status": "success",
       "scrapedCount": 0,
-      "jobCount": 0,
-      "warning": "8VC Portfolio Getro source returned 403; public API access is required for automated export."
+      "jobCount": 0
     },
     {
       "name": "Rise8",
@@ -74,14 +71,14 @@
       "url": "https://ats.rippling.com/forterra/jobs",
       "status": "success",
       "scrapedCount": 20,
-      "jobCount": 17
+      "jobCount": 18
     },
     {
       "name": "Shield AI",
       "system": "Lever",
       "url": "https://jobs.lever.co/shieldai",
       "status": "success",
-      "scrapedCount": 396,
+      "scrapedCount": 395,
       "jobCount": 222
     },
     {
@@ -89,7 +86,7 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/saronic",
       "status": "success",
-      "scrapedCount": 267,
+      "scrapedCount": 268,
       "jobCount": 122
     },
     {
@@ -137,7 +134,7 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/altanaai",
       "status": "success",
-      "scrapedCount": 20,
+      "scrapedCount": 19,
       "jobCount": 9
     },
     {
@@ -153,7 +150,7 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/leolabsinc",
       "status": "success",
-      "scrapedCount": 15,
+      "scrapedCount": 16,
       "jobCount": 6
     },
     {
@@ -193,8 +190,8 @@
       "system": "Lever",
       "url": "https://jobs.lever.co/CesiumAstro",
       "status": "success",
-      "scrapedCount": 259,
-      "jobCount": 166
+      "scrapedCount": 258,
+      "jobCount": 165
     },
     {
       "name": "Hermeus",
@@ -217,8 +214,8 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/Antares",
       "status": "success",
-      "scrapedCount": 33,
-      "jobCount": 19
+      "scrapedCount": 34,
+      "jobCount": 20
     },
     {
       "name": "K2 Space",
@@ -265,16 +262,16 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/starfish-space-inc",
       "status": "success",
-      "scrapedCount": 11,
-      "jobCount": 6
+      "scrapedCount": 14,
+      "jobCount": 7
     },
     {
       "name": "Loft Orbital",
       "system": "Lever",
       "url": "https://jobs.lever.co/loftorbital",
       "status": "success",
-      "scrapedCount": 57,
-      "jobCount": 38
+      "scrapedCount": 58,
+      "jobCount": 39
     },
     {
       "name": "Machina Labs",
@@ -305,7 +302,7 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/hadrian-automation",
       "status": "success",
-      "scrapedCount": 126,
+      "scrapedCount": 124,
       "jobCount": 61
     },
     {
@@ -385,15 +382,15 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/horizon3ai",
       "status": "success",
-      "scrapedCount": 68,
-      "jobCount": 16
+      "scrapedCount": 67,
+      "jobCount": 15
     },
     {
       "name": "HavocAI",
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/havocai",
       "status": "success",
-      "scrapedCount": 16,
+      "scrapedCount": 17,
       "jobCount": 9
     },
     {
@@ -409,7 +406,7 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/trm-labs",
       "status": "success",
-      "scrapedCount": 112,
+      "scrapedCount": 113,
       "jobCount": 49
     },
     {
@@ -425,7 +422,7 @@
       "system": "Ashby",
       "url": "https://jobs.ashbyhq.com/reliable-robotics",
       "status": "success",
-      "scrapedCount": 64,
+      "scrapedCount": 63,
       "jobCount": 54
     },
     {
@@ -441,15 +438,11 @@
       "system": "Greenhouse",
       "url": "https://job-boards.greenhouse.io/vulcanelements",
       "status": "success",
-      "scrapedCount": 36,
+      "scrapedCount": 34,
       "jobCount": 12
     }
   ],
-  "totalJobs": 1603,
-  "warnings": [
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export.",
-    "8VC Portfolio Getro source returned 403; public API access is required for automated export."
-  ],
+  "totalJobs": 1605,
+  "warnings": [],
   "scrapeMethod": "public-board-fetch"
 }
